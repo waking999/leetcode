@@ -1,6 +1,7 @@
 package leetcode.attempt;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ClimbingStairs {
 	public int climbStairs(int n) {
@@ -19,7 +20,8 @@ public class ClimbingStairs {
 		return dp[n];
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void testclimbStairs() {
 		ClimbingStairs s=new ClimbingStairs();
 		
 		int n;

@@ -8,15 +8,15 @@ public class NormalBinaryTreeNode extends TreeNode {
 		super(x);
 	}
 
-	public static TreeNode constructTreeNode(int[] nodes, int[] parents, int[] children) {
+	public static TreeNode constructTreeNode(int[] nodes, int[] parentIdxs, int[] childrenIdxs) {
 		int nodesLen = nodes.length;
 		if(nodesLen==0){
 			return null;
 		}
 		TreeNode root = new TreeNode(nodes[0]);
 		for (int i = 1; i < nodesLen; i++) { 	 
-			TreeNode node = findParentNode(root, nodes,parents,children,parents[i]);
-			int pos = children[i];
+			TreeNode node = findParentNode(root, nodes,parentIdxs,childrenIdxs,parentIdxs[i]);
+			int pos = childrenIdxs[i];
 			if (pos == 0) {
 				if (nodes[i] != IMPOSSIBLE_VALUE) {
 					node.left = new TreeNode(nodes[i]);

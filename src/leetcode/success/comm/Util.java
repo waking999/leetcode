@@ -7,6 +7,28 @@ import java.util.stream.IntStream;
 
 public class Util {
 	private final static double DIFF=0.0000000000001;
+	public static void verifySortedInOut(int[][] expect, List<List<Integer>> output, int seq) {
+		int expectLen = expect.length;
+		int outputSize = output.size();
+		assert (expectLen == outputSize) : seq + ":wrong";
+		String[] expectOut=new String[expectLen];
+		String[] outputOut=new String[expectLen];
+		for (int i = 0; i < expectLen; i++) {
+			String s1 = IntStream.of(expect[i]).boxed().sorted().collect(Collectors.toList()).stream()
+					.map(num -> Integer.toString(num) ).collect(Collectors.joining(","));
+			expectOut[i]=s1;
+			String s2 = output.get(i).stream().sorted().map(num -> Integer.toString(num) ).collect(Collectors.joining(","));
+			outputOut[i]=s2;
+
+		}
+		Arrays.sort(expectOut);
+		Arrays.sort(outputOut);
+		for (int i = 0; i < expectLen; i++) {
+			assert (expectOut[i].equals(outputOut[i])) : seq + ":wrong";
+		}
+
+	}
+
 	public static void verify(int[][] expect, List<List<Integer>> output, int seq) {
 		int expectLen = expect.length;
 		int outputSize = output.size();
@@ -18,7 +40,6 @@ public class Util {
 			String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 			assert (s1.equals(s2)) : seq + "wrong";
 		}
-
 	}
 
 	public static void verify(int[][] expect, int[][] output, int seq) {
@@ -68,7 +89,6 @@ public class Util {
 	}
 	
 	public static void verifyUnsort(int[] expect, List<Integer> output, int seq) {
-
 		int expectLen = expect.length;
 		int outputSize = output.size();
 		assert (expectLen == outputSize) : seq + ":wrong";

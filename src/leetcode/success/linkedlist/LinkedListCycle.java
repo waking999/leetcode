@@ -2,6 +2,7 @@ package leetcode.success.linkedlist;
 
 import leetcode.success.comm.ListNode;
 import leetcode.success.comm.TreeNode;
+import org.junit.Test;
 
 public class LinkedListCycle {
 	public boolean hasCycle(ListNode head) {
@@ -22,7 +23,9 @@ public class LinkedListCycle {
 		
         return false;
     }
-	public static void main(String[] args) {
+
+    @Test
+	public void testhasCycle() {
 		LinkedListCycle s=new LinkedListCycle();
 		
 		int[] nums;

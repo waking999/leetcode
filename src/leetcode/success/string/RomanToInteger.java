@@ -73,7 +73,7 @@ public class RomanToInteger {
 		str = "XII";
 		expect = 12;
 		output = s.romanToInt(str);
-		Util.verify(expect, output, seq++); 
+		Util.verify(expect, output, seq++);
 
 	}
 

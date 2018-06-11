@@ -53,14 +53,14 @@ public class ShortestDistancetoaCharacter {
         C = 'e';
         expect = new int[]{3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0};
         output = s.shortestToChar(S, C);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         S = "aaba";
         C = 'b';
         expect = new int[]{2,1,0,1};
         output = s.shortestToChar(S, C);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
     }
 }
