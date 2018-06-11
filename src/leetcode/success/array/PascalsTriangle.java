@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,7 +28,8 @@ public class PascalsTriangle {
 		return result;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		PascalsTriangle s = new PascalsTriangle();
 
 		int numRows = 5;

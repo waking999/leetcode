@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class FindMinimumInRotatedSortedArray {
 	public int findMin(int[] nums) {
 
@@ -31,7 +33,8 @@ public class FindMinimumInRotatedSortedArray {
 		return Math.min(nums[low], nums[high]);
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 
 		FindMinimumInRotatedSortedArray s = new FindMinimumInRotatedSortedArray();
 

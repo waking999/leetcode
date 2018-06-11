@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class StringCompression {
 	private int setCharCount(char[] chars, int i,  int count, int newCharsLen) {
@@ -68,7 +69,8 @@ public class StringCompression {
 		return newCharsLen;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		StringCompression s = new StringCompression();
 
 		char[] chars;
@@ -79,32 +81,32 @@ public class StringCompression {
 		chars = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
 		expect = 6;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		chars = new char[] { 'a' };
 		expect = 1;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		chars = new char[] { 'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b' };
 		expect = 4;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		chars = new char[] { 'a', 'b', 'c' };
 		expect = 3;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		chars = new char[] { 'a', 'b', 'c' };
 		expect = 3;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		chars = new char[] { 'a', 'a' };
 		expect = 2;
 		output = s.compress(chars);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

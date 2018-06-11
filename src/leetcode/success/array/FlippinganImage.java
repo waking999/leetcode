@@ -69,12 +69,12 @@ public class FlippinganImage {
         A = new int[][]{{1, 1, 0}, {1, 0, 1}, {0, 0, 0}};
         expect = new int[][]{{1, 0, 0}, {0, 1, 0}, {1, 1, 1}};
         output = s.flipAndInvertImage(A);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         A = new int[][]{{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}};
         expect = new int[][]{{1, 1, 0, 0}, {0, 1, 1, 0}, {0, 0, 0, 1}, {1, 0, 1, 0}};
         output = s.flipAndInvertImage(A);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
     }
 }

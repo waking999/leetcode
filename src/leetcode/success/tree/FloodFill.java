@@ -65,7 +65,7 @@ public class FloodFill {
 		newColor = 2;
 		expect = new int[][] { { 2, 2, 2 }, { 2, 2, 0 }, { 2, 0, 1 } };
 		output = s.floodFill(image, sr, sc, newColor);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 	}
 
 }

@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class SearchInsertPosition {
 	public int searchInsert(int[] nums, int target) {
 		int low=0;
@@ -19,7 +21,8 @@ public class SearchInsertPosition {
 		return low;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		SearchInsertPosition s = new SearchInsertPosition();
 		
 		int[] nums;

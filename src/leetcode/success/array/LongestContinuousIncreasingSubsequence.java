@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class LongestContinuousIncreasingSubsequence {
 	public int findLengthOfLCIS(int[] nums) {
@@ -25,10 +26,11 @@ public class LongestContinuousIncreasingSubsequence {
 		
 		return answer;
 	}
-	
-	 
 
-	public static void main(String[] args) {
+
+
+    @Test
+    public void test1() {
 		LongestContinuousIncreasingSubsequence s=new LongestContinuousIncreasingSubsequence();
 
 		int[] nums;
@@ -38,12 +40,12 @@ public class LongestContinuousIncreasingSubsequence {
 		nums=new int[] {1,3,5,4,7};
 		expect=3;
 		output=s.findLengthOfLCIS(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		nums=new int[] {2,2,2,2};
 		expect=1;
 		output=s.findLengthOfLCIS(nums);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		System.out.println("Finish");
 	}

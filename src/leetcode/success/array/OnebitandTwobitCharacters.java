@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class OnebitandTwobitCharacters {
 	public boolean isOneBitCharacter(int[] bits) {
@@ -13,11 +14,7 @@ public class OnebitandTwobitCharacters {
 			return false;
 		}
 		if (bitsLen == 1) {
-			if (bits[0] == 0) {
-				return true;
-			} else {
-				return false;
-			}
+            return bits[0] == 0;
 		}
 
 		int i = 0;
@@ -29,14 +26,11 @@ public class OnebitandTwobitCharacters {
 			}
 		}
 
-		if (i < bitsLen) {
-			return true;
-		} else {
-			return false;
-		}
+        return i < bitsLen;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		OnebitandTwobitCharacters s = new OnebitandTwobitCharacters();
 
 		int[] bits;
@@ -47,12 +41,12 @@ public class OnebitandTwobitCharacters {
 		bits = new int[] { 1, 0, 0 };
 		expect = true;
 		output = s.isOneBitCharacter(bits);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		bits = new int[] { 1, 1, 1, 0 };
 		expect = false;
 		output = s.isOneBitCharacter(bits);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

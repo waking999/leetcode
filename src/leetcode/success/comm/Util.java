@@ -29,7 +29,7 @@ public class Util {
 
 	}
 
-	public static void verify(int[][] expect, List<List<Integer>> output, int seq) {
+	public static void verifyUnsort(int[][] expect, List<List<Integer>> output, int seq) {
 		int expectLen = expect.length;
 		int outputSize = output.size();
 		assert (expectLen == outputSize) : seq + ":wrong";
@@ -42,7 +42,7 @@ public class Util {
 		}
 	}
 
-	public static void verify(int[][] expect, int[][] output, int seq) {
+	public static void verifyUnsort(int[][] expect, int[][] output, int seq) {
 		int expectLen = expect.length;
 		int outputSize = output.length;
 		assert (expectLen == outputSize) : seq + ":wrong";
@@ -57,7 +57,7 @@ public class Util {
 
 	}
 
-	public static void verify(String[] expect, List<String> output, int seq) {
+	public static void verifyUnsort(String[] expect, List<String> output, int seq) {
 
 		int expectLen = expect.length;
 		int outputSize = output.size();
@@ -67,7 +67,7 @@ public class Util {
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
 	
-	public static void verify(String[] expect, String[] output, int seq) {
+	public static void verifyUnsort(String[] expect, String[] output, int seq) {
 
 		int expectLen = expect.length;
 		int outputSize = output.length;
@@ -98,7 +98,7 @@ public class Util {
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
 
-	public static void verify(double[] expect, List<Double> output, int seq) {
+	public static void verifyUnsort(double[] expect, List<Double> output, int seq) {
 
 		int expectLen = expect.length;
 		int outputSize = output.size();
@@ -109,7 +109,7 @@ public class Util {
 
 	}
 
-	public static void verify(int[] expect, Integer[] output, int seq) {
+	public static void verifyUnsort(int[] expect, Integer[] output, int seq) {
 
 		int expectLen = expect.length;
 		int outputSize = output.length;
@@ -121,7 +121,7 @@ public class Util {
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
 
-//	public static void verify(int[] expect, int[] output, int seq) {
+//	public static void verifyUnsort(int[] expect, int[] output, int seq) {
 //
 //		int expectLen = expect.length;
 //		int outputSize = output.length;
@@ -133,7 +133,7 @@ public class Util {
 //		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 //	}
 	
-	public static void verify(char[] expect, char[] output, int seq) {
+	public static void verifyUnsort(char[] expect, char[] output, int seq) {
 
 		int expectLen = expect.length;
 		int outputSize = output.length;
@@ -170,19 +170,19 @@ public class Util {
 	
 
 	
-	public static void verify(int expect, int output, int seq) {
+	public static void verifyUnsort(int expect, int output, int seq) {
 		assert (expect == output) : seq + ":wrong";
 	}
 
-	public static void verify(double expect, double output, int seq) {
+	public static void verifyUnsort(double expect, double output, int seq) {
 		assert (Math.abs(expect - output) < DIFF ) : seq + ":wrong";
 	}
 
-	public static void verify(boolean expect, boolean output, int seq) {
+	public static void verifyUnsort(boolean expect, boolean output, int seq) {
 		assert (expect == output) : seq + ":wrong";
 	}
 
-	public static void verify(String expect, String output, int seq) {
+	public static void verifyUnsort(String expect, String output, int seq) {
 		assert (expect.equals(output)) : seq + ":wrong";
 	}
 }

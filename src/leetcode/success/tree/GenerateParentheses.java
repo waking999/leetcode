@@ -46,12 +46,12 @@ public class GenerateParentheses {
 		n = 3;
 		expect = new String[] { "((()))", "(()())", "(())()", "()(())", "()()()" };
 		output = s.generateParenthesis(n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		n = 8;
 		// expect = new String[] { "((()))", "(()())", "(())()", "()(())", "()()()" };
 		output = s.generateParenthesis(n);
-		//Util.verify(expect, output, 2);
+		//Util.verifyUnsort(expect, output, 2);
 	}
 
 }

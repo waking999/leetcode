@@ -1,4 +1,4 @@
-package leetcode.stack;
+package leetcode.success.stack;
 
 import leetcode.success.comm.Util;
 
@@ -56,27 +56,27 @@ public class ValidParentheses {
 		str = "()";
 		expect = true;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		str = "()[]{}";
 		expect = true;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		str = "(]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		str = "([)]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		str = "[])";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		
 	 

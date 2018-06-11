@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class PluseOne {
 	public int[] plusOne(int[] digits) {
 		for (int i = digits.length - 1; i >= 0; i--) {
@@ -15,7 +17,8 @@ public class PluseOne {
 		return res;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		PluseOne s = new PluseOne();
 
 		int[] nums = { 1, 9, 9 };

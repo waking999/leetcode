@@ -3,7 +3,7 @@ package leetcode.success.array;
 import java.util.HashMap;
 import java.util.Map;
 
-import leetcode.success.comm.Util;
+import static leetcode.success.comm.Util.verifyUnsort;
 
 public class Serializeranddeserializer {
 
@@ -11,8 +11,8 @@ public class Serializeranddeserializer {
 	static Map<Integer, Character> asciiDec;
 
 	static {
-		asciiChar = new HashMap<Character, Integer>();
-		asciiDec = new HashMap<Integer, Character>();
+		asciiChar = new HashMap<>();
+		asciiDec = new HashMap<>();
 
 		asciiChar.put('0', 0);
 		asciiDec.put(0, '0');
@@ -37,13 +37,13 @@ public class Serializeranddeserializer {
 
 	}
 
-	public static String charArrayToString(char[] param) throws Exception {
+	public static String charArrayToString(char[] param) {
 		if (param == null) {
 			return null;
 		}
 		int paramLen = param.length;
 
-		StringBuffer sb = new StringBuffer("[");
+		StringBuilder sb = new StringBuilder("[");
 		for (int i = 0; i < paramLen; i++) {
 			sb.append("\"");
 			if (param[i] <= (char) 32) {
@@ -69,7 +69,7 @@ public class Serializeranddeserializer {
 	// Bonus point if your deserializer is able to deal with whitespaces between
 	// elements.
 	// For example: param = "[ \"a\", \"b\", \"c\" ]"
-	public static char[] stringToCharArray(String param) throws Exception {
+	public static char[] stringToCharArray(String param) {
 		if (param == null) {
 			return null;
 		}
@@ -78,10 +78,7 @@ public class Serializeranddeserializer {
 			return null;
 		}
 		String innerParam = param.substring(1, paramLen - 1);
-		if (innerParam == null) {
-			return null;
-		}
-		int innerParamLen = innerParam.length();
+        int innerParamLen = innerParam.length();
 		if (innerParamLen == 0) {
 			return new char[] {};
 		}
@@ -126,7 +123,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 
 		param = "[\"a\",\"b\",\"c\"]";
 		expect = new char[] { 'a', 'b', 'c' };
@@ -135,7 +132,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 		
 		
 		param = "[\"a\", \"b\", \"c\"]";
@@ -145,7 +142,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 		
 		param = "[\"a\", \"b\",\"c\"]";
 		expect = new char[] { 'a', 'b', 'c' };
@@ -154,7 +151,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 
 		param = "[\"T\",\"e\",\"!\",\"'\"]";
 		expect = new char[] { 'T', 'e', '!', '\'' };
@@ -163,7 +160,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 
 		param = "[\"'\",\"\\\"\",\"c\"]";
 		expect = new char[] { '\'', '\"', 'c' };
@@ -172,7 +169,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 
 		param = "[\"\\n\",\"\\t\",\"'\",\"\\\"\",\"\\\\\"]";
 		expect = new char[] { '\n', '\t', '\'', '\"', '\\' };
@@ -181,7 +178,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 		
 		
 		param = "[\"\\0\",\"\\f\",\"\\b\",\"\\r\",\"0\",\"A\"]";
@@ -191,7 +188,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expect, output, seq++);
+		verifyUnsort(expect, output, seq++);
 		
 
 		char[] paramChar = null;
@@ -205,7 +202,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { 'a', 'b', 'c' };
 		expectStr = "[\"a\",\"b\",\"c\"]";
@@ -214,7 +211,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { 'T', 'e', '!', '\'' };
 		expectStr = "[\"T\",\"e\",\"!\",\"'\"]";
@@ -223,7 +220,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { '\'', '\"', 'c' };
 		expectStr = "[\"'\",\"\\\"\",\"c\"]";
@@ -232,7 +229,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { '\n', '\t', '\'', '\"', '\\' };
 		expectStr = "[\"\\n\",\"\\t\",\"'\",\"\\\"\",\"\\\\\"]";
@@ -241,7 +238,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 		
 		
 		paramChar = new char[] { '\0', '\f', '\b', '\r','0','A'};
@@ -251,7 +248,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		Util.verify(expectStr, outputStr, seq++);
+		verifyUnsort(expectStr, outputStr, seq++);
 
 		String[] testcases = { "[]", "[\"a\",\"b\",\"c\"]", "[\"T\",\"e\",\"!\",\"'\"]", "[\"'\",\"\\\"\",\"c\"]",
 				"[\"\\n\",\"\\t\",\"'\",\"\\\"\",\"\\\\\"]","[\"\\0\",\"\\f\",\"\\b\",\"\\r\",\"0\",\"A\"]" };

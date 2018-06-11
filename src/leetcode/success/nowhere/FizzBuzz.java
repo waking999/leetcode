@@ -35,7 +35,7 @@ public class FizzBuzz {
 		expect = new String[] { "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13",
 				"14", "FizzBuzz" };
 		output = s.fizzBuzz(n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		System.out.println("Finish");
 	}

@@ -32,7 +32,7 @@ public class PerfectNumber {
 		num = 28;
 		expect = true;
 		output = s.checkPerfectNumber(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		System.out.println("Finish");
 

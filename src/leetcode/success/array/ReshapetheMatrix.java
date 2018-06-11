@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ReshapetheMatrix {
 	public int[][] matrixReshape(int[][] nums, int r, int c) {
@@ -33,7 +34,8 @@ public class ReshapetheMatrix {
 		
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		ReshapetheMatrix s = new ReshapetheMatrix();
 
 		int[][] nums;
@@ -47,14 +49,14 @@ public class ReshapetheMatrix {
 		c = 4;
 		expect = new int[][] { { 1, 2, 3, 4 } };
 		output=s.matrixReshape(nums, r, c);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		nums = new int[][] { { 1, 2 }, { 3, 4 } };
 		r = 2;
 		c = 4;
 		expect = new int[][] { { 1, 2 }, { 3, 4 } };
 		output=s.matrixReshape(nums, r, c);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 	}
 
 }

@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class SearchForARange {
 	public int[] searchRange(int[] nums, int target) {
 		int[] result=new int[] { -1, -1 };
@@ -38,7 +40,8 @@ public class SearchForARange {
 		return result;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		SearchForARange s = new SearchForARange();
 
 		int[] nums;

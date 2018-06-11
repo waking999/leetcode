@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class MaximumAverageSubarrayI {
 	public double findMaxAverage(int[] nums, int k) {
@@ -15,10 +16,10 @@ public class MaximumAverageSubarrayI {
 		if (numsLen <= k) {
 			int sum = 0;
 			int count = 0;
-			for (int i = 0; i < numsLen; i++) {
-				sum += nums[i];
-				count++;
-			}
+            for (int num : nums) {
+                sum += num;
+                count++;
+            }
 			return sum * 1.0 / count;
 		} else {
 			int sum = 0;
@@ -35,7 +36,8 @@ public class MaximumAverageSubarrayI {
 
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		MaximumAverageSubarrayI s = new MaximumAverageSubarrayI();
 
 		int[] nums;
@@ -47,7 +49,7 @@ public class MaximumAverageSubarrayI {
 		k = 4;
 		expect = 12.75;
 		output = s.findMaxAverage(nums, k);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
  
 	}
 

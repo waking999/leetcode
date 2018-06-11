@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class MergeSortedArray {
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int i = m - 1;
@@ -23,7 +25,8 @@ public class MergeSortedArray {
 		}
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		MergeSortedArray s = new MergeSortedArray();
 
 		int[] nums1 = { 1, 3, 5, 7, 9, 11, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,

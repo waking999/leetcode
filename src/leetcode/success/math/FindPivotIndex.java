@@ -45,17 +45,17 @@ public class FindPivotIndex {
 		nums=new int[] {1, 7, 3, 6, 5, 6};
 		expect=3;
 		output=s.pivotIndex(nums);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		nums=new int[] {1, 2, 3};
 		expect=-1;
 		output=s.pivotIndex(nums);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		nums=new int[] {-1,-1,0,1,1,0};
 		expect=5;
 		output=s.pivotIndex(nums);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 	}
 

@@ -1,4 +1,4 @@
-package leetcode.stack;
+package leetcode.success.stack;
 
 public class ValidPalindrome {
 	public boolean isPalindrome(String s) {

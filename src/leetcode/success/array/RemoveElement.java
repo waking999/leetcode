@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class RemoveElement {
 	public int removeElement(int[] nums, int val) {
 		int j=0;
@@ -13,7 +15,8 @@ public class RemoveElement {
 		return j;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		RemoveElement s = new RemoveElement();
 
 		int[] nums = { 3, 2, 2, 3 };

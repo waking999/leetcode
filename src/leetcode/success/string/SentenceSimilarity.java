@@ -64,28 +64,28 @@ public class SentenceSimilarity {
 		pairs = new String[][] { { "great", "fine" }, { "acting", "drama" }, { "skills", "talent" } };
 		expect = true;
 		output = s.areSentencesSimilar(words1, words2, pairs);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		words1 = new String[] { "great" };
 		words2 = new String[] { "great" };
 		pairs = new String[][] {};
 		expect = true;
 		output = s.areSentencesSimilar(words1, words2, pairs);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		words1 = new String[] { "great" };
 		words2 = new String[] { "doubleplus", "good" };
 		pairs = new String[][] {};
 		expect = false;
 		output = s.areSentencesSimilar(words1, words2, pairs);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		words1 = new String[] { "great" };
 		words2 = new String[] { "good" };
 		pairs = new String[][] { { "great", "fine" }, { "fine", "good" } };
 		expect = false;
 		output = s.areSentencesSimilar(words1, words2, pairs);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		
 		
 		words1 = new String[] {"great","acting","skills"};
@@ -93,7 +93,7 @@ public class SentenceSimilarity {
 		pairs = new String[][] { {"great","fine"},{"drama","acting"},{"skills","talent"} };
 		expect = false;
 		output = s.areSentencesSimilar(words1, words2, pairs);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 		 
 
 	}

@@ -35,17 +35,17 @@ public class Base7 {
 		num = 100;
 		expect = "202";
 		output = s.convertToBase7(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		num = -7;
 		expect = "-10";
 		output = s.convertToBase7(num);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		num = -8;
 		expect = "-11";
 		output = s.convertToBase7(num);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 
 	}

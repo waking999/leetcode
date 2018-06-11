@@ -43,7 +43,7 @@ public class BinaryTreeTilt {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 1;
 		output = s.findTilt(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

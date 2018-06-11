@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class NextGreaterElementI {
 	public int[] nextGreaterElement(int[] nums1, int[] nums2) {
@@ -26,15 +27,16 @@ public class NextGreaterElementI {
 	}
 	
 	private int nextGreater(int[] subNums2,int val) {
-		for(int i=0;i<subNums2.length;i++) {
-			if(subNums2[i]>val) {
-				return subNums2[i];
+		for (int aSubNums2 : subNums2) {
+			if (aSubNums2 > val) {
+				return aSubNums2;
 			}
 		}
 		return -1;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		NextGreaterElementI s = new NextGreaterElementI();
 
 		int[] nums1;

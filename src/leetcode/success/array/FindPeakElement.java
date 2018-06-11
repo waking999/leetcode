@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class FindPeakElement {
 	public int findPeakElement(int[] nums) {
 		int n = nums.length;
@@ -29,8 +31,8 @@ public class FindPeakElement {
 
 		return mid;
 	}
-
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		FindPeakElement s = new FindPeakElement();
 
 		int[] nums;

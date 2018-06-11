@@ -54,12 +54,12 @@ public class BaseballGame {
 		ops = new String[] { "5", "2", "C", "D", "+" };
 		expect = 30;
 		output = s.calPoints(ops);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 
 		ops = new String[] { "5", "-2", "4", "C", "D", "9", "+", "+" };
 		expect = 27;
 		output = s.calPoints(ops);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 
 		ops = new String[] { "8373", "C", "9034", "-17523", "D", "1492", "7558", "-5022", "C", "C", "+", "+", "-16000",
 				"C", "+", "-18694", "C", "C", "C", "-19377", "D", "-25250", "20356", "C", "-1769", "-8303", "C",
@@ -71,7 +71,7 @@ public class BaseballGame {
 				"D", "C", "+", "18219", "-20922", "D", "-24923" };
 		expect = -16293;
 		output = s.calPoints(ops);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 
 	}
 

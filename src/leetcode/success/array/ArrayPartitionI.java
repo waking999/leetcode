@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ArrayPartitionI {
 	public int arrayPairSum(int[] nums) {
@@ -16,7 +17,8 @@ public class ArrayPartitionI {
 		return sum;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		ArrayPartitionI s=new ArrayPartitionI();
 		
 		int[] nums;
@@ -26,7 +28,7 @@ public class ArrayPartitionI {
 		nums=new int[] {1,4,3,2};
 		expect=4;
 		output=s.arrayPairSum(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

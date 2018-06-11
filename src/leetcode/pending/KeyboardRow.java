@@ -72,7 +72,7 @@ public class KeyboardRow {
 		words = new String[] { "Hello", "Alaska", "Dad", "Peace" };
 		expect = new String[] { "Alaska", "Dad" };
 		output = s.findWords(words);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

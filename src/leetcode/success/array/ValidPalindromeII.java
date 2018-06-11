@@ -40,13 +40,9 @@ public class ValidPalindromeII {
 				if(flag1) {
 					return true;
 				}
-				boolean flag2=isPalindrome(sArr2, n);
-				if(flag2) {
-					return true;
-				}
-				return false;
-				 
-			}
+                return isPalindrome(sArr2, n);
+
+            }
 
 		}
 		return true;
@@ -63,27 +59,27 @@ public class ValidPalindromeII {
 		str = "aba";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		str = "abca";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		str = "abc";
 		expect = false;
 		output = s.validPalindrome(str);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 
 		str = "tcaac";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 
 		str = "aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verify(expect, output, 5);
+		Util.verifyUnsort(expect, output, 5);
 
 		System.out.println("Finish");
 	}

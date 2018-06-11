@@ -61,7 +61,7 @@ public class BinaryTreeLevelOrderTraversalII {
 
 		output = s.levelOrderBottom(root);
 
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		System.out.println("Finish");
 	}

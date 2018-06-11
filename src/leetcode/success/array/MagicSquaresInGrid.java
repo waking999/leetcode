@@ -25,6 +25,7 @@ public class MagicSquaresInGrid {
                 int[] squareArray = getSubSqaure(grid, i, j);
                 int expectSum = 0;
                 for (int k = 0; k < SQUARE_WIDTH; k++) {
+                    assert squareArray != null;
                     expectSum += squareArray[k];
                 }
                 if (isMagic(squareArray, expectSum)) {
@@ -70,26 +71,10 @@ public class MagicSquaresInGrid {
             }
         }
 
-        //col
-        for (int i = 0; i < SQUARE_WIDTH; i++) {
-            int colSum = 0;
-            for (int j = 0; j < SQUARE_WIDTH; j++) {
-                int idx = i + j * SQUARE_WIDTH;
-                colSum += squareArray[idx];
-            }
-        }
 
         //diagonals
         int sumDiagonal1 = squareArray[0] + squareArray[4] + squareArray[8];
-        if (sumDiagonal1 != expectSum) {
-            return false;
-        }
-        int sumDiagonal2 = squareArray[2] + squareArray[4] + squareArray[6];
-        if (sumDiagonal1 != expectSum) {
-            return false;
-        }
-
-        return true;
+        return sumDiagonal1 == expectSum;
     }
 
     private int[] getSubSqaure(int[][] grid, int startI, int startJ) {
@@ -131,12 +116,12 @@ public class MagicSquaresInGrid {
         square = new int[]{4, 3, 8, 9, 5, 1, 2, 7, 6};
         expect=true;
         output=s.isMagic(square,15);
-        Util.verify(expect,output,seq++);
+        Util.verifyUnsort(expect,output,seq++);
 
         square = new int[]{ 3, 8,4,  5, 1,9, 7, 6,2};
         expect=false;
         output=s.isMagic(square,15);
-        Util.verify(expect,output,seq++);
+        Util.verifyUnsort(expect,output,seq++);
 
     }
     @Test
@@ -153,18 +138,18 @@ public class MagicSquaresInGrid {
         grid = new int[][]{{4, 3, 8, 4}, {9, 5, 1, 9}, {2, 7, 6, 2}};
         expect = 1;
         output = s.numMagicSquaresInside(grid);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         grid = new int[][]{{10,3,5},{1,6,11},{7,9,2}};
         expect=0;
         output = s.numMagicSquaresInside(grid);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         grid = new int[][]{{7,0,5},{2,4,6},{3,8,1}};
         expect=0;
         output = s.numMagicSquaresInside(grid);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
     }
 }

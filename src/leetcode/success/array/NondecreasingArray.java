@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class NondecreasingArray {
 	public boolean checkPossibility(int[] nums) {
@@ -29,7 +30,8 @@ public class NondecreasingArray {
 		return true;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		NondecreasingArray s = new NondecreasingArray();
 
 		int[] nums;
@@ -39,17 +41,17 @@ public class NondecreasingArray {
 		nums = new int[] { 4, 2, 3 };
 		expect = true;
 		output = s.checkPossibility(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		nums = new int[] { 4, 2, 1 };
 		expect = false;
 		output = s.checkPossibility(nums);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		nums = new int[] { 3, 4, 2, 3 };
 		expect = false;
 		output = s.checkPossibility(nums);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 		
 		System.out.println("Finish");
 	}

@@ -31,17 +31,17 @@ public class ConvertANumberToHexadecimal {
 		num = 26;
 		expect = "1a";
 		output = s.toHex(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		num = -1;
 		expect = "ffffffff";
 		output = s.toHex(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		num = 0;
 		expect = "0";
 		output = s.toHex(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		System.out.println("Finish");
 
