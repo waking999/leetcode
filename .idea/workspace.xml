@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="2080611">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/linkedlist/RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BSTIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +45,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycle.java">
+      <file leaf-file-name="TwoSumIII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToeplitzMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratePossibleNextMoves.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoSumIIITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,20 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/success/math/Pow.java" />
-        <option value="$PROJECT_DIR$/src/other/WeightedQuickUnionUF.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/IntegerReplacement.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/BackspaceStringCompare.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/PositionsofLargeGroups.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/array/PositionsofLargeGroups.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/GoatLatin.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/string/GoatLatin.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/ShortestDistancetoaCharacter.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/MagicSquaresInGrid.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/array/MagicSquaresInGrid.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/RectangleOverlap.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/array/RectangleOverlap.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/FlippinganImage.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/LargestTriangleArea.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/array/LargestTriangleArea.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/NumberofLinesToWriteString.java" />
@@ -105,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/attempt/RotateList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/RotateList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/ReverseLinkedListII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/SingleNumberII.java" />
@@ -125,6 +152,21 @@
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycleII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/InsertionSortList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/InsertionSortList.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/BinaryTreeRightSideView.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/BSTIterator.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/BSTIteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/CompareVersionNumbers.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/TwoSumIIITest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/TwoSumIII.java" />
+        <option value="$PROJECT_DIR$/src/other/TwoSumIIITest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/GeneratePossibleNextMoves.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" />
       </list>
     </option>
   </component>
@@ -151,9 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,43 +216,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="history" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="attempt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +226,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,10 +245,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="leetcode.success.linkedlist" />
-      <recent name="leetcode.success.array" />
+      <recent name="other" />
       <recent name="leetcode.success.string" />
       <recent name="leetcode.success.tree" />
+      <recent name="leetcode.success.linkedlist" />
+      <recent name="leetcode.success.array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.attempt" />
@@ -263,23 +270,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InsertionSortList.testinsertionSortList">
+  <component name="RunManager" selected="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="InsertionSortList.testinsertionSortList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareVersionNumbers.testcompareVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
+          <option name="PATTERN" value="leetcode.success.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.linkedlist.InsertionSortList" />
-      <option name="METHOD_NAME" value="testinsertionSortList" />
+      <option name="PACKAGE_NAME" value="leetcode.success.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.string.CompareVersionNumbers" />
+      <option name="METHOD_NAME" value="testcompareVersion" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -290,19 +297,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LinkedListCycleII.testdetectCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareVersionNumbers.testremoveSuffixZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
+          <option name="PATTERN" value="leetcode.success.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.linkedlist.LinkedListCycleII" />
-      <option name="METHOD_NAME" value="testdetectCycle" />
+      <option name="PACKAGE_NAME" value="leetcode.success.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.string.CompareVersionNumbers" />
+      <option name="METHOD_NAME" value="testremoveSuffixZero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -313,19 +320,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PartitionList.testpartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeneratePossibleNextMoves.testGeneratePossibleNextMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
+          <option name="PATTERN" value="lintcode.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.linkedlist.PartitionList" />
-      <option name="METHOD_NAME" value="testpartition" />
+      <option name="PACKAGE_NAME" value="lintcode.google" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.GeneratePossibleNextMoves" />
+      <option name="METHOD_NAME" value="testGeneratePossibleNextMoves" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -336,18 +343,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ShortestDistancetoaCharacter.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSumIIITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.array.*" />
+          <option name="PATTERN" value="leetcode.success.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.ShortestDistancetoaCharacter" />
+      <option name="PACKAGE_NAME" value="leetcode.success.other" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.other.TwoSumIIITest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -359,19 +366,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ThreeSum.testthreeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSumIIITest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.array.*" />
+          <option name="PATTERN" value="leetcode.success.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.ThreeSum" />
-      <option name="METHOD_NAME" value="testthreeSum" />
+      <option name="PACKAGE_NAME" value="leetcode.success.other" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.other.TwoSumIIITest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -421,19 +428,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ThreeSum.testthreeSum" />
-      <item itemvalue="JUnit.ShortestDistancetoaCharacter.test1" />
-      <item itemvalue="JUnit.PartitionList.testpartition" />
-      <item itemvalue="JUnit.LinkedListCycleII.testdetectCycle" />
-      <item itemvalue="JUnit.InsertionSortList.testinsertionSortList" />
+      <item itemvalue="JUnit.CompareVersionNumbers.testcompareVersion" />
+      <item itemvalue="JUnit.CompareVersionNumbers.testremoveSuffixZero" />
+      <item itemvalue="JUnit.TwoSumIIITest.test1" />
+      <item itemvalue="JUnit.TwoSumIIITest.test2" />
+      <item itemvalue="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InsertionSortList.testinsertionSortList" />
-        <item itemvalue="JUnit.LinkedListCycleII.testdetectCycle" />
-        <item itemvalue="JUnit.PartitionList.testpartition" />
-        <item itemvalue="JUnit.ThreeSum.testthreeSum" />
-        <item itemvalue="JUnit.ShortestDistancetoaCharacter.test1" />
+        <item itemvalue="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves" />
+        <item itemvalue="JUnit.TwoSumIIITest.test2" />
+        <item itemvalue="JUnit.TwoSumIIITest.test1" />
+        <item itemvalue="JUnit.CompareVersionNumbers.testcompareVersion" />
+        <item itemvalue="JUnit.CompareVersionNumbers.testremoveSuffixZero" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +460,9 @@
       <workItem from="1528327032249" duration="9533000" />
       <workItem from="1528346649214" duration="28946000" />
       <workItem from="1528600981411" duration="158000" />
-      <workItem from="1528601146387" duration="41283000" />
+      <workItem from="1528601146387" duration="42104000" />
+      <workItem from="1528715113417" duration="599000" />
+      <workItem from="1528759627495" duration="19056000" />
     </task>
     <task id="LOCAL-00001" summary="2080611">
       <created>1528691918518</created>
@@ -466,73 +475,74 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 15m 48s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testremovePrefixZero - 2018.06.12 at 15h 19m 29s.xml">
+      <configuration name="CompareVersionNumbers.testremovePrefixZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 16m 10s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testremovePrefixZero - 2018.06.12 at 15h 19m 36s.xml">
+      <configuration name="CompareVersionNumbers.testremovePrefixZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 18m 18s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 21m 35s.xml">
+      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 20m 11s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 28m 20s.xml">
+      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 20m 52s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 30m 03s.xml">
+      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 21m 39s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="CompareVersionNumbers_testcompareVersion - 2018.06.12 at 15h 31m 00s.xml">
+      <configuration name="CompareVersionNumbers.testcompareVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 22m 37s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="TwoSumIIITest_test1 - 2018.06.12 at 15h 50m 01s.xml">
+      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 23m 52s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="TwoSumIIITest_test1 - 2018.06.12 at 15h 53m 21s.xml">
+      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 25m 13s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="TwoSumIIITest_test2 - 2018.06.12 at 16h 24m 43s.xml">
+      <configuration name="TwoSumIIITest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortList_testinsertionSortList - 2018.06.11 at 13h 25m 20s.xml">
-      <configuration name="InsertionSortList.testinsertionSortList" configurationId="JUnit" />
+    <history-entry file="GeneratePossibleNextMoves_testGeneratePossibleNextMoves - 2018.06.12 at 16h 25m 20s.xml">
+      <configuration name="GeneratePossibleNextMoves.testGeneratePossibleNextMoves" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89746000" />
+    <option name="totallyTimeSpent" value="110222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32941177" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49920255" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.1924307" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" visible="true" weight="0.32941177" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5053305" side_tool="true" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.1924307" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49554366" visible="true" weight="0.19669509" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.50445634" side_tool="true" visible="true" weight="0.19669509" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,110 +844,113 @@
           <properties />
           <option name="timeStamp" value="267" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="273" />
+      <option name="time" value="345" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="dummyLen-count+1" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>base[i-start]!=compare[i]</expression-string>
+        <expression-string>matcher.group(4)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.find()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(3)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.group(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.groupCount()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.end()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matcher.start()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;1.1&quot;.split(&quot;\\.&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/GoatLatin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="58" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/BackspaceStringCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="57" column="43" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="57" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/PositionsofLargeGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/RectangleOverlap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/MagicSquaresInGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="140" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/NumberofLinesToWriteString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/LargestTriangleArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/FlippinganImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/other/btree/BTree2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -952,24 +965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BalancedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="46" column="34" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/BinarySearchTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -1079,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1100,9 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,36 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="703" selection-start-line="703" selection-end-line="703" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/LargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,13 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1246,9 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,10 +1209,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+          <caret line="23" column="21" selection-start-line="8" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/pending/LongestUnivaluePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="98" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/BinarySearchTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BSTIteratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/LargestNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="164" column="30" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="e#7321#7322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="2135" column="18" selection-start-line="2135" selection-start-column="18" selection-end-line="2135" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/Accumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
