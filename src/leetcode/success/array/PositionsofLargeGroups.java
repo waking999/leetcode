@@ -51,23 +51,23 @@ public class PositionsofLargeGroups {
         S="abbxxxxzzy";
         expect= new int[][]{{3,6}};
         output=s.largeGroupPositions(S);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
         S="abc";
         expect= new int[][]{};
         output=s.largeGroupPositions(S);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
         S="abcdddeeeeaabbbcd";
         expect= new int[][]{{3,5},{6,9},{12,14}};
         output=s.largeGroupPositions(S);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         S="aaa";
         expect= new int[][]{{0,2}};
         output=s.largeGroupPositions(S);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
     }

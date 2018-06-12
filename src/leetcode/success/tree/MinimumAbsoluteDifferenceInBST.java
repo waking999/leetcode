@@ -42,7 +42,7 @@ public class MinimumAbsoluteDifferenceInBST {
 		root=BinarySearchTreeNode.constructTreeNode(nodes);
 		expect=1;
 		output=s.getMinimumDifference(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		System.out.println("Finish");
 	}

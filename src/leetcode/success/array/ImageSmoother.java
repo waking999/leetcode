@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ImageSmoother {
 	public int[][] imageSmoother(int[][] M) {
@@ -67,7 +68,8 @@ public class ImageSmoother {
 		return ret;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		ImageSmoother s = new ImageSmoother();
 
 		int[][] M;
@@ -77,17 +79,17 @@ public class ImageSmoother {
 		M = new int[][] { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
 		expect = new int[][] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 		output=s.imageSmoother(M);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		M = new int[][] { { 1 } };
 		expect = new int[][] { { 1} };
 		output=s.imageSmoother(M);
-		Util.verify(expect, output,2);
+		Util.verifyUnsort(expect, output,2);
 		
 		M = new int[][] { { 2,3 } };
 		expect = new int[][] { { 2,2} };
 		output=s.imageSmoother(M);
-		Util.verify(expect, output,3);
+		Util.verifyUnsort(expect, output,3);
 		
 		System.out.println("Finish");
 	}

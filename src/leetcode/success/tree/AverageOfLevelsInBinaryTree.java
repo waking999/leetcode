@@ -68,7 +68,7 @@ public class AverageOfLevelsInBinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = new double[] { 3, 14.5, 11 };
 		output = s.averageOfLevels(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		nodes = new int[] { 5, 14, 1 };
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 1 };
@@ -76,7 +76,7 @@ public class AverageOfLevelsInBinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = new double[] { 5, 14, 1 };
 		output = s.averageOfLevels(root);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		nodes = new int[] { 2147483647,2147483647,2147483647};
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0 };
@@ -84,7 +84,7 @@ public class AverageOfLevelsInBinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = new double[] {2147483647,2147483647 };
 		output = s.averageOfLevels(root);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 	}
 
 }

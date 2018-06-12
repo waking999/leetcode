@@ -133,13 +133,13 @@ public class IslandPerimeter {
 		grid = new int[][] { { 0, 1, 0, 0 }, { 1, 1, 1, 0 }, { 0, 1, 0, 0 }, { 1, 1, 0, 0 } };
 		expect = 16;
 		output = s.islandPerimeter(grid);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 
 		grid = new int[][] { {1} };
 		expect = 4;
 		output = s.islandPerimeter(grid);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 	}
 
 }

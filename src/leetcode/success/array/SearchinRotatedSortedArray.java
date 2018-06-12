@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class SearchinRotatedSortedArray {
 	public int search(int[] nums, int target) {
@@ -18,9 +19,8 @@ public class SearchinRotatedSortedArray {
 				return -1;
 			}
 		}
-		
-		int pos=search(nums,0,nums.length-1,target);
-		return pos;
+
+		return search(nums,0,nums.length-1,target);
 	}
 
 	private int search(int[] nums, int start, int end, int target) {
@@ -57,7 +57,8 @@ public class SearchinRotatedSortedArray {
 		return -1;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		SearchinRotatedSortedArray s = new SearchinRotatedSortedArray();
 
 		int[] nums;
@@ -70,84 +71,84 @@ public class SearchinRotatedSortedArray {
 		target = 5;
 		expect = 1;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
 		target = 1;
 		expect = 5;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
 		target = 15;
 		expect = -1;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 
 		
 		nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
 		target = -1;
 		expect = -1;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		
 		nums = new int[] { 4, 5, 6, 7, 0, 1, 2 };
 		target = 3;
 		expect = -1;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		nums = new int[] { 1 };
 		target = 1;
 		expect = 0;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		
 		nums = new int[] { 1,3 };
 		target = 3;
 		expect = 1;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		
 //		nums = new int[] { 3,1,1,1 ,1};
 //		target = 3;
 //		expect = true;
 //		output = s.search(nums, target);
-//		Util.verify(expect, output, ++seq);
+//		Util.verifyUnsort(expect, output, ++seq);
 //		
 //		nums = new int[] { 1,1};
 //		target = 2;
 //		expect = false;
 //		output = s.search(nums, target);
-//		Util.verify(expect, output, ++seq);
+//		Util.verifyUnsort(expect, output, ++seq);
 		
 		nums = new int[] { 5,1,3};
 		target = 3;
 		expect = 2;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 		
 //		nums = new int[] { 1,3,1,1,1};
 //		target = 3;
 //		expect = true;
 //		output = s.search(nums, target);
-//		Util.verify(expect, output, ++seq);
+//		Util.verifyUnsort(expect, output, ++seq);
 		
 		nums = new int[] { 3,5,1};
 		target = 3;
 		expect = 0;
 		output = s.search(nums, target);
-		Util.verify(expect, output, ++seq);
+		Util.verifyUnsort(expect, output, ++seq);
 		
 //		nums = new int[] { 1,1,3,1};
 //		target = 3;
 //		expect = true;
 //		output = s.search(nums, target);
-//		Util.verify(expect, output, ++seq);
+//		Util.verifyUnsort(expect, output, ++seq);
 	}
 
 }

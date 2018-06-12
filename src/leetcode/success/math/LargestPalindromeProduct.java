@@ -46,18 +46,18 @@ public class LargestPalindromeProduct {
 		n = 2;
 		expect = 987;
 		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		
 		n = 1;
 		expect = 9;
 		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		n = 5;
 		expect = 677;
 		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

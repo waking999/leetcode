@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class Heaters {
 	public int findRadius(int[] houses, int[] heaters) {
@@ -31,32 +32,31 @@ public class Heaters {
 		}
 		
 		int maxDis=0;
-		for(int i=0;i<housesLen;i++) {
-			int curr=houses[i];
-			int low=0;
-			int high=heatersLen;
-			while(low<high) {
-				int mid=(low+high)/2;
-				if(heaters[mid]>=curr) {
-					high=mid;
-				}else {
-					low=mid+1;
-				}
-			}
-			int dist1=(high==heatersLen?Integer.MAX_VALUE:heaters[high]-curr);
-			int dist2=(high==0?Integer.MAX_VALUE:curr-heaters[high-1]);
-			maxDis=Math.max(maxDis,Math.min(dist1, dist2));
-			
-		}
+        for (int curr : houses) {
+            int low = 0;
+            int high = heatersLen;
+            while (low < high) {
+                int mid = (low + high) / 2;
+                if (heaters[mid] >= curr) {
+                    high = mid;
+                } else {
+                    low = mid + 1;
+                }
+            }
+            int dist1 = (high == heatersLen ? Integer.MAX_VALUE : heaters[high] - curr);
+            int dist2 = (high == 0 ? Integer.MAX_VALUE : curr - heaters[high - 1]);
+            maxDis = Math.max(maxDis, Math.min(dist1, dist2));
+
+        }
 		return maxDis;
 		
 	 
 	}
- 
-	
-	 
 
-	public static void main(String[] args) {
+
+
+    @Test
+    public void test1() {
 		Heaters s = new Heaters();
 
 		int[] houses;
@@ -68,25 +68,25 @@ public class Heaters {
 		heaters = new int[] { 2 };
 		expect = 1;
 		output = s.findRadius(houses, heaters);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		houses = new int[] { 1, 2, 3, 4 };
 		heaters = new int[] { 1, 4 };
 		expect = 1;
 		output = s.findRadius(houses, heaters);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		houses = new int[] { 1, 5 };
 		heaters = new int[] { 2 };
 		expect = 3;
 		output = s.findRadius(houses, heaters);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 		
 		houses = new int[] { 1, 5 };
 		heaters = new int[] { 10};
 		expect = 9;
 		output = s.findRadius(houses, heaters);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 
 
 	}

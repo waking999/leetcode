@@ -37,7 +37,7 @@ public class RangeAdditionII {
 		ops = new int[][] { { 2, 2 }, { 3, 3 } };
 		expect = 4;
 		output = s.maxCount(m, n, ops);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 
 		m = 3;
@@ -45,7 +45,7 @@ public class RangeAdditionII {
 		ops = new int[][] {  };
 		expect = 9;
 		output = s.maxCount(m, n, ops);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

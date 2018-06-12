@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class CanPlaceFlowers {
 	public boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -36,14 +37,11 @@ public class CanPlaceFlowers {
 			}
 
 		}
-		if (n == 0) {
-			return true;
-		} else {
-			return false;
-		}
+        return n == 0;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		CanPlaceFlowers s = new CanPlaceFlowers();
 
 		int[] flowerbed;
@@ -55,25 +53,25 @@ public class CanPlaceFlowers {
 		n = 1;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		flowerbed = new int[] { 1, 0, 0, 0, 1 };
 		n = 2;
 		expect = false;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		flowerbed = new int[] { 1, 0, 0, 0, 0, 0, 1 };
 		n = 2;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 		
 		flowerbed = new int[] {0};
 		n = 1;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 		
 		
 
@@ -81,7 +79,7 @@ public class CanPlaceFlowers {
 		n = 2;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verify(expect, output, 5);
+		Util.verifyUnsort(expect, output, 5);
 	}
 
 }

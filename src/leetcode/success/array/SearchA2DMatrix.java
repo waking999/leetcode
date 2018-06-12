@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class SearchA2DMatrix {
 	public boolean searchMatrix(int[][] matrix, int target) {
 		int row=matrix.length;
@@ -32,7 +34,8 @@ public class SearchA2DMatrix {
 		return false;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		SearchA2DMatrix s = new SearchA2DMatrix();
 
 		int[][] matrix;

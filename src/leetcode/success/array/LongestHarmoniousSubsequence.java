@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class LongestHarmoniousSubsequence {
 	public int findLHS(int[] nums) {
@@ -35,7 +36,8 @@ public class LongestHarmoniousSubsequence {
 		return max;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		LongestHarmoniousSubsequence s = new LongestHarmoniousSubsequence();
 
 		int[] nums;
@@ -45,7 +47,7 @@ public class LongestHarmoniousSubsequence {
 		nums=new int[] {1,3,2,2,5,2,3,7};
 		expect=5;
 		output=s.findLHS(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 	}
 
 }

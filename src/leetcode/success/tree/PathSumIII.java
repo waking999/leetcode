@@ -47,7 +47,7 @@ public class PathSumIII {
 
 		expect = 3;
 		output=s.pathSum(root, sum);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 	}
 
 }

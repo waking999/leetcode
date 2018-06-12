@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,7 +18,8 @@ public class PascalsTriangleII {
 		return rowList;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		PascalsTriangleII s = new PascalsTriangleII();
 
 		int rowIndex = 0;
@@ -27,7 +30,7 @@ public class PascalsTriangleII {
 		int expectLen = expect.size();
 		assert (outputLen == expectLen) : "0.wrong";
 		for (int i = 0; i < expectLen; i++) {
-			assert (output.get(i) == expect.get(i)) : "0.wrong";
+			assert (output.get(i).equals(expect.get(i))) : "0.wrong";
 		}
 
 		rowIndex = 1;
@@ -38,7 +41,7 @@ public class PascalsTriangleII {
 		expectLen = expect.size();
 		assert (outputLen == expectLen) : "1.wrong";
 		for (int i = 0; i < expectLen; i++) {
-			assert (output.get(i) == expect.get(i)) : "1.wrong";
+			assert (output.get(i).equals(expect.get(i))) : "1.wrong";
 		}
 
 		rowIndex = 2;
@@ -49,7 +52,7 @@ public class PascalsTriangleII {
 		expectLen = expect.size();
 		assert (outputLen == expectLen) : "2.wrong";
 		for (int i = 0; i < expectLen; i++) {
-			assert (output.get(i) == expect.get(i)) : "2.wrong";
+			assert (output.get(i).equals(expect.get(i))) : "2.wrong";
 		}
 
 		rowIndex = 3;
@@ -60,7 +63,7 @@ public class PascalsTriangleII {
 		expectLen = expect.size();
 		assert (outputLen == expectLen) : "3.wrong";
 		for (int i = 0; i < expectLen; i++) {
-			assert (output.get(i) == expect.get(i)) : "3.wrong";
+			assert (output.get(i).equals(expect.get(i))) : "3.wrong";
 		}
 
 		rowIndex = 4;
@@ -71,7 +74,7 @@ public class PascalsTriangleII {
 		expectLen = expect.size();
 		assert (outputLen == expectLen) : "4.wrong";
 		for (int i = 0; i < expectLen; i++) {
-			assert (output.get(i) == expect.get(i)) : "4.wrong";
+			assert (output.get(i).equals(expect.get(i))) : "4.wrong";
 		}
 
 		System.out.println("Finish");

@@ -47,7 +47,7 @@ public class DiameterOfBinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 3;
 		output = s.diameterOfBinaryTree(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 	}
 
 }

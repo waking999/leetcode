@@ -45,12 +45,12 @@ public class LongestCommonPrefix {
 		input = new String[] { "geeksforgeeks", "geeks", "geezer" };
 		expect = "gee";
 		output = s.longestCommonPrefix(input);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		input = new String[] { "apple", "ape", "april" };
 		expect = "ap";
 		output = s.longestCommonPrefix(input);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 	}
 
 }

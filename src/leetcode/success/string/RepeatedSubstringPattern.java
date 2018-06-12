@@ -38,17 +38,17 @@ public class RepeatedSubstringPattern {
 		str = "abab";
 		expect = true;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		str = "aba";
 		expect = false;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		str = "abcabcabcabc";
 		expect = true;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 
 	}
 }

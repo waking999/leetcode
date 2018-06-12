@@ -52,7 +52,7 @@ public class SecondMinimumNodeInABinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 5;
 		output = s.findSecondMinimumValue(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		
 		nodes = new int[] { 2, 2, 2};
@@ -61,7 +61,7 @@ public class SecondMinimumNodeInABinaryTree {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = -1;
 		output = s.findSecondMinimumValue(root);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 	}
 
 }

@@ -18,17 +18,17 @@ public class ArrangingCoins {
 		n = 5;
 		expect = 2;
 		output = s.arrangeCoins(n);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		n = 8;
 		expect = 3;
 		output = s.arrangeCoins(n);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		n = 10;
 		expect = 4;
 		output = s.arrangeCoins(n);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 
 		System.out.println("Finish");
 	}

@@ -33,17 +33,17 @@ public class NumberComplement {
 		num = 5;
 		expect = 2;
 		output = s.findComplement(num);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		num = 1;
 		expect = 0;
 		output = s.findComplement(num);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		num =2;
 		expect = 1;
 		output = s.findComplement(num);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 	}
 

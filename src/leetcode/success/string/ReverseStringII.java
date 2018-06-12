@@ -62,7 +62,7 @@ public class ReverseStringII {
 		k = 2;
 		expect = "bacdfeg";
 		output = s.reverseStr(str, k);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

@@ -48,7 +48,7 @@ public class DiameterofBinaryTreeI {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 3;
 		output = s.diameterOfBinaryTree(root);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		nodes = new int[] { 4, -7, -3, -9, -3, 9, -7, -4, 6, -6, -6, 0, 6, 5, 9, -1, -4, -2 };
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 2, 2, 3, 3, 4, 5, 6, 6, 8, 8, 9, 10, 11, 12, 14 };
@@ -56,7 +56,7 @@ public class DiameterofBinaryTreeI {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 8;
 		output = s.diameterOfBinaryTree(root);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 	}
 
 }

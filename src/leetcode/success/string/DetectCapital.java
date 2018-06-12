@@ -39,29 +39,29 @@ public class DetectCapital {
 		word="USA";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		word="leetcode";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		word="Google";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 		
 		word="FlaG";
 		expect=false;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 		
 		
 		
 		word="FFFFFFFFFFFFFFFFFFFFf";
 		expect=false;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 		
 		System.out.println("Finish");
 		

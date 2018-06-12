@@ -50,7 +50,7 @@ public class TrimABinarySearchTree {
 		expect = new int[] { 1, 2 };
 		output = s.trimBST(root, L, R);
 		outputArr = BinarySearchTreeNode.unconstructTreeNode(output);
-		Util.verify(expect, outputArr, 1);
+		Util.verifyUnsort(expect, outputArr, 1);
 
 		nodes = new int[] { 3, 0, 4, 2, 1 };
 		root = BinarySearchTreeNode.constructTreeNode(nodes);
@@ -59,7 +59,7 @@ public class TrimABinarySearchTree {
 		expect = new int[] { 3, 2, 1 };
 		output = s.trimBST(root, L, R);
 		outputArr = BinarySearchTreeNode.unconstructTreeNode(output);
-		Util.verify(expect, outputArr, 2);
+		Util.verifyUnsort(expect, outputArr, 2);
 
 		System.out.println("Finish");
 	}

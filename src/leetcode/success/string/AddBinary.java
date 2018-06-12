@@ -96,62 +96,62 @@ public class AddBinary {
 		b = "1";
 		expect = "100";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		
 		a = "11";
 		b = "11";
 		expect = "110";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		a = "11";
 		b = "111";
 		expect = "1010";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 		
 		a = "10";
 		b = "1";
 		expect = "11";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 4);
+		Util.verifyUnsort(expect, output, 4);
 
 		a = "1";
 		b = "10";
 		expect = "11";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 5);
+		Util.verifyUnsort(expect, output, 5);
 		
 		a = "";
 		b = "1";
 		expect = "1";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 6);
+		Util.verifyUnsort(expect, output, 6);
 		
 		a = "1";
 		b = "";
 		expect = "1";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output,7);
+		Util.verifyUnsort(expect, output,7);
 		
 		a = "100";
 		b = "1";
 		expect = "101";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output,8);
+		Util.verifyUnsort(expect, output,8);
 		
 		a = "1";
 		b = "100";
 		expect = "101";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 9);
+		Util.verifyUnsort(expect, output, 9);
 		
 		a = "100";
 		b = "10";
 		expect = "110";
 		output = s.addBinary(a, b);
-		Util.verify(expect, output, 10);
+		Util.verifyUnsort(expect, output, 10);
 		
 		System.out.println("Finish");
 

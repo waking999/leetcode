@@ -22,12 +22,12 @@ public class SingleNumberII {
         nums=new int[]{2,2,3,2};
         expect=3;
         output=s.singleNumber(nums);
-        Util.verify(expect,output,seq++);
+        Util.verifyUnsort(expect,output,seq++);
 
         nums=new int[]{0,1,0,1,0,1,99};
         expect=99;
         output=s.singleNumber(nums);
-        Util.verify(expect,output,seq++);
+        Util.verifyUnsort(expect,output,seq++);
 
     }
 }

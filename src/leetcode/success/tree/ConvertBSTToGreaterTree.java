@@ -36,7 +36,7 @@ public class ConvertBSTToGreaterTree {
 		output = s.convertBST(root);
 		expect = new int[] { 18, 20, 13 };
 		Integer[] outputArr = TreeNode.unconstructTreeNode(output);
-		Util.verify(expect, outputArr, 1);
+		Util.verifyUnsort(expect, outputArr, 1);
 
 	}
 

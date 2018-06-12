@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class RelativeRanks {
 	public String[] findRelativeRanks(int[] nums) {
@@ -48,7 +49,8 @@ public class RelativeRanks {
 		return -1;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		RelativeRanks s = new RelativeRanks();
 
 		int[] nums;
@@ -58,13 +60,13 @@ public class RelativeRanks {
 		nums = new int[] { 5, 4, 3, 2, 1 };
 		expect = new String[] { "Gold Medal", "Silver Medal", "Bronze Medal", "4", "5" };
 		output = s.findRelativeRanks(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		
 		nums = new int[] { 1, 4, 5, 3, 2 };
 		expect = new String[] { "5", "Silver Medal", "Gold Medal", "Bronze Medal", "4" };
 		output = s.findRelativeRanks(nums);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 	}
 

@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class DistributeCandies {
 	public int distributeCandies(int[] candies) {
@@ -24,7 +25,8 @@ public class DistributeCandies {
 		
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		DistributeCandies s=new DistributeCandies();
 		
 		int[] candies;
@@ -34,12 +36,12 @@ public class DistributeCandies {
 		candies=new int[] {1,1,2,2,3,3};
 		expect=3;
 		output=s.distributeCandies(candies);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 		
 		candies=new int[] {1,1,2,3};
 		expect=2;
 		output=s.distributeCandies(candies);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 		
 		
 

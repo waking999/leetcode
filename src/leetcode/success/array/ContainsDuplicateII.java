@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,8 +28,8 @@ public class ContainsDuplicateII {
 
 		return false;
 	}
-
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		ContainsDuplicateII s = new ContainsDuplicateII();
 
 		int[] nums;

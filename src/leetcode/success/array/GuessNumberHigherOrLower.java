@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class GuessNumberHigherOrLower {
 	int real;
@@ -40,7 +41,8 @@ public class GuessNumberHigherOrLower {
 		}
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		GuessNumberHigherOrLower s = new GuessNumberHigherOrLower();
 
 		int n;
@@ -52,19 +54,19 @@ public class GuessNumberHigherOrLower {
 		s.real = 6;
 		expect = 6;
 		output = s.guessNumber(n);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		n = 10;
 		s.real = 1;
 		expect = 1;
 		output = s.guessNumber(n);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 		n = 10;
 		s.real = 5;
 		expect = 5;
 		output = s.guessNumber(n);
-		Util.verify(expect, output, seq++);
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

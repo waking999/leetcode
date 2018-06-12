@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class KDiffPairsInAnArray {
 	public int findPairs(int[] nums, int k) {
@@ -38,7 +39,8 @@ public class KDiffPairsInAnArray {
 		return answer;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		KDiffPairsInAnArray s = new KDiffPairsInAnArray();
 
 		int[] nums;
@@ -50,19 +52,19 @@ public class KDiffPairsInAnArray {
 		k = 2;
 		expect = 2;
 		output = s.findPairs(nums, k);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		nums = new int[] { 1, 2, 3, 4, 5 };
 		k = 1;
 		expect = 4;
 		output = s.findPairs(nums, k);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		nums = new int[] { 1, 3, 1, 5, 4 };
 		k = 0;
 		expect = 1;
 		output = s.findPairs(nums, k);
-		Util.verify(expect, output, 3);
+		Util.verifyUnsort(expect, output, 3);
 
 		System.out.println("Finish");
 

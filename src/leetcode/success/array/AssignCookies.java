@@ -3,6 +3,7 @@ package leetcode.success.array;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class AssignCookies {
 	public int findContentChildren(int[] g, int[] s) {
@@ -24,7 +25,8 @@ public class AssignCookies {
 		return count;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		AssignCookies s = new AssignCookies();
 
 		int[] k;
@@ -36,13 +38,13 @@ public class AssignCookies {
 		c = new int[] { 1, 1 };
 		expect = 1;
 		output = s.findContentChildren(k, c);
-		Util.verify(expect, output, 1);
+		Util.verifyUnsort(expect, output, 1);
 
 		k = new int[] { 1, 2 };
 		c = new int[] { 1, 2, 3 };
 		expect = 2;
 		output = s.findContentChildren(k, c);
-		Util.verify(expect, output, 2);
+		Util.verifyUnsort(expect, output, 2);
 
 		System.out.println("Finish");
 

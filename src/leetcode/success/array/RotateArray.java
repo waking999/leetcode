@@ -1,38 +1,9 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class RotateArray {
-//	public void rotate(int[] nums, int k) {
-//		int numsLen = nums.length;
-//		if (numsLen <= 1) {
-//			return;
-//		}
-//		if (k <= 0) {
-//			return;
-//		}
-//		if (numsLen >= k) {
-//			int[] left = new int[numsLen - k];
-//			int[] right = new int[k];
-//			System.arraycopy(nums, 0, left, 0, numsLen - k);
-//			System.arraycopy(nums, numsLen - k, right, 0, k);
-//			
-//			System.arraycopy(merge(right, left),0, nums, 0, numsLen);
-//			return;
-//		} else {
-//			k=k%numsLen;
-//			rotate(nums, k);
-//			return;
-//		}
-//	}
-//
-//	private int[] merge(int[] left, int[] right) {
-//		int leftLen = left.length;
-//		int rightLen = right.length;
-//
-//		int[] ret = new int[rightLen + leftLen];
-//		System.arraycopy(left, 0, ret, 0, leftLen);
-//		System.arraycopy(right, 0, ret, leftLen, rightLen);
-//		return ret;
-//	}
+
 
 	public void rotate(int[] nums, int k) {
 		int numsLen = nums.length;
@@ -45,15 +16,14 @@ public class RotateArray {
 		k=k%numsLen;
 		for(int i=1;i<=k;i++){
 			int t=nums[numsLen-1];
-			for(int j=numsLen-2;j>=0;j--){
-				nums[j+1]=nums[j];
-			}
+
+			System.arraycopy(nums, 0, nums, 1, numsLen - 2 + 1);
 			nums[0]=t;
 		}
-		
-		return;
+
 	}
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		RotateArray s = new RotateArray();
 
 		int[] nums;

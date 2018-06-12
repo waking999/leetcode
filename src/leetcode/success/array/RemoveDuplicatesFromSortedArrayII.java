@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import org.junit.Test;
+
 public class RemoveDuplicatesFromSortedArrayII {
 	public int removeDuplicates(int[] nums) {
 		int n = nums.length;
@@ -24,7 +26,8 @@ public class RemoveDuplicatesFromSortedArrayII {
 		return j + 1;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		RemoveDuplicatesFromSortedArrayII s = new RemoveDuplicatesFromSortedArrayII();
 
 		int[] nums;
