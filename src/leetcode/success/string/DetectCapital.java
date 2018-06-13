@@ -2,6 +2,8 @@ package leetcode.success.string;
 
 import leetcode.success.comm.Util;
 
+import static leetcode.success.comm.Util.verify;
+
 public class DetectCapital {
 	public boolean detectCapitalUse(String word) {
 		if(word==null) {
@@ -19,11 +21,7 @@ public class DetectCapital {
 				cnt++;
 			}
 		}
-		if(cnt==0||cnt==wordLen||(cnt==1 &&'Z' - word.charAt(0)>=0)) {
-			return true;
-		}else {
-			return false;
-		}
+		return cnt == 0 || cnt == wordLen || (cnt == 1 && 'Z' - word.charAt(0) >= 0);
 		
 		
 		
@@ -39,29 +37,29 @@ public class DetectCapital {
 		word="USA";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 1);
+		verify(expect, output, 1);
 		
 		word="leetcode";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 2);
+		verify(expect, output, 2);
 		
 		word="Google";
 		expect=true;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 3);
+		verify(expect, output, 3);
 		
 		word="FlaG";
 		expect=false;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 4);
+		verify(expect, output, 4);
 		
 		
 		
 		word="FFFFFFFFFFFFFFFFFFFFf";
 		expect=false;
 		output=s.detectCapitalUse(word);
-		Util.verify(expect, output, 4);
+		verify(expect, output, 4);
 		
 		System.out.println("Finish");
 		

@@ -15,10 +15,10 @@ public class RangeAdditionII {
 		if (opsCol == 0) {
 			return m*n;
 		}
-		for (int i = 0; i < opsRow; i++) {
+		for (int[] op : ops) {
 			//only the minimum range of the operations will be added the most times
-			m = Math.min(m, ops[i][0]);
-			n = Math.min(n, ops[i][1]);
+			m = Math.min(m, op[0]);
+			n = Math.min(n, op[1]);
 		}
 		return m * n;
 	}

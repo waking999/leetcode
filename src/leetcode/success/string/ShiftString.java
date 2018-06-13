@@ -24,7 +24,7 @@ public class ShiftString {
 		chars[charsLen-1]=t; 
 	}
 	
-	public String leftRotate1(String str,int m) {
+	private String leftRotate1(String str, int m) {
 		char[] chars=str.toCharArray();
 		int charsLen=chars.length;
 		m=m%charsLen;

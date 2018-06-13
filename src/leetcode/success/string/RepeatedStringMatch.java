@@ -24,7 +24,7 @@ public class RepeatedStringMatch {
 			return 1;
 		}
 		
-		StringBuffer sb=new StringBuffer();
+		StringBuilder sb=new StringBuilder();
 		int count=0;
 		
 		while(sb.length()<bLen){

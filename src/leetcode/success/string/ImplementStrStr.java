@@ -41,7 +41,6 @@ public class ImplementStrStr {
 				if (needlePos < needleLen && i < haystackLen) {
 					i = i - needlePos;
 					needlePos = 0;
-					continue;
 				} else if (needlePos == needleLen && i <= haystackLen) {
 					return i - needleLen;
 				} else {

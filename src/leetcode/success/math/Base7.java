@@ -9,9 +9,9 @@ public class Base7 {
 			return Integer.toString(num);
 		}
 		int base=7;
-		boolean neg=num<0?true:false;
+		boolean neg=num<0 ;
 		num=Math.abs(num);
-		StringBuffer sb=new StringBuffer();
+		StringBuilder sb=new StringBuilder();
 		while(num!=0) {
 			int val=num%base;
 			sb.insert(0, val);

@@ -2,6 +2,8 @@ package leetcode.success.stack;
 
 import leetcode.success.comm.Util;
 
+import static leetcode.success.comm.Util.verify;
+
 public class ValidParentheses {
 	public boolean isValid(String s) {
 		if (s == null) {
@@ -38,11 +40,7 @@ public class ValidParentheses {
 				}
 			}
 		}
-		if (cStackLen!=0) {
-			return false;
-		} else {
-			return true;
-		}
+		return cStackLen == 0;
 	}
 
 	public static void main(String[] args) {
@@ -56,27 +54,27 @@ public class ValidParentheses {
 		str = "()";
 		expect = true;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		verify(expect, output, seq++);
 
 		str = "()[]{}";
 		expect = true;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		verify(expect, output, seq++);
 
 		str = "(]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		verify(expect, output, seq++);
 
 		str = "([)]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		verify(expect, output, seq++);
 		
 		str = "[])";
 		expect = false;
 		output = s.isValid(str);
-		Util.verify(expect, output, seq++);
+		verify(expect, output, seq++);
 		
 		
 	 

@@ -1,10 +1,12 @@
 package leetcode.success.bit;
 
+
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ConvertANumberToHexadecimal {
 	public String toHex(int num) {
-		StringBuffer sb=new StringBuffer();
+		StringBuilder sb=new StringBuilder();
 		
 		for(int i=0;num!=0&&i<8;i++){
 			int t=num&0xf;
@@ -21,7 +23,8 @@ public class ConvertANumberToHexadecimal {
 		return sb.toString();
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		ConvertANumberToHexadecimal s = new ConvertANumberToHexadecimal();
 
 		int num;
@@ -37,14 +40,15 @@ public class ConvertANumberToHexadecimal {
 		expect = "ffffffff";
 		output = s.toHex(num);
 		Util.verify(expect, output, 1);
-		
+
 		num = 0;
 		expect = "0";
 		output = s.toHex(num);
 		Util.verify(expect, output, 1);
-		
+
 		System.out.println("Finish");
 
 	}
+
 
 }

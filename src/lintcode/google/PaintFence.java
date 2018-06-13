@@ -9,13 +9,11 @@ public class PaintFence {
      * You have to paint all the posts such that no more than two adjacent fence posts have the same color.
      * Return the total number of ways you can paint the fence.
      *
-     * @param n: non-negative integer, n posts
-     * @param k: non-negative integer, k colors
-     * @return: an integer, the total number of ways
-     */
-    /**
      * https://www.jianshu.com/p/6ea952b9be9e
      *
+     * @param n: non-negative integer, n posts
+     * @param k: non-negative integer, k colors
+     * @return an integer, the total number of ways
      */
     public int numWays(int n, int k) {
         // write your code here

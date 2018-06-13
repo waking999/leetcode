@@ -11,7 +11,7 @@ public class ReverseStringII {
 		if(sLen<=1) {
 			return s;
 		}
-		StringBuffer sb=new StringBuffer();
+		StringBuilder sb=new StringBuilder();
 		for(int i=0;i<sLen;i+=2*k) {
 			int start=i;
 			int end=Math.min(start+k,sLen);
@@ -32,7 +32,7 @@ public class ReverseStringII {
 	private String reverseString(String s) {
 		byte[] bytes=s.getBytes();
 		int sLen=s.length();
-		int half=0;
+		int half;
 		if(sLen%2==0){
 			half=sLen/2;
 		}else{
@@ -45,9 +45,9 @@ public class ReverseStringII {
 			bytes[i]=bytes[j];
 			bytes[j]=tmp;
 		}
-		
-		String s2=new String(bytes);
-		return s2;
+
+		return new String(bytes);
+
 	}
 
 	public static void main(String[] args) {

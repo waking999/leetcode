@@ -1,6 +1,6 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
+import static leetcode.success.comm.Util.verify;
 
 public class RepeatedSubstringPattern {
 	public boolean repeatedSubstringPattern(String s) {
@@ -15,7 +15,7 @@ public class RepeatedSubstringPattern {
 		for(int i=sLen/2;i>=1;i--) {
 			if(sLen%i==0) {
 				int c=sLen/i;
-				StringBuffer sb=new StringBuffer();
+				StringBuilder sb=new StringBuilder();
 				for(int j=0;j< c;j++) {
 					sb.append(s.substring(0, i));
 				}
@@ -38,17 +38,17 @@ public class RepeatedSubstringPattern {
 		str = "abab";
 		expect = true;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 1);
+		verify(expect, output, 1);
 
 		str = "aba";
 		expect = false;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 2);
+		verify(expect, output, 2);
 
 		str = "abcabcabcabc";
 		expect = true;
 		output = s.repeatedSubstringPattern(str);
-		Util.verify(expect, output, 3);
+		verify(expect, output, 3);
 
 	}
 }

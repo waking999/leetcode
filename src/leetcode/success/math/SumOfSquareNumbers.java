@@ -2,6 +2,8 @@ package leetcode.success.math;
 
 import leetcode.success.comm.Util;
 
+import static leetcode.success.comm.Util.verify;
+
 public class SumOfSquareNumbers {
 	public boolean judgeSquareSum(int c) {
 		int a=(int)Math.sqrt(c);
@@ -30,7 +32,7 @@ public class SumOfSquareNumbers {
 		c=5;
 		expect=true;
 		output=s.judgeSquareSum(c);
-		Util.verify(expect, output, 1);
+		verify(expect, output, 1);
 	}
 
 }
