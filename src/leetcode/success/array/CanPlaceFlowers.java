@@ -53,25 +53,25 @@ public class CanPlaceFlowers {
 		n = 1;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		flowerbed = new int[] { 1, 0, 0, 0, 1 };
 		n = 2;
 		expect = false;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		flowerbed = new int[] { 1, 0, 0, 0, 0, 0, 1 };
 		n = 2;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		flowerbed = new int[] {0};
 		n = 1;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 		
 		
 
@@ -79,7 +79,7 @@ public class CanPlaceFlowers {
 		n = 2;
 		expect = true;
 		output = s.canPlaceFlowers(flowerbed, n);
-		Util.verifyUnsort(expect, output, 5);
+		Util.verify(expect, output, 5);
 	}
 
 }

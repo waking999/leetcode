@@ -37,32 +37,32 @@ public class SqrtX {
 		x = 1;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 2;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 4;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 9;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 2147395599;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 2147483647;
 		expect = (int) Math.sqrt(x);
 		output = s.mySqrt(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

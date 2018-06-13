@@ -48,7 +48,7 @@ public class NumberOfBoomerangs {
 		points=new int[][]{{0,0},{1,0},{2,0}};
 		expect=2;
 		output=s.numberOfBoomerangs(points);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		System.out.println("Finish");
 

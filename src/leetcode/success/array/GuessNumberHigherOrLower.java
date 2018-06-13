@@ -54,19 +54,19 @@ public class GuessNumberHigherOrLower {
 		s.real = 6;
 		expect = 6;
 		output = s.guessNumber(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 10;
 		s.real = 1;
 		expect = 1;
 		output = s.guessNumber(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 10;
 		s.real = 5;
 		expect = 5;
 		output = s.guessNumber(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

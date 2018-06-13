@@ -46,13 +46,13 @@ public class MinimumDistanceBetweenBSTNodes {
         root = BinarySearchTreeNode.constructTreeNode(nodes);
         expect = 1;
         output = s.minDiffInBST(root);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         nodes = new int[]{90, 69, 49, 89, 52};
         root = BinarySearchTreeNode.constructTreeNode(nodes);
         expect = 1;
         output = s.minDiffInBST(root);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
 
     }

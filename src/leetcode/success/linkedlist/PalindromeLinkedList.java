@@ -54,31 +54,31 @@ public class PalindromeLinkedList {
 		head = ListNode.constructListNode(nums);
 		output = s.isPalindrome(head);
 		expect = true;
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		nums = new int[] { 1, 2, 3, 2 };
 		head = ListNode.constructListNode(nums);
 		output = s.isPalindrome(head);
 		expect = false;
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		nums = new int[] {};
 		head = ListNode.constructListNode(nums);
 		output = s.isPalindrome(head);
 		expect = true;
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		nums = new int[] { 1 };
 		head = ListNode.constructListNode(nums);
 		output = s.isPalindrome(head);
 		expect = true;
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		nums = new int[] { 1, 2, 3, 3, 2, 1 };
 		head = ListNode.constructListNode(nums);
 		output = s.isPalindrome(head);
 		expect = true;
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

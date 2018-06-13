@@ -55,12 +55,12 @@ public class LongestPalindrome {
 		str="abccccdd";
 		expect=7;
 		output=s.longestPalindrome(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		str="ccc";
 		expect=3;
 		output=s.longestPalindrome(str);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		System.out.println("Finish");
 	}

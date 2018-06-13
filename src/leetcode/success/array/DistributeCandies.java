@@ -36,12 +36,12 @@ public class DistributeCandies {
 		candies=new int[] {1,1,2,2,3,3};
 		expect=3;
 		output=s.distributeCandies(candies);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		candies=new int[] {1,1,2,3};
 		expect=2;
 		output=s.distributeCandies(candies);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		
 

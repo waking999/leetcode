@@ -28,7 +28,7 @@ public class MinimumMovesToEqualArrayElements {
 		nums=new int[]{1,2,3};
 		expect=3;
 		output=s.minMoves(nums);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 	}
 

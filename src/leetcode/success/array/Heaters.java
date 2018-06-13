@@ -68,25 +68,25 @@ public class Heaters {
 		heaters = new int[] { 2 };
 		expect = 1;
 		output = s.findRadius(houses, heaters);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		houses = new int[] { 1, 2, 3, 4 };
 		heaters = new int[] { 1, 4 };
 		expect = 1;
 		output = s.findRadius(houses, heaters);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		houses = new int[] { 1, 5 };
 		heaters = new int[] { 2 };
 		expect = 3;
 		output = s.findRadius(houses, heaters);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		houses = new int[] { 1, 5 };
 		heaters = new int[] { 10};
 		expect = 9;
 		output = s.findRadius(houses, heaters);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 
 
 	}

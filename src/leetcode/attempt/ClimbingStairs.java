@@ -32,7 +32,7 @@ public class ClimbingStairs {
 		n=3;
 		expect=3;
 		output=s.climbStairs(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

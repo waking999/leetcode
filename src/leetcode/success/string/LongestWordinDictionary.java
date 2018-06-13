@@ -51,17 +51,17 @@ public class LongestWordinDictionary {
 		words = new String[] { "w", "wo", "wor", "worl", "world" };
 		expect = "world";
 		output = s.longestWord(words);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		words = new String[] { "a", "banana", "app", "appl", "ap", "apply", "apple" };
 		expect = "apple";
 		output = s.longestWord(words);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		words = new String[] { "m", "mo", "moc", "moch", "mocha", "l", "la", "lat", "latt", "latte", "c", "ca", "cat" };
 		expect = "latte";
 		output = s.longestWord(words);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

@@ -57,7 +57,7 @@ public class ReverseWordsInAStringIII {
 		str = "Let's take LeetCode contest";
 		expect = "s'teL ekat edoCteeL tsetnoc";
 		output = s.reverseWords(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 	}
 
 }

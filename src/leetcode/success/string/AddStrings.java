@@ -1,6 +1,7 @@
 package leetcode.success.string;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class AddStrings {
 	public String addStrings(String num1, String num2) {
@@ -78,7 +79,8 @@ public class AddStrings {
 		
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		AddStrings s=new AddStrings();
 		
 		String num1;
@@ -90,25 +92,25 @@ public class AddStrings {
 		num2="292";
 		expect="311";
 		output=s.addStrings(num1, num2);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		num1="6";
 		num2="501";
 		expect="507";
 		output=s.addStrings(num1, num2);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		num1="501";
 		num2="6";
 		expect="507";
 		output=s.addStrings(num1, num2);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		num1="999";
 		num2="1";
 		expect="1000";
 		output=s.addStrings(num1, num2);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 		
 		System.out.println("Finish");
 				

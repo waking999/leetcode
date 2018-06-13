@@ -30,7 +30,7 @@ public class MaxConsecutiveOnes {
 		nums = new int[] { 1, 1, 0, 1, 1, 1 };
 		expect = 3;
 		output = s.findMaxConsecutiveOnes(nums);
-		Util.verifyUnsort(expect,output,1);
+		Util.verify(expect,output,1);
 	}
 
 }

@@ -54,13 +54,13 @@ public class ShiftString {
 		m=2;
 		expect="cdefab";
 		output=s.leftRotate(str, m);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		str="abcdef";
 		m=2;
 		expect="cdefab";
 		output=s.leftRotate1(str, m);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 	}
 
 }

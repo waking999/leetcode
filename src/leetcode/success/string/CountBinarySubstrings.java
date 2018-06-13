@@ -36,12 +36,12 @@ public class CountBinarySubstrings {
 		 str="00110011";
 		 expect=6;
 		 output=s.countBinarySubstrings(str);
-		 Util.verifyUnsort(expect, output, ++seq);
+		 Util.verify(expect, output, ++seq);
 		 
 		 str="10101";
 		 expect=4;
 		 output=s.countBinarySubstrings(str);
-		 Util.verifyUnsort(expect, output, ++seq);
+		 Util.verify(expect, output, ++seq);
 	}
 
 }

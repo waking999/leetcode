@@ -51,7 +51,7 @@ public class TwoSumIVInputIsABST {
 		k=9;
 		expect=true;
 		output=s.findTarget(root, k);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		
 		nodes=new int[] {5,3,6,2,4,7};
@@ -59,7 +59,7 @@ public class TwoSumIVInputIsABST {
 		k=28;
 		expect=false;
 		output=s.findTarget(root, k);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		System.out.println("Finish");
 	}

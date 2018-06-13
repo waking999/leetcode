@@ -30,7 +30,7 @@ public class SumOfSquareNumbers {
 		c=5;
 		expect=true;
 		output=s.judgeSquareSum(c);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 	}
 
 }

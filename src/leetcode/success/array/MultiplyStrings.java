@@ -71,31 +71,31 @@ public class MultiplyStrings {
         num2 = "3";
         expect = "6";
         output = s.multiply(num1, num2);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         num1 = "123";
         num2 = "456";
         expect = "56088";
         output = s.multiply(num1, num2);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         num1 = "9";
         num2 = "9";
         expect = "81";
         output = s.multiply(num1, num2);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         num1 = "999";
         num2 = "999";
         expect = "998001";
         output = s.multiply(num1, num2);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         num1 = "9133";
         num2 = "0";
         expect = "0";
         output = s.multiply(num1, num2);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
     }
 }

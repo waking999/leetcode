@@ -52,19 +52,19 @@ public class KDiffPairsInAnArray {
 		k = 2;
 		expect = 2;
 		output = s.findPairs(nums, k);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		nums = new int[] { 1, 2, 3, 4, 5 };
 		k = 1;
 		expect = 4;
 		output = s.findPairs(nums, k);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		nums = new int[] { 1, 3, 1, 5, 4 };
 		k = 0;
 		expect = 1;
 		output = s.findPairs(nums, k);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 
 		System.out.println("Finish");
 

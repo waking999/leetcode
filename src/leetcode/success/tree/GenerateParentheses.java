@@ -51,7 +51,7 @@ public class GenerateParentheses {
 		n = 8;
 		// expect = new String[] { "((()))", "(()())", "(())()", "()(())", "()()()" };
 		output = s.generateParenthesis(n);
-		//Util.verifyUnsort(expect, output, 2);
+		//Util.verify(expect, output, 2);
 	}
 
 }

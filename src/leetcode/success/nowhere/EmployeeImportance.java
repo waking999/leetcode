@@ -93,7 +93,7 @@ public class EmployeeImportance {
 		id = 1;
 		expect = 11;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		ids = new int[] { 1, 2, 3 };
 		imps = new int[] { 5, 3, 3 };
@@ -102,7 +102,7 @@ public class EmployeeImportance {
 		id = 2;
 		expect = 3;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		ids = new int[] { 1, 2, 3 };
 		imps = new int[] { 15, 10, 5 };
@@ -111,7 +111,7 @@ public class EmployeeImportance {
 		id = 1;
 		expect = 30;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		ids = new int[] { 1, 2, 3 };
 		imps = new int[] { 15, 10, 5 };
@@ -120,7 +120,7 @@ public class EmployeeImportance {
 		id = 2;
 		expect = 15;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		ids = new int[] { 1, 2, 3 };
 		imps = new int[] { 15, 10, 5 };
@@ -129,7 +129,7 @@ public class EmployeeImportance {
 		id = 3;
 		expect = 5;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		ids = new int[] { 101, 2 };
 		imps = new int[] { 3, 5 };
@@ -138,7 +138,7 @@ public class EmployeeImportance {
 		id = 2;
 		expect = 8;
 		output = s.getImportance(employees, id);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 	}
 

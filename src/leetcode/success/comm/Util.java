@@ -121,7 +121,7 @@ public class Util {
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
 
-//	public static void verifyUnsort(int[] expect, int[] output, int seq) {
+//	public static void verify(int[] expect, int[] output, int seq) {
 //
 //		int expectLen = expect.length;
 //		int outputSize = output.length;
@@ -170,19 +170,19 @@ public class Util {
 	
 
 	
-	public static void verifyUnsort(int expect, int output, int seq) {
+	public static void verify(int expect, int output, int seq) {
 		assert (expect == output) : seq + ":wrong";
 	}
 
-	public static void verifyUnsort(double expect, double output, int seq) {
+	public static void verify(double expect, double output, int seq) {
 		assert (Math.abs(expect - output) < DIFF ) : seq + ":wrong";
 	}
 
-	public static void verifyUnsort(boolean expect, boolean output, int seq) {
+	public static void verify(boolean expect, boolean output, int seq) {
 		assert (expect == output) : seq + ":wrong";
 	}
 
-	public static void verifyUnsort(String expect, String output, int seq) {
+	public static void verify(String expect, String output, int seq) {
 		assert (expect.equals(output)) : seq + ":wrong";
 	}
 }

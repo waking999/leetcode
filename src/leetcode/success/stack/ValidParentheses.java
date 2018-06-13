@@ -56,27 +56,27 @@ public class ValidParentheses {
 		str = "()";
 		expect = true;
 		output = s.isValid(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		str = "()[]{}";
 		expect = true;
 		output = s.isValid(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		str = "(]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		str = "([)]";
 		expect = false;
 		output = s.isValid(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		
 		str = "[])";
 		expect = false;
 		output = s.isValid(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		
 		
 	 

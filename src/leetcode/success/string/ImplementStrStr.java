@@ -67,67 +67,67 @@ public class ImplementStrStr {
 		s2 = "cde";
 		expect = 2;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "abcedef";
 		s2 = "cde";
 		expect = -1;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "";
 		s2 = "";
 		expect = 0;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "";
 		s2 = "a";
 		expect = -1;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "a";
 		s2 = "";
 		expect = 0;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "aaa";
 		s2 = "a";
 		expect = 0;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "aaa";
 		s2 = "aaaa";
 		expect = -1;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "aabaaaababaababaa";
 		s2 = "bbbb";
 		expect = -1;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "a";
 		s2 = "a";
 		expect = 0;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "mississippi";
 		s2 = "issip";
 		expect = 4;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		s1 = "mississippi";
 		s2 = "pi";
 		expect = 9;
 		output = s.strStr(s1, s2);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 	}
 
 }

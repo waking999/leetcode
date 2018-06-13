@@ -59,27 +59,27 @@ public class ValidPalindromeII {
 		str = "aba";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		str = "abca";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		str = "abc";
 		expect = false;
 		output = s.validPalindrome(str);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 
 		str = "tcaac";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 
 		str = "aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga";
 		expect = true;
 		output = s.validPalindrome(str);
-		Util.verifyUnsort(expect, output, 5);
+		Util.verify(expect, output, 5);
 
 		System.out.println("Finish");
 	}

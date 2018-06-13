@@ -70,15 +70,15 @@ public class MyStack {
 		obj.push(x);
 
 		int param3 = obj.top();
-		Util.verifyUnsort(x, param3, 1);
+		Util.verify(x, param3, 1);
 
 		boolean param4 = obj.empty();
-		Util.verifyUnsort(false, param4, 2);
+		Util.verify(false, param4, 2);
 
 		int param5 = obj.pop();
-		Util.verifyUnsort(x, param5, 3);
+		Util.verify(x, param5, 3);
 
 		param4 = obj.empty();
-		Util.verifyUnsort(true, param4, 4);
+		Util.verify(true, param4, 4);
 	}
 }

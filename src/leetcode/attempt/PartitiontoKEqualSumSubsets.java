@@ -42,7 +42,7 @@ public class PartitiontoKEqualSumSubsets {
 		k = 4;
 		expect = true;
 		output = s.canPartitionKSubsets(nums, k);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 	}
 

@@ -49,23 +49,23 @@ public class ShortestUnsortedContinuousSubarray {
 		nums=new int[] {2, 6, 4, 8, 10, 9, 15};
 		expect=5;
 		output=s.findUnsortedSubarray(nums);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		
 		nums=new int[] {1,2,3,4};
 		expect=0;
 		output=s.findUnsortedSubarray(nums);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		nums=new int[] {1,3,2,2,2};
 		expect=4;
 		output=s.findUnsortedSubarray(nums);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		nums=new int[] {1,2,3,3,3};
 		expect=0;
 		output=s.findUnsortedSubarray(nums);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 	}
 
 }

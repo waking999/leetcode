@@ -1,5 +1,7 @@
 package leetcode.success.array;
 
+import leetcode.success.comm.Util;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -202,7 +204,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { 'a', 'b', 'c' };
 		expectStr = "[\"a\",\"b\",\"c\"]";
@@ -211,7 +213,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { 'T', 'e', '!', '\'' };
 		expectStr = "[\"T\",\"e\",\"!\",\"'\"]";
@@ -220,7 +222,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { '\'', '\"', 'c' };
 		expectStr = "[\"'\",\"\\\"\",\"c\"]";
@@ -229,7 +231,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 
 		paramChar = new char[] { '\n', '\t', '\'', '\"', '\\' };
 		expectStr = "[\"\\n\",\"\\t\",\"'\",\"\\\"\",\"\\\\\"]";
@@ -238,7 +240,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 		
 		
 		paramChar = new char[] { '\0', '\f', '\b', '\r','0','A'};
@@ -248,7 +250,7 @@ public class Serializeranddeserializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		verifyUnsort(expectStr, outputStr, seq++);
+		Util.verify(expectStr, outputStr, seq++);
 
 		String[] testcases = { "[]", "[\"a\",\"b\",\"c\"]", "[\"T\",\"e\",\"!\",\"'\"]", "[\"'\",\"\\\"\",\"c\"]",
 				"[\"\\n\",\"\\t\",\"'\",\"\\\"\",\"\\\\\"]","[\"\\0\",\"\\f\",\"\\b\",\"\\r\",\"0\",\"A\"]" };

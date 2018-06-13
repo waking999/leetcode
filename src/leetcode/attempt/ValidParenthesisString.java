@@ -37,17 +37,17 @@ public class ValidParenthesisString {
 		str = "()";
 		expect = true;
 		output = s.checkValidString(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		str = "(*)";
 		expect = true;
 		output = s.checkValidString(str);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		str = "(*))";
 		expect = true;
 		output = s.checkValidString(str);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 
 	}
 

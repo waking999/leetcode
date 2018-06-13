@@ -40,12 +40,12 @@ public class LongestPalindromicSubstring {
         str = "babad";
         expect = "bab";
         output = s.longestPalindrome(str);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         str = "cbbd";
         expect = "bb";
         output = s.longestPalindrome(str);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
 
     }

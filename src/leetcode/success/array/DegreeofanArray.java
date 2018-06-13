@@ -84,22 +84,22 @@ public class DegreeofanArray {
 		nums = new int[] { 1, 2, 2, 3, 1 };
 		expect = 2;
 		output = s.findShortestSubArray(nums);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		nums = new int[] { 1, 2, 2, 3, 1, 4, 2 };
 		expect = 6;
 		output = s.findShortestSubArray(nums);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 		
 		nums = new int[] { 1 };
 		expect = 1;
 		output = s.findShortestSubArray(nums);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 		
 		nums = new int[] { 3,3,4 };
 		expect = 2;
 		output = s.findShortestSubArray(nums);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 	}
 
 }

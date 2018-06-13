@@ -60,21 +60,21 @@ public class RepeatedStringMatch {
 		B = "cdabcdab";
 		expect=3;
 		output=s.repeatedStringMatch(A, B);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 		
 		
 		A = "aaaa";
 		B = "a";
 		expect=1;
 		output=s.repeatedStringMatch(A, B);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 		
 		
 		A = "abaabaa";
 		B = "abaababaab";
 		expect=-1;
 		output=s.repeatedStringMatch(A, B);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 	}
 
 }

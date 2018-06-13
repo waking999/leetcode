@@ -32,22 +32,22 @@ public class PalindromeNumber {
 		x=0;
 		expect=true;
 		output=s.isPalindrome(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		
 		x=-1;
 		expect=false;
 		output=s.isPalindrome(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		
 		x=121;
 		expect=true;
 		output=s.isPalindrome(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		
 		x=122;
 		expect=false;
 		output=s.isPalindrome(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 		 
 		
 	}

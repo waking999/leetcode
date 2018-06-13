@@ -40,12 +40,12 @@ public class LongestContinuousIncreasingSubsequence {
 		nums=new int[] {1,3,5,4,7};
 		expect=3;
 		output=s.findLengthOfLCIS(nums);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		nums=new int[] {2,2,2,2};
 		expect=1;
 		output=s.findLengthOfLCIS(nums);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		System.out.println("Finish");
 	}

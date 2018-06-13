@@ -44,7 +44,7 @@ public class ConstructStringfromBinaryTree {
 		t = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = "1(2(4))(3)";
 		output = s.tree2str(t);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		nodes = new int[] { 1, 2, 3, 4 };
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1 };
@@ -52,7 +52,7 @@ public class ConstructStringfromBinaryTree {
 		t = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = "1(2()(4))(3)";
 		output = s.tree2str(t);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		nodes = new int[] { 1, 2, 3 };
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0 };
@@ -60,7 +60,7 @@ public class ConstructStringfromBinaryTree {
 		t = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = "1(2)(3)";
 		output = s.tree2str(t);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		System.out.println("Finish");
 	}

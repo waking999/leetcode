@@ -30,22 +30,22 @@ public class BinaryNumberwithAlternatingBits {
 		n = 5;
 		expect = true;
 		output = s.hasAlternatingBits(n);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		n = 7;
 		expect = false;
 		output = s.hasAlternatingBits(n);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		n = 11;
 		expect = false;
 		output = s.hasAlternatingBits(n);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 
 		n = 10;
 		expect = true;
 		output = s.hasAlternatingBits(n);
-		Util.verifyUnsort(expect, output, ++seq);
+		Util.verify(expect, output, ++seq);
 	}
 
 }

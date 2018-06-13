@@ -49,7 +49,7 @@ public class MaximumAverageSubarrayI {
 		k = 4;
 		expect = 12.75;
 		output = s.findMaxAverage(nums, k);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
  
 	}
 

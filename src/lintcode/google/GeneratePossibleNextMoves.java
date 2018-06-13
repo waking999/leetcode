@@ -44,12 +44,12 @@ public class GeneratePossibleNextMoves {
         str = "++++";
         expect = new String[]{"--++", "+--+", "++--"};
         output = s.generatePossibleNextMoves(str);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
 
         str = "";
         expect = new String[]{""};
         output = s.generatePossibleNextMoves(str);
-        Util.verify(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
     }
 }

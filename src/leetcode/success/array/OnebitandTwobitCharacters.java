@@ -41,12 +41,12 @@ public class OnebitandTwobitCharacters {
 		bits = new int[] { 1, 0, 0 };
 		expect = true;
 		output = s.isOneBitCharacter(bits);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		bits = new int[] { 1, 1, 1, 0 };
 		expect = false;
 		output = s.isOneBitCharacter(bits);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

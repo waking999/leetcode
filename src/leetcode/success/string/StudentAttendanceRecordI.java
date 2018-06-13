@@ -46,12 +46,12 @@ public class StudentAttendanceRecordI {
 		str = "PPALLP";
 		expect = true;
 		output = s.checkRecord(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		str = "PPALLL";
 		expect = false;
 		output = s.checkRecord(str);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 	}
 

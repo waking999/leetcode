@@ -1,16 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="2080611">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BSTIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BSTIteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/tree/BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" afterDir="false" />
+    <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="lintcode-google-level1&#10;rename verifyUnsort for some methods to verify since these methods do not need sort or not">
+      <change afterPath="$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lintcode/google/PaintFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lintcode/google/ValidWordSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/comm/NormalBinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/ContainsDuplicateIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/ContainsDuplicateIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/DivideTwoIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/HIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/HIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/LongestUnivaluePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/LongestUnivaluePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/PartitiontoKEqualSumSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/PartitiontoKEqualSumSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/PredicttheWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/PredicttheWinner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/SingleNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/SingleNumberII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/SqrtX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/SqrtX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/ValidParenthesisString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/attempt/ValidParenthesisString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/pending/BinaryTreeTilt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/pending/BinaryTreeTilt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/pending/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/pending/DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/pending/DiameterofBinaryTreeI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/pending/DiameterofBinaryTreeI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/pending/LongestUnivaluePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/pending/LongestUnivaluePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/pending/RangeAdditionII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/pending/RangeAdditionII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/ArrayPartitionI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/ArrayPartitionI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/AssignCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/AssignCookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/CanPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/DegreeofanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/DegreeofanArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/DistributeCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/DistributeCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/GuessNumberHigherOrLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/GuessNumberHigherOrLower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/Heaters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/Heaters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/KDiffPairsInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/KDiffPairsInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/LargestTriangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/LargestTriangleArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/LongestContinuousIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/LongestContinuousIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/LongestHarmoniousSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/LongestHarmoniousSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MagicSquaresInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MagicSquaresInGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MaximizeDistancetoClosestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MaximizeDistancetoClosestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MaximumAverageSubarrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MaximumAverageSubarrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MaximumSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MaximumSwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/MultiplyStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/NondecreasingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/NondecreasingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/OnebitandTwobitCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/OnebitandTwobitCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/RectangleOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/RectangleOverlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/SearchinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/SearchinRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/Serializeranddeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/Serializeranddeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/ShortestUnsortedContinuousSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/ThirdMaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/ThirdMaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/array/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/array/ValidPalindromeII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/bit/ConvertANumberToHexadecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/bit/ConvertANumberToHexadecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/comm/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/comm/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/linkedlist/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/linkedlist/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/ArrangingCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/ArrangingCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/Base7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/Base7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/CountPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/CountPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/FactorialTrailingZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/FactorialTrailingZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/FindPivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/FindPivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/IslandPerimeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/LargestPalindromeProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/LargestPalindromeProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/MaximumProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/MaximumProductOfThreeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/MinimumMovesToEqualArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/MinimumMovesToEqualArrayElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/NumberComplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/NumberComplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/NumberOfBoomerangs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/NumberOfBoomerangs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/PerfectNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/Smallestnumberksuchthattheproductofdigitsofkisequalton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/Smallestnumberksuchthattheproductofdigitsofkisequalton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/math/SumOfSquareNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/math/SumOfSquareNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/BaseballGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/BinaryNumberwithAlternatingBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/BinaryNumberwithAlternatingBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/EmployeeImportance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/EmployeeImportance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/MapSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/MapSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/nowhere/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/nowhere/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/AddStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/AddStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/BackspaceStringCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/CountBinarySubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/CountandSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/CountandSay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/DetectCapital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/DetectCapital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/GoatLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/GoatLatin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/ImplementStrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/ImplementStrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/LargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/LongestWordinDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/LongestWordinDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/MagicDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/MagicDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/NumberOfSegmentsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/NumberOfSegmentsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/RepeatedStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/RepeatedStringMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/RepeatedSubstringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/RepeatedSubstringPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/ReverseStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/ReverseStringII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/ReverseWordsInAStringIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/ReverseWordsInAStringIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/SentenceSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/SentenceSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/ShiftString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/ShiftString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/string/StudentAttendanceRecordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/string/StudentAttendanceRecordI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/ConstructStringfromBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/ConstructStringfromBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/GenerateParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/MaxAreaofIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/MaxAreaofIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/MinimumDistanceBetweenBSTNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/MinimumDistanceBetweenBSTNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/PathSumIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/PathSumIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/SecondMinimumNodeInABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/SecondMinimumNodeInABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/SubtreeofAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/SubtreeofAnotherTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/success/tree/TwoSumIVInputIsABST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/tree/TwoSumIVInputIsABST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,21 +144,12 @@
     <option name="myAutoScrollToSource" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoSumIII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIII.java">
+    <leaf>
+      <file leaf-file-name="PaintFence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lintcode/google/PaintFence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToeplitzMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +157,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratePossibleNextMoves.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeautifulArrangement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqrtX.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/SqrtX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
+              <folding>
+                <element signature="e#7363#7364#0" expanded="true" />
+                <element signature="e#7687#7688#0" expanded="true" />
+                <element signature="e#7741#7742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidParentheses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/stack/ValidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeIntervals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/MergeIntervals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="129" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratePossibleNextMoves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="854">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +231,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSumIIITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java">
+      <file leaf-file-name="PluseOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/PluseOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimilarRGBColor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +278,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/LargestTriangleArea.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/array/LargestTriangleArea.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/NumberofLinesToWriteString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/array/NumberofLinesToWriteString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/ToeplitzMatrix.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/array/FlippinganImage.java" />
         <option value="$PROJECT_DIR$/src/other/btree/BTree2.java" />
@@ -146,7 +303,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/attempt/PartitionList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/PartitionList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycle.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/comm/Util.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/comm/ListNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/LinkedListCycleII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/linkedlist/LinkedListCycleII.java" />
@@ -167,6 +323,12 @@
         <option value="$PROJECT_DIR$/src/leetcode/success/other/TwoSumIIITest.java" />
         <option value="$PROJECT_DIR$/src/lintcode/GeneratePossibleNextMoves.java" />
         <option value="$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/comm/Util.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/ValidWordSquare.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/string/AddStrings.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/PaintFence.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java" />
       </list>
     </option>
   </component>
@@ -194,7 +356,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +378,68 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeIntervals.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="success" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -226,7 +449,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,46 +493,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves">
+  <component name="RunManager" selected="JUnit.BeautifulArrangement.testcountArrangement">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CompareVersionNumbers.testcompareVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeautifulArrangement.testcountArrangement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.string.*" />
+          <option name="PATTERN" value="lintcode.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.string.CompareVersionNumbers" />
-      <option name="METHOD_NAME" value="testcompareVersion" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CompareVersionNumbers.testremoveSuffixZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.success.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.string.CompareVersionNumbers" />
-      <option name="METHOD_NAME" value="testremoveSuffixZero" />
+      <option name="PACKAGE_NAME" value="lintcode.google" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.BeautifulArrangement" />
+      <option name="METHOD_NAME" value="testcountArrangement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -343,19 +543,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TwoSumIIITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaintFence.testnumWays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.other.*" />
+          <option name="PATTERN" value="lintcode.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.other" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.other.TwoSumIIITest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="lintcode.google" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.PaintFence" />
+      <option name="METHOD_NAME" value="testnumWays" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -366,19 +566,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TwoSumIIITest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimilarRGBColor.testsimilarRGB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.other.*" />
+          <option name="PATTERN" value="lintcode.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.other" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.other.TwoSumIIITest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="lintcode.google" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.SimilarRGBColor" />
+      <option name="METHOD_NAME" value="testsimilarRGB" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ValidWordSquare.testValidWordSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lintcode.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lintcode.google" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.ValidWordSquare" />
+      <option name="METHOD_NAME" value="testValidWordSquare" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -428,19 +651,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CompareVersionNumbers.testcompareVersion" />
-      <item itemvalue="JUnit.CompareVersionNumbers.testremoveSuffixZero" />
-      <item itemvalue="JUnit.TwoSumIIITest.test1" />
-      <item itemvalue="JUnit.TwoSumIIITest.test2" />
       <item itemvalue="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves" />
+      <item itemvalue="JUnit.ValidWordSquare.testValidWordSquare" />
+      <item itemvalue="JUnit.SimilarRGBColor.testsimilarRGB" />
+      <item itemvalue="JUnit.PaintFence.testnumWays" />
+      <item itemvalue="JUnit.BeautifulArrangement.testcountArrangement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeautifulArrangement.testcountArrangement" />
+        <item itemvalue="JUnit.PaintFence.testnumWays" />
+        <item itemvalue="JUnit.SimilarRGBColor.testsimilarRGB" />
+        <item itemvalue="JUnit.ValidWordSquare.testValidWordSquare" />
         <item itemvalue="JUnit.GeneratePossibleNextMoves.testGeneratePossibleNextMoves" />
-        <item itemvalue="JUnit.TwoSumIIITest.test2" />
-        <item itemvalue="JUnit.TwoSumIIITest.test1" />
-        <item itemvalue="JUnit.CompareVersionNumbers.testcompareVersion" />
-        <item itemvalue="JUnit.CompareVersionNumbers.testremoveSuffixZero" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +685,8 @@
       <workItem from="1528600981411" duration="158000" />
       <workItem from="1528601146387" duration="42104000" />
       <workItem from="1528715113417" duration="599000" />
-      <workItem from="1528759627495" duration="19056000" />
+      <workItem from="1528759627495" duration="19228000" />
+      <workItem from="1528846046549" duration="15030000" />
     </task>
     <task id="LOCAL-00001" summary="2080611">
       <created>1528691918518</created>
@@ -471,78 +695,84 @@
       <option name="project" value="LOCAL" />
       <updated>1528691918518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lintcode">
+      <created>1528786676775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528786676775</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompareVersionNumbers_testremovePrefixZero - 2018.06.12 at 15h 19m 29s.xml">
-      <configuration name="CompareVersionNumbers.testremovePrefixZero" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 06m 09s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareVersionNumbers_testremovePrefixZero - 2018.06.12 at 15h 19m 36s.xml">
-      <configuration name="CompareVersionNumbers.testremovePrefixZero" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 07m 56s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 21m 35s.xml">
-      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 08m 02s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 28m 20s.xml">
-      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 12m 01s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareVersionNumbers_testremoveSuffixZero - 2018.06.12 at 15h 30m 03s.xml">
-      <configuration name="CompareVersionNumbers.testremoveSuffixZero" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 12m 46s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CompareVersionNumbers_testcompareVersion - 2018.06.12 at 15h 31m 00s.xml">
-      <configuration name="CompareVersionNumbers.testcompareVersion" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 13m 07s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumIIITest_test1 - 2018.06.12 at 15h 50m 01s.xml">
-      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 13m 11s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumIIITest_test1 - 2018.06.12 at 15h 53m 21s.xml">
-      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 13m 50s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumIIITest_test2 - 2018.06.12 at 16h 24m 43s.xml">
-      <configuration name="TwoSumIIITest.test2" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 18m 46s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeneratePossibleNextMoves_testGeneratePossibleNextMoves - 2018.06.12 at 16h 25m 20s.xml">
-      <configuration name="GeneratePossibleNextMoves.testGeneratePossibleNextMoves" configurationId="JUnit" />
+    <history-entry file="BeautifulArrangement_testcountArrangement - 2018.06.13 at 16h 20m 18s.xml">
+      <configuration name="BeautifulArrangement.testcountArrangement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110222000" />
+    <option name="totallyTimeSpent" value="125424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" visible="true" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5053305" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49554366" visible="true" weight="0.19669509" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49441788" visible="true" weight="0.1988273" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info id="Learn" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.50445634" side_tool="true" visible="true" weight="0.19669509" />
+      <window_info id="Structure" order="1" sideWeight="0.50558215" side_tool="true" visible="true" weight="0.1988273" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +793,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2080611" />
-    <option name="LAST_COMMIT_MESSAGE" value="2080611" />
+    <MESSAGE value="lintcode" />
+    <MESSAGE value="lintcode-google-level1&#10;rename verifyUnsort for some methods to verify since these methods do not need sort or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="lintcode-google-level1&#10;rename verifyUnsort for some methods to verify since these methods do not need sort or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,12 +1124,117 @@
           <properties />
           <option name="timeStamp" value="344" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/ValidWordSquare.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;229900&quot;.equals(&quot;#&quot;+RGB_STR[i]+RGB_STR[j]+RGB_STR[k])" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/PaintFence.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="array[1]==1&amp;&amp;array[2]==4" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="345" />
+      <option name="time" value="376" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="combin[i]%(pointer+1)==0" />
+        <watch expression="(pointer+1)%combin[i]==0" />
+        <watch expression="combin[pointer]%(i+1)==0" />
+        <watch expression="(i+1)%combin[pointer]==0" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>array[1]==1&amp;&amp;array[2]==4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;229900&quot;.equals(&quot;#&quot;+RGB_STR[i]+RGB_STR[j]+RGB_STR[k])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>(i+1)%combin[pointer]==0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>matcher.group(4)</expression-string>
         <language-id>JAVA</language-id>
@@ -943,96 +1280,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>&quot;1.1&quot;.split(&quot;\\.&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/other/btree/BTree2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="511" column="52" selection-start-line="511" selection-start-column="52" selection-end-line="511" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/BTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/BalancedBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1510" column="22" selection-start-line="1510" selection-start-column="22" selection-end-line="1510" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/MinimumDistanceBetweenBSTNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/LongestSubstringWithoutRepeatingCharacters2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="99" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/MaximizeDistancetoClosestPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/RotateList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/PathSumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1258,9 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,30 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
-          <folding>
-            <element signature="e#7321#7322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="2135" column="18" selection-start-line="2135" selection-start-column="18" selection-end-line="2135" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/CompareVersionNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1331,9 +1554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1347,20 +1567,131 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ToeplitzMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/string/AddStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/ValidWordSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/stack/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/GeneratePossibleNextMoves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/PluseOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1882" column="56" selection-start-line="1882" selection-start-column="48" selection-end-line="1882" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="603" column="22" selection-start-line="603" selection-start-column="22" selection-end-line="603" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/SimilarRGBColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/PaintFence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/comm/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="e#7363#7364#0" expanded="true" />
+            <element signature="e#7687#7688#0" expanded="true" />
+            <element signature="e#7741#7742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/BeautifulArrangement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/SqrtX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>

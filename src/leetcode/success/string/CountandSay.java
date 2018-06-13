@@ -42,27 +42,27 @@ public class CountandSay {
 		n = 1;
 		expect = "1";
 		output = s.countAndSay(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 2;
 		expect = "11";
 		output = s.countAndSay(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 3;
 		expect = "21";
 		output = s.countAndSay(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 4;
 		expect = "1211";
 		output = s.countAndSay(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		n = 5;
 		expect = "111221";
 		output = s.countAndSay(n);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

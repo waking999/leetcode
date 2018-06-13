@@ -49,23 +49,23 @@ public class MaximizeDistancetoClosestPerson {
         seats = new int[]{1, 0, 0, 0, 1, 0, 1};
         expect = 2;
         output = s.maxDistToClosest(seats);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
 
         seats = new int[]{1, 0, 0, 0};
         expect = 3;
         output = s.maxDistToClosest(seats);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         seats = new int[]{0, 0, 1, 0, 1, 1};
         expect = 2;
         output = s.maxDistToClosest(seats);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
 
         seats = new int[]{0, 1, 0, 1, 0};
         expect = 1;
         output = s.maxDistToClosest(seats);
-        Util.verifyUnsort(expect, output, seq++);
+        Util.verify(expect, output, seq++);
     }
 }

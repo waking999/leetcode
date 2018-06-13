@@ -37,7 +37,7 @@ public class LongestUnivaluePath {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 2;
 		output = s.longestUnivaluePath(root);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		nodes = new int[] { 1, 4, 5, 4, 4, 5 };
 		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1, 1, 2 };
@@ -45,7 +45,7 @@ public class LongestUnivaluePath {
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = 2;
 		output = s.longestUnivaluePath(root);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

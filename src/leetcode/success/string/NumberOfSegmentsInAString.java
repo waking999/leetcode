@@ -34,18 +34,18 @@ public class NumberOfSegmentsInAString {
 		str = "Hello, my name is John";
 		expect = 5;
 		output = s.countSegments(str);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		
 		str = "";
 		expect = 0;
 		output = s.countSegments(str);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 		
 		str = ", , , ,        a, eaefa";
 		expect = 6;
 		output = s.countSegments(str);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		
 		System.out.println("Finish");

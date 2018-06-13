@@ -40,12 +40,12 @@ public class Smallestnumberksuchthattheproductofdigitsofkisequalton {
 		n=100;
 		expect=455;
 		output=s.productk(n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		n=26;
 		expect=-1;
 		output=s.productk(n);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 	}
 
 }

@@ -73,12 +73,12 @@ public class MaxAreaofIsland {
 				{ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 } };
 		expect = 6;
 		output = s.maxAreaOfIsland(grid);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		grid = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0 } };
 		expect = 0;
 		output = s.maxAreaOfIsland(grid);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

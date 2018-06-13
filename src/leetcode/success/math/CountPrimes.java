@@ -37,17 +37,17 @@ public class CountPrimes {
 		n=4;
 		expect=2;
 		output=s.countPrimes(n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		n=2;
 		expect=0;
 		output=s.countPrimes(n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		
 		n=3;
 		expect=1;
 		output=s.countPrimes(n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 	}
 

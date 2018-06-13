@@ -28,7 +28,7 @@ public class ArrayPartitionI {
 		nums=new int[] {1,4,3,2};
 		expect=4;
 		output=s.arrayPairSum(nums);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 	}
 

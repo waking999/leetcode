@@ -63,17 +63,17 @@ public class RomanToInteger {
 		str = "I";
 		expect = 1;
 		output = s.romanToInt(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		str = "IX";
 		expect = 9;
 		output = s.romanToInt(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		str = "XII";
 		expect = 12;
 		output = s.romanToInt(str);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

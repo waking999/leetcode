@@ -37,17 +37,17 @@ public class ReverseInteger {
 		x = 123;
 		expect = 321;
 		output = s.reverse(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = -123;
 		expect = -321;
 		output = s.reverse(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 		x = 1534236469;
 		expect = 0;
 		output = s.reverse(x);
-		Util.verifyUnsort(expect, output, seq++);
+		Util.verify(expect, output, seq++);
 
 	}
 

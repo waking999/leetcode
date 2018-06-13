@@ -77,16 +77,16 @@ public class MagicDictionary {
 		s.buildDict(dict);
 		expect = false;
 		output = s.search("hello");
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		expect = true;
 		output = s.search("hhllo");
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		expect = false;
 		output = s.search("hell");
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 		expect = false;
 		output = s.search("leetcoded");
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 	}
 

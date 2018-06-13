@@ -26,22 +26,22 @@ public class FactorialTrailingZeroes {
 		n = 5;
 		expect = 1;
 		output = s.trailingZeroes(n);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		n = 11;
 		expect = 2;
 		output = s.trailingZeroes(n);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		n = 28;
 		expect = 6;
 		output = s.trailingZeroes(n);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		n = 1808548329;
 		expect = 452137076;
 		output = s.trailingZeroes(n);
-		Util.verifyUnsort(expect, output, 4);
+		Util.verify(expect, output, 4);
 		
 		
 	}

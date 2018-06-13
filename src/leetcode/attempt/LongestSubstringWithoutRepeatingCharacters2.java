@@ -112,34 +112,34 @@ public class LongestSubstringWithoutRepeatingCharacters2 {
         str= "abcabcbb";
         expect=3;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
 
         str= "bbbbb";
         expect=1;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
 
         str= "pwwkew";
         expect=3;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
         str= "cdd";
         expect=2;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
         str= "aab";
         expect=2;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
         str= "abba";
         expect=2;
         output=s.lengthOfLongestSubstring(str);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
     }
 

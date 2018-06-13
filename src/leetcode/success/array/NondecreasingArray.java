@@ -41,17 +41,17 @@ public class NondecreasingArray {
 		nums = new int[] { 4, 2, 3 };
 		expect = true;
 		output = s.checkPossibility(nums);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		nums = new int[] { 4, 2, 1 };
 		expect = false;
 		output = s.checkPossibility(nums);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 
 		nums = new int[] { 3, 4, 2, 3 };
 		expect = false;
 		output = s.checkPossibility(nums);
-		Util.verifyUnsort(expect, output, 3);
+		Util.verify(expect, output, 3);
 		
 		System.out.println("Finish");
 	}

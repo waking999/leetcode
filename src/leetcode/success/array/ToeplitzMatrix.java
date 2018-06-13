@@ -54,13 +54,13 @@ public class ToeplitzMatrix {
         matrix = new int[][]{{1,2,3,4},{5,1,2,3},{9,5,1,2},{6,9,5,1}};
         expect=true;
         output=s.isToeplitzMatrix(matrix);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
 
         matrix = new int[][]{{1,2},{2,2}};
         expect=false;
         output=s.isToeplitzMatrix(matrix);
-        Util.verifyUnsort(expect,output,seq++);
+        Util.verify(expect,output,seq++);
 
     }
 }

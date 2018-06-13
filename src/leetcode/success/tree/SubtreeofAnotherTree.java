@@ -51,7 +51,7 @@ public class SubtreeofAnotherTree {
 		t2 = NormalBinaryTreeNode.constructTreeNode(nodes2, parents2, children2);
 		expect = true;
 		output = s.isSubtree(s1, t2);
-		Util.verifyUnsort(expect, output, 1);
+		Util.verify(expect, output, 1);
 
 		nodes1 = new int[] { 3, 4, 5, 1, 2 };
 		parents1 = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1, 1 };
@@ -63,7 +63,7 @@ public class SubtreeofAnotherTree {
 		t2 = NormalBinaryTreeNode.constructTreeNode(nodes2, parents2, children2);
 		expect = false;
 		output = s.isSubtree(s1, t2);
-		Util.verifyUnsort(expect, output, 2);
+		Util.verify(expect, output, 2);
 	}
 
 }
