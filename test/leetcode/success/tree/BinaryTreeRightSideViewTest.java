@@ -2,7 +2,7 @@ package leetcode.success.tree;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 import java.util.List;
@@ -26,7 +26,7 @@ public class BinaryTreeRightSideViewTest {
         expect = new int[]{1, 3, 4};
         root = NormalBinaryTreeNode.constructTreeNode(nums, parentIdxs, childrenPosition);
         output = s.rightSideView(root);
-        VerifyUtil.verifyUnsort(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
         nums = new int[]{1, 2, 5};
         parentIdxs = new int[]{TreeNode.IMPOSSIBLE_VALUE, 0, 1};
@@ -34,7 +34,7 @@ public class BinaryTreeRightSideViewTest {
         expect = new int[]{1, 2, 5};
         root = NormalBinaryTreeNode.constructTreeNode(nums, parentIdxs, childrenPosition);
         output = s.rightSideView(root);
-        VerifyUtil.verifyUnsort(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
 
         nums = new int[]{1, 2, 3, 4};
         parentIdxs = new int[]{TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1};
@@ -42,6 +42,6 @@ public class BinaryTreeRightSideViewTest {
         expect = new int[]{1, 3, 4};
         root = NormalBinaryTreeNode.constructTreeNode(nums, parentIdxs, childrenPosition);
         output = s.rightSideView(root);
-        VerifyUtil.verifyUnsort(expect, output, seq++);
+        Util.verifyUnsort(expect, output, seq++);
     }
 }

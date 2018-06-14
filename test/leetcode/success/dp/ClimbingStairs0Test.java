@@ -1,6 +1,6 @@
 package leetcode.success.dp;
 
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 public class ClimbingStairs0Test {
@@ -16,17 +16,17 @@ public class ClimbingStairs0Test {
         n=3;
         expect=3;
         output=s.climbStairs(n);
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         n=4;
         expect=5;
         output=s.climbStairs(n);
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         n=5;
         expect=8;
         output=s.climbStairs(n);
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
     }
 }

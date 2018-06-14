@@ -1,6 +1,6 @@
 package leetcode.success.array;
 
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 public class CanPlaceFlowersTest {
@@ -17,25 +17,25 @@ public class CanPlaceFlowersTest {
         n = 1;
         expect = true;
         output = s.canPlaceFlowers(flowerbed, n);
-        VerifyUtil.verify(expect, output, 1);
+        Util.verify(expect, output, 1);
 
         flowerbed = new int[] { 1, 0, 0, 0, 1 };
         n = 2;
         expect = false;
         output = s.canPlaceFlowers(flowerbed, n);
-        VerifyUtil.verify(expect, output, 2);
+        Util.verify(expect, output, 2);
 
         flowerbed = new int[] { 1, 0, 0, 0, 0, 0, 1 };
         n = 2;
         expect = true;
         output = s.canPlaceFlowers(flowerbed, n);
-        VerifyUtil.verify(expect, output, 3);
+        Util.verify(expect, output, 3);
 
         flowerbed = new int[] {0};
         n = 1;
         expect = true;
         output = s.canPlaceFlowers(flowerbed, n);
-        VerifyUtil.verify(expect, output, 4);
+        Util.verify(expect, output, 4);
 
 
 
@@ -43,6 +43,6 @@ public class CanPlaceFlowersTest {
         n = 2;
         expect = true;
         output = s.canPlaceFlowers(flowerbed, n);
-        VerifyUtil.verify(expect, output, 5);
+        Util.verify(expect, output, 5);
     }
 }

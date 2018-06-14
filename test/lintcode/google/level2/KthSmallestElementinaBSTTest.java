@@ -1,11 +1,10 @@
 package lintcode.google.level2;
 
-import common.VerifyUtil;
 import common.BinarySearchTreeNode;
 import common.TreeNode;
 import org.junit.Test;
 
-import static common.VerifyUtil.*;
+import static common.Util.*;
 
 public class KthSmallestElementinaBSTTest {
     @Test

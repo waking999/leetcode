@@ -29,25 +29,5 @@ public class LongestContinuousIncreasingSubsequence {
 
 
 
-    @Test
-    public void test1() {
-		LongestContinuousIncreasingSubsequence s=new LongestContinuousIncreasingSubsequence();
-
-		int[] nums;
-		int expect;
-		int output;
-		
-		nums=new int[] {1,3,5,4,7};
-		expect=3;
-		output=s.findLengthOfLCIS(nums);
-		Util.verify(expect, output, 1);
-		
-		nums=new int[] {2,2,2,2};
-		expect=1;
-		output=s.findLengthOfLCIS(nums);
-		Util.verify(expect, output, 2);
-		
-		System.out.println("Finish");
-	}
 
 }

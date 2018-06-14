@@ -21,44 +21,6 @@ public class SearchInsertPosition {
 		return low;
 	}
 
-	@Test
-	public void test1() {
-		SearchInsertPosition s = new SearchInsertPosition();
-		
-		int[] nums;
-		int target;
-		int expect;
-		int output;
-		
-		
-		nums=new int[]{1,3,5,6};
-		target=5;
-		expect=2;
-		output=s.searchInsert(nums,target);
-		assert(output==expect):"1.wrong";
-		
-		nums=new int[]{1,3,5,6};
-		target=2;
-		expect=1;
-		output=s.searchInsert(nums,target);
-		assert(output==expect):"2.wrong";
-		
-		
-		nums=new int[]{1,3,5,6};
-		target=7;
-		expect=4;
-		output=s.searchInsert(nums,target);
-		assert(output==expect):"3.wrong";
-		
-		
-		nums=new int[]{1,3,5,6};
-		target=0;
-		expect=0;
-		output=s.searchInsert(nums,target);
-		assert(output==expect):"4.wrong";
-		 
-		
-		System.out.println("Finish");
-	}
+
 
 }

@@ -1,7 +1,5 @@
 package leetcode.success.array;
 
-import org.junit.Test;
-
 public class FirstBadVersion {
     boolean[] badVersions;
 
@@ -30,20 +28,5 @@ public class FirstBadVersion {
         return badVersions[version];
     }
 
-    @Test
-    public void test1() {
-        FirstBadVersion s = new FirstBadVersion();
-
-        int expect;
-        int output;
-
-        s.badVersions = new boolean[]{false, true, true, true, true};
-        expect = 1;
-        output = s.firstBadVersion(4);
-        assert (expect == output) : "1:wrong";
-
-        System.out.println("Finish");
-
-    }
 
 }

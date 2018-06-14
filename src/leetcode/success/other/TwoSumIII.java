@@ -1,6 +1,8 @@
 package leetcode.success.other;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class TwoSumIII {
     /**
@@ -8,14 +10,10 @@ public class TwoSumIII {
      * add -把这个数添加到内部的数据结构。
      * find -是否存在任意一对数字之和等于这个值
      */
-    private List<Integer> nums;
-    private int numsLen;
-    private Set<Integer> set;
+    private Map<Integer, Integer> map;
 
     TwoSumIII() {
-        nums = new ArrayList<>();
-        numsLen = 0;
-        set = new HashSet<>();
+        map = new HashMap<>();
     }
 
     /*
@@ -23,15 +21,12 @@ public class TwoSumIII {
      * @return: nothing
      */
     public void add(int number) {
-        for (int i = 0; i < numsLen; i++) {
-            int num = nums.get(i);
-            int sum = number + num;
-            set.add(sum);
+        if (map.containsKey(number)) {
+            int count = map.get(number);
+            map.put(number, count + 1);
+        } else {
+            map.put(number, 1);
         }
-
-
-        nums.add(number);
-        numsLen++;
     }
 
     /*
@@ -39,13 +34,18 @@ public class TwoSumIII {
      * @return: Find if there exists any pair of numbers which sum is equal to the value.
      */
     public boolean find(int value) {
-        if (numsLen < 2) {
-            return false;
+        Set<Integer> keySet = map.keySet();
+        for (int key : keySet) {
+            int target = value - key;
+            if (map.containsKey(target)) {
+                if ((target != key && map.get(target) > 0) || (target == key && map.get(target) > 1)) {
+                    return true;
+                }
+            }
         }
-        return set.contains(value);
+        return false;
+
     }
-
-
 
 
 }

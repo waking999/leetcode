@@ -2,7 +2,7 @@ package leetcode.success.tree;
 
 import common.BinarySearchTreeNode;
 import common.TreeNode;
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 public class BSTIteratorTest {
@@ -20,14 +20,14 @@ public class BSTIteratorTest {
         it = new BSTIterator(root);
         expect = true;
         output = it.hasNext();
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         nodes = new int[]{};
         root = BinarySearchTreeNode.constructTreeNode(nodes);
         it = new BSTIterator(root);
         expect = false;
         output = it.hasNext();
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
     }
 
@@ -45,15 +45,15 @@ public class BSTIteratorTest {
         it = new BSTIterator(root);
         expect = 2;
         output = it.next();
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         expect = 3;
         output = it.next();
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
         expect = 5;
         output = it.next();
-        VerifyUtil.verify(expect, output, seq++);
+        Util.verify(expect, output, seq++);
 
 
     }

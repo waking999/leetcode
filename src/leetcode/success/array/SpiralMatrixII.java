@@ -1,15 +1,12 @@
 package leetcode.success.array;
 
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class SpiralMatrixII {
     public int[][] generateMatrix(int n) {
-        if(n==0){
+        if (n == 0) {
             return new int[][]{{}};
         }
-        int[][] matrix=new int[n][n];
+        int[][] matrix = new int[n][n];
 
         int rowLower = -1;
         int rowUpper = n;
@@ -18,9 +15,9 @@ public class SpiralMatrixII {
         int i = 0;
         int j = 0;
         char dir = 'r';
-        int k=1;
+        int k = 1;
         while (i > rowLower && i < rowUpper && j > colLower && j < colUpper) {
-            matrix[i][j]=k;
+            matrix[i][j] = k;
             k++;
             if (dir == 'r') {
                 j++;
@@ -62,23 +59,5 @@ public class SpiralMatrixII {
         return matrix;
     }
 
-    @Test
-    public void testspiralOrder() {
-        SpiralMatrixII s = new SpiralMatrixII();
-        int n;
-        int[][] expect;
-        int[][] output;
-        int seq = 0;
-
-        n = 3;
-        expect = new int[][]{{1, 2, 3},
-                {8, 9, 4},
-                {7, 6, 5}};
-
-        output = s.generateMatrix(n);
-        Util.verifyUnsort(expect, output, seq++);
-
-
-    }
 
 }

@@ -1,9 +1,8 @@
 package lintcode.google.level1;
 
-import common.VerifyUtil;
 import org.junit.Test;
 
-import static common.VerifyUtil.*;
+import static common.Util.*;
 
 public class AddStringsTest {
     @Test

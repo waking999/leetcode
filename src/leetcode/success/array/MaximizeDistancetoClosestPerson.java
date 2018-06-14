@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class MaximizeDistancetoClosestPerson {
     public int maxDistToClosest(int[] seats) {
         int seatsLen = seats.length;
@@ -16,11 +13,11 @@ public class MaximizeDistancetoClosestPerson {
             start = 0;
         }
 
-        for (int i = start; i < seatsLen ; i++) {
+        for (int i = start; i < seatsLen; i++) {
             if (seats[i] == 1) {
                 int leftDis = i - left;
-                if(left==-1){
-                    leftDis=(leftDis-1)*2;
+                if (left == -1) {
+                    leftDis = (leftDis - 1) * 2;
                 }
                 maxDis = Math.max(maxDis, leftDis);
                 left = i;
@@ -29,7 +26,7 @@ public class MaximizeDistancetoClosestPerson {
 
 
         if (left != seatsLen - 1) {
-            int leftDis = (seatsLen - 1 - left)*2;
+            int leftDis = (seatsLen - 1 - left) * 2;
             maxDis = Math.max(leftDis, maxDis);
         }
 
@@ -38,34 +35,5 @@ public class MaximizeDistancetoClosestPerson {
 
     }
 
-    @Test
-    public void testmaxDistToClosest() {
-        MaximizeDistancetoClosestPerson s = new MaximizeDistancetoClosestPerson();
-        int[] seats;
-        int expect;
-        int output;
-        int seq = 0;
 
-        seats = new int[]{1, 0, 0, 0, 1, 0, 1};
-        expect = 2;
-        output = s.maxDistToClosest(seats);
-        Util.verify(expect, output, seq++);
-
-
-        seats = new int[]{1, 0, 0, 0};
-        expect = 3;
-        output = s.maxDistToClosest(seats);
-        Util.verify(expect, output, seq++);
-
-        seats = new int[]{0, 0, 1, 0, 1, 1};
-        expect = 2;
-        output = s.maxDistToClosest(seats);
-        Util.verify(expect, output, seq++);
-
-
-        seats = new int[]{0, 1, 0, 1, 0};
-        expect = 1;
-        output = s.maxDistToClosest(seats);
-        Util.verify(expect, output, seq++);
-    }
 }

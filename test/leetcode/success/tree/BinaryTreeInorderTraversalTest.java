@@ -2,7 +2,7 @@ package leetcode.success.tree;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 import java.util.List;
@@ -27,7 +27,7 @@ public class BinaryTreeInorderTraversalTest {
 
         root=NormalBinaryTreeNode.constructTreeNode(nodes,parents,children);
         output=s.inorderTraversal(root);
-        VerifyUtil.verifyUnsort(expect,output,seq++);
+        Util.verifyUnsort(expect,output,seq++);
 
     }
 }

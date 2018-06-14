@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class VerifyUtil {
+public class Util {
 	private final static double DIFF=0.0000000000001;
 	public static void verifySortedInOut(int[][] expect, List<List<Integer>> output, int seq) {
 		int expectLen = expect.length;

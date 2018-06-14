@@ -31,30 +31,6 @@ public class FindPeakElement {
 
 		return mid;
 	}
-	@Test
-	public void test1() {
-		FindPeakElement s = new FindPeakElement();
 
-		int[] nums;
-		int expect;
-		int output;
-
-		nums = new int[] { 4, 1, 5, 6, 2, 3 };
-		expect = 3;
-		output = s.findPeakElement(nums);
-		assert (expect == output) : "1:wrong";
-
-		nums = new int[] { 3, 4, 3, 2, 1 };
-		expect = 1;
-		output = s.findPeakElement(nums);
-		assert (expect == output) : "2:wrong";
-
-		nums = new int[] {1 };
-		expect = 0;
-		output = s.findPeakElement(nums);
-		assert (expect == output) : "3:wrong";
-		
-		System.out.println("Finish");
-	}
 
 }

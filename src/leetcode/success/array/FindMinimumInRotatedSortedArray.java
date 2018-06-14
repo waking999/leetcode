@@ -33,31 +33,6 @@ public class FindMinimumInRotatedSortedArray {
 		return Math.min(nums[low], nums[high]);
 	}
 
-	@Test
-	public void test1() {
 
-		FindMinimumInRotatedSortedArray s = new FindMinimumInRotatedSortedArray();
-
-		int[] nums;
-		int expect;
-		int output;
-
-		nums = new int[] { 0, 1, 2, 4, 5, 6, 7 };
-		expect = 0;
-		output = s.findMin(nums);
-		assert (output == expect) : "1.wrong";
-
-		nums = new int[] { 4, 5, 6, 7, 0, 1, 2};
-		expect = 0;
-		output = s.findMin(nums);
-		assert (output == expect) : "2.wrong";
-		
-		nums = new int[] { 3,1,2 };
-		expect = 1;
-		output = s.findMin(nums);
-		assert (output == expect) : "3.wrong";
-
-		System.out.println("Finish");
-	}
 
 }

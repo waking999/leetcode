@@ -40,25 +40,6 @@ public class SearchForARange {
 		return result;
 	}
 
-	@Test
-	public void test1() {
-		SearchForARange s = new SearchForARange();
 
-		int[] nums;
-		int target;
-		int[] expect;
-		int[] output;
-
-		nums = new int[] { 5, 7, 7, 8, 8, 10 };
-		target = 8;
-		expect = new int[] { 3, 4 };
-		output = s.searchRange(nums, target);
-		assert (expect.length == output.length) : "1:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert (expect[i] == output[i]) : "1:wrong:"+i;
-		}
-
-		System.out.println("Finish");
-	}
 
 }

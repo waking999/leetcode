@@ -1,6 +1,6 @@
 package leetcode.success.array;
 
-import common.VerifyUtil;
+import common.Util;
 import org.junit.Test;
 
 public class ArrayPartitionITest {
@@ -15,7 +15,7 @@ public class ArrayPartitionITest {
         nums=new int[] {1,4,3,2};
         expect=4;
         output=s.arrayPairSum(nums);
-        VerifyUtil.verify(expect, output, 1);
+        Util.verify(expect, output, 1);
 
     }
 }
