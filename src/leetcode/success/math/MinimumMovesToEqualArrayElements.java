@@ -7,10 +7,10 @@ public class MinimumMovesToEqualArrayElements {
 		int numsLen=nums.length;
 		int sum=0;
 		int min=Integer.MAX_VALUE;
-		for(int i=0;i<numsLen;i++){
-			sum+=nums[i];
-			if(nums[i]<=min){
-				min=nums[i];
+		for (int num : nums) {
+			sum += num;
+			if (num <= min) {
+				min = num;
 			}
 		}
 		

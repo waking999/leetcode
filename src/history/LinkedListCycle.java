@@ -4,11 +4,11 @@ import java.util.Set;
 
 import org.junit.Assert;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 
 public class LinkedListCycle {
 	public boolean hasCycle(ListNode head) {
-		Set<Integer> visited=new HashSet<Integer>();
+		Set<Integer> visited= new HashSet<>();
 		
 		while(head!=null){
 			int v=head.val;

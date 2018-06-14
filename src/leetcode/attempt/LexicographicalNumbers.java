@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class LexicographicalNumbers {
 	public List<Integer> lexicalOrder(int n) {
@@ -21,7 +22,9 @@ public class LexicographicalNumbers {
 		return ret;
 	}
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		LexicographicalNumbers s = new LexicographicalNumbers();
 
 		int n;

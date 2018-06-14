@@ -12,8 +12,8 @@ public class MaximumProductOfThreeNumbers {
 		int numsLen = nums.length;
 		if (numsLen <= 3) {
 			int prd = 1;
-			for (int i = 0; i < numsLen; i++) {
-				prd *= nums[i];
+			for (int num : nums) {
+				prd *= num;
 			}
 			return numsLen == 0 ? 0 : prd;
 		} else {

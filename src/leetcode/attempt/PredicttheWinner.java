@@ -1,6 +1,7 @@
 package leetcode.attempt;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class PredicttheWinner {
 	
@@ -17,7 +18,9 @@ public class PredicttheWinner {
 		 return false;
 	}
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		PredicttheWinner s=new PredicttheWinner();
 		
 		int[] nums;

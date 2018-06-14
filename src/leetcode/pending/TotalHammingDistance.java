@@ -7,8 +7,8 @@ public class TotalHammingDistance {
 		int n = nums.length;
 		for (int i = 0; i < 9; i++) {
 			int counter = 0;
-			for (int j = 0; j < n; j++) {
-				counter += (nums[j] >> i) & 0x01;
+			for (int num : nums) {
+				counter += (num >> i) & 0x01;
 			}
 			total += counter * (n - counter);
 		}

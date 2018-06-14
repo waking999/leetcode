@@ -1,6 +1,6 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.BinarySearchTreeNode;
+import common.BinarySearchTreeNode;
 
 public class MinimumDepthOfBinaryTree {
 	int minDepth;

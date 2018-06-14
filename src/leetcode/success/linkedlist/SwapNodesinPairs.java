@@ -2,7 +2,7 @@ package leetcode.success.linkedlist;
 
 import java.util.List;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 import leetcode.success.comm.Util;
 
 public class SwapNodesinPairs {

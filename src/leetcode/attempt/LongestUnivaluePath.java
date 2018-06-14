@@ -1,8 +1,9 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class LongestUnivaluePath {
 	public int longestUnivaluePath(TreeNode root) {
@@ -20,7 +21,9 @@ public class LongestUnivaluePath {
         return Math.max(resl, resr);
     }
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		LongestUnivaluePath s = new LongestUnivaluePath();
 
 		int[] nodes;

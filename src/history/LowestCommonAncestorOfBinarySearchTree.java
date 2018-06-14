@@ -1,7 +1,7 @@
 package history;
 import org.junit.Assert;
 
-import leetcode.success.comm.TreeNode;
+import common.TreeNode;
 
 public class LowestCommonAncestorOfBinarySearchTree {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

@@ -3,8 +3,8 @@ package leetcode.success.tree;
 import java.util.ArrayList;
 import java.util.List;
 
-import leetcode.success.comm.BinarySearchTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.BinarySearchTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
 
 public class MinimumAbsoluteDifferenceInBST {

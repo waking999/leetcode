@@ -1,6 +1,7 @@
 package leetcode.attempt;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class PartitiontoKEqualSumSubsets {
 	public boolean canPartitionKSubsets(int[] nums, int k) {
@@ -26,10 +27,12 @@ public class PartitiontoKEqualSumSubsets {
 		
 		return false;
 	}
-	
-	
 
-	public static void main(String[] args) {
+
+
+
+	@Test
+	public void test1() {
 		PartitiontoKEqualSumSubsets s = new PartitiontoKEqualSumSubsets();
 
 		int[] nums;

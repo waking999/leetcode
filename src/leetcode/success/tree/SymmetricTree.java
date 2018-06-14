@@ -1,7 +1,8 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
+import org.junit.Test;
 
 public class SymmetricTree {
 	public boolean isSymmetric(TreeNode root) {
@@ -23,7 +24,8 @@ public class SymmetricTree {
 		}
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1(){
 		SymmetricTree s = new SymmetricTree();
 
 		int[] nodes;

@@ -42,9 +42,7 @@ public class SelfDividingNumbers {
 			if(div==0) {
 				return false;
 			}
-			if(number%div==0) {
-				continue;
-			}else {
+			if(number%div!=0) {
 				return false;
 			}
 			

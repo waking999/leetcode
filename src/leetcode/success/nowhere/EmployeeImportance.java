@@ -179,4 +179,4 @@ class Employee {
 	public int importance;
 	// the id of direct subordinates
 	public List<Integer> subordinates;
-};
+}

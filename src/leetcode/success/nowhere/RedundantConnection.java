@@ -14,8 +14,8 @@ public class RedundantConnection {
 			return null;
 		}
 	
-		Map<Integer, Integer> valTree=new HashMap<Integer,Integer>();
-		Map<Integer, List<Integer>> treeNode=new HashMap<Integer,List<Integer>>();
+		Map<Integer, Integer> valTree= new HashMap<>();
+		Map<Integer, List<Integer>> treeNode= new HashMap<>();
 		
 		int count=0;
 		for(int[] edge:edges) {
@@ -52,7 +52,7 @@ public class RedundantConnection {
 				l1.add(v);
 			}else {
 				count++;
-				List<Integer> l=new ArrayList<Integer>();
+				List<Integer> l= new ArrayList<>();
 				l.add(u);
 				l.add(v);
 				treeNode.put(count, l);

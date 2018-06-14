@@ -26,7 +26,7 @@ public class ExcelSheetColumnTitle {
 			
 			
 		}
-		StringBuffer sb=new StringBuffer();
+		StringBuilder sb=new StringBuilder();
 		while(!s.isEmpty()){
 			sb.append(s.pop());
 		} 

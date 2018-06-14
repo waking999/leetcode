@@ -25,7 +25,7 @@ public class SearchinRotatedSortedArray {
 
 	private int search(int[] nums, int start, int end, int target) {
 		while (start < end) {
-			int mid = (start + end) / 2;
+			int mid = start + (end-start) / 2;
 		 
 			if (nums[mid] == target) {
 				return mid;

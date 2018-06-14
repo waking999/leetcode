@@ -79,8 +79,7 @@ public class LongestSubstringWithoutRepeatingCharacters2 {
                     }
 
                     if(repeatStart==-1||repeatStart==0){
-                        int diff=pos;
-                        maxDis=Math.max(maxDis,diff);
+                        maxDis=Math.max(maxDis, pos);
                     }else{
 
                         for(int j=repeatStart-1;j>=0;j--){

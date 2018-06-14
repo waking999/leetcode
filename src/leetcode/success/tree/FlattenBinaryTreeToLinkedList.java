@@ -1,11 +1,11 @@
 package leetcode.success.tree;
 
-import java.util.Arrays;
 import java.util.Stack;
-import java.util.stream.Collectors;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
+import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class FlattenBinaryTreeToLinkedList {
 	public void flatten(TreeNode root) {
@@ -37,23 +37,22 @@ public class FlattenBinaryTreeToLinkedList {
 			
 		}
 		root=ret.right;
-		return ;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		FlattenBinaryTreeToLinkedList s = new FlattenBinaryTreeToLinkedList();
 		int[] nodes1;
 		int[] parents1;
 		int[] children1;
 		TreeNode root1;
-		Integer[] root1Array;
-		int root1ArrayLen;
+		int[] output;
 		int[] nodes2;
 		int[] parents2;
 		int[] children2;
-		TreeNode expect;
-		Integer[] expectArray;
-		int expectArrayLen;
+		TreeNode expectNode;
+		int[] expect;
+		int seq=1;
 
 		nodes1 = new int[] { 1, 2, 3, 4, 5, 6 };
 		parents1 = new int[] { -1, 0, 1, 1, 0, 4 };
@@ -63,20 +62,15 @@ public class FlattenBinaryTreeToLinkedList {
 		nodes2 = new int[] { 1, 2, 3, 4, 5, 6 };
 		parents2 = new int[] { -1, 0, 1, 2, 3, 4 };
 		children2 = new int[] { -1, 1, 1, 1, 1, 1 };
-		expect = NormalBinaryTreeNode.constructTreeNode(nodes2, parents2, children2);
-		expectArray = NormalBinaryTreeNode.unconstructTreeNode(expect);
-		expectArrayLen = expectArray.length;
+		expectNode = NormalBinaryTreeNode.constructTreeNode(nodes2, parents2, children2);
+		expect = NormalBinaryTreeNode.unconstructTreeNode(expectNode);
+
 
 		s.flatten(root1);
-		root1Array = NormalBinaryTreeNode.unconstructTreeNode(root1);
-		root1ArrayLen = root1Array.length;
-		assert (root1ArrayLen == expectArrayLen) : "1:wrong";
+		output = NormalBinaryTreeNode.unconstructTreeNode(root1);
+		Util.verifyUnsort(expect, output, seq++);
 
-		String s1 = Arrays.stream(expectArray).map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-		String s2 = Arrays.stream(root1Array).map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-		assert (s1.equals(s2)) : "1:wrong";
 
-		System.out.println("Finish");
 
 	}
 

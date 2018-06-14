@@ -1,7 +1,7 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.BinarySearchTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.BinarySearchTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
 import org.junit.Test;
 

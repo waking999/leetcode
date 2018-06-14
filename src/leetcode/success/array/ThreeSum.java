@@ -13,7 +13,7 @@ public class ThreeSum {
         int numsLen = nums.length;
         Arrays.sort(nums);
 
-        int firstOPos = findPosFromLeftToRight(nums, 0, numsLen, 0);
+        int firstOPos = findPosFromLeftToRight(nums,   numsLen, 0);
         int last0Pos = firstOPos;
         if (firstOPos != -1) {
             last0Pos = findPosFromRightToLeft(nums, numsLen - 1, firstOPos - 1, 0);
@@ -30,7 +30,7 @@ public class ThreeSum {
 
         int firstPositive = last0Pos + 1;
         if (last0Pos == -1) {
-            firstPositive = findFirstPositive(nums, 0, numsLen);
+            firstPositive = findFirstPositive(nums, numsLen);
         }
         if (firstPositive == -1||firstPositive==numsLen) {
             return rtn;
@@ -38,7 +38,7 @@ public class ThreeSum {
 
         int lastNeg = firstOPos - 1;
         if (firstOPos == -1) {
-            lastNeg = findLastNeg(nums, numsLen - 1, 0);
+            lastNeg = findLastNeg(nums, numsLen - 1 );
         }
         if (lastNeg == -1) {
             return rtn;
@@ -72,13 +72,13 @@ public class ThreeSum {
         for (int i = firstPositive; i < numsLen; i++) {
             List<int[]> negPos = twoSum(nums, 0, lastNeg + 1, 0 - nums[i]);
             int negPosLen=negPos.size();
-            for(int j=0;j<negPosLen;j++){
+            for (int[] negPo : negPos) {
 
-                String key = Integer.toString(nums[negPos.get(j)[0]]) + "," + Integer.toString(nums[negPos.get(j)[1]]) + "," + Integer.toString(nums[i]);
+                String key = Integer.toString(nums[negPo[0]]) + "," + Integer.toString(nums[negPo[1]]) + "," + Integer.toString(nums[i]);
                 if (!map.containsKey(key)) {
                     List<Integer> lst = new ArrayList<>();
-                    lst.add(nums[negPos.get(j)[0]]);
-                    lst.add(nums[negPos.get(j)[1]]);
+                    lst.add(nums[negPo[0]]);
+                    lst.add(nums[negPo[1]]);
                     lst.add(nums[i]);
                     map.put(key, lst);
                 }
@@ -91,16 +91,16 @@ public class ThreeSum {
         for (int i = 0; i <= lastNeg; i++) {
             List<int[]> posPos = twoSum(nums, firstPositive, numsLen, 0 - nums[i]);
             int posPosLen=posPos.size();
-            for(int j=0;j<posPosLen;j++){
+            for (int[] posPo : posPos) {
 
 
-                String key = Integer.toString(nums[i]) + "," + Integer.toString(nums[posPos.get(j)[0]]) + "," + Integer.toString(nums[posPos.get(j)[1]]);
+                String key = Integer.toString(nums[i]) + "," + Integer.toString(nums[posPo[0]]) + "," + Integer.toString(nums[posPo[1]]);
                 if (!map.containsKey(key)) {
                     List<Integer> lst = new ArrayList<>();
-                    lst.add(nums[posPos.get(j)[0]]);
-                    lst.add(nums[posPos.get(j)[1]]);
+                    lst.add(nums[posPo[0]]);
+                    lst.add(nums[posPo[1]]);
                     lst.add(nums[i]);
-                    map.put(key,lst);
+                    map.put(key, lst);
                 }
 
             }
@@ -128,8 +128,8 @@ public class ThreeSum {
         return rtn;
     }
 
-    private int findFirstPositive(int[] array, int from, int to) {
-        for (int i = from; i < to; i++) {
+    private int findFirstPositive(int[] array,   int to) {
+        for (int i = 0; i < to; i++) {
             if (array[i] > 0) {
                 return i;
             }
@@ -137,8 +137,8 @@ public class ThreeSum {
         return -1;
     }
 
-    private int findLastNeg(int[] array, int from, int to) {
-        for (int i = from; i >= to; i--) {
+    private int findLastNeg(int[] array, int from ) {
+        for (int i = from; i >= 0; i--) {
             if (array[i] < 0) {
                 return i;
             }
@@ -147,8 +147,8 @@ public class ThreeSum {
     }
 
 
-    private int findPosFromLeftToRight(int[] array, int from, int to, int val) {
-        for (int i = from; i < to; i++) {
+    private int findPosFromLeftToRight(int[] array,  int to, int val) {
+        for (int i = 0; i < to; i++) {
             if (val == array[i]) {
                 return i;
             }

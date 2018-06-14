@@ -1,6 +1,6 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.TreeNode;
+import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,7 @@ public class BSTIterator {
      * @return the next smallest number
      */
     public int next() {
-        int val = nodes.get(pointer).intValue();
+        int val = nodes.get(pointer);
         pointer++;
         return val;
     }
@@ -55,8 +55,8 @@ public class BSTIterator {
 }
 
 
-/**
- * Your BSTIterator will be called like this:
- * BSTIterator i = new BSTIterator(root);
- * while (i.hasNext()) v[f()] = i.next();
+/*
+  Your BSTIterator will be called like this:
+  BSTIterator i = new BSTIterator(root);
+  while (i.hasNext()) v[f()] = i.next();
  */

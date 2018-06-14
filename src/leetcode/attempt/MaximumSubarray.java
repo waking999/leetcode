@@ -1,6 +1,7 @@
 package leetcode.attempt;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class MaximumSubarray {
 
@@ -16,7 +17,9 @@ public class MaximumSubarray {
 		return maxSum;
 	}
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		MaximumSubarray s = new MaximumSubarray();
 
 		int[] nums;

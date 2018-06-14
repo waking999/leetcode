@@ -8,8 +8,8 @@ public class MyQueue {
 
 	/** Initialize your data structure here. */
 	public MyQueue() {
-		s1 = new Stack<Integer>();
-		s2 = new Stack<Integer>();
+		s1 = new Stack<>();
+		s2 = new Stack<>();
 	}
 
 	/** Push element x to the back of queue. */

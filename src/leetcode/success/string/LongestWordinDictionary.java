@@ -27,7 +27,8 @@ public class LongestWordinDictionary {
 		}
 
 		Arrays.sort(words);
-		Set<String> built = new HashSet<String>();
+		Set<String> built;
+		built = new HashSet<>();
 		String res = "";
 		for (String w : words) {
 			if (w.length() == 1 || built.contains(w.substring(0, w.length() - 1))) {

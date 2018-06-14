@@ -1,7 +1,7 @@
 package leetcode.success.linkedlist;
 
-import leetcode.success.comm.ListNode;
-import leetcode.success.comm.TreeNode;
+import common.ListNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
 import org.junit.Test;
 

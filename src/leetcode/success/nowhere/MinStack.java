@@ -8,12 +8,11 @@ public class MinStack {
 	 * of the stack. top() -- Get the top element. getMin() -- Retrieve the
 	 * minimum element in the stack.
 	 */
-	Stack<Integer> min;
+	Stack<Integer> min = new Stack<>();
 	Stack<Integer> normal;
 
 	public MinStack() {
-		min = new Stack<Integer>();
-		normal = new Stack<Integer>();
+		normal = new Stack<>();
 	}
 
 	public void push(int x) {

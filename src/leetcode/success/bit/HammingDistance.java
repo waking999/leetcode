@@ -4,7 +4,7 @@ package leetcode.success.bit;
 
 class HammingDistance {
 	public int hammingDistance(int x, int y) {
-		int xor=(int)(x^y);
+		int xor= x^y;
 		int dist=0;
 
 		do{

@@ -1,7 +1,9 @@
 package leetcode.success.combination;
 
+import leetcode.success.comm.Util;
+import org.junit.Test;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 import java.util.stream.Collectors;
@@ -29,7 +31,7 @@ public class LetterCombinationsOfAPhoneNumber {
 
 	private void combin(List<String> ret,Stack<Character> s, int[] idxArr,char[][] dic,int level,int n){
 		if(level==n){
-			String str=s.stream().map(c->c.toString()).collect(Collectors.joining());
+			String str=s.stream().map(Object::toString).collect(Collectors.joining());
 			ret.add(str);
 			return;
 		}
@@ -42,29 +44,22 @@ public class LetterCombinationsOfAPhoneNumber {
 		}
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 
 		LetterCombinationsOfAPhoneNumber s = new LetterCombinationsOfAPhoneNumber();
 
 		String digits;
 		String[] expect;
-		int expectLen;
+
 		List<String> output;
-		int outputSize;
+		int seq=1;
 
 		digits = "23";
 		expect = new String[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" };
-		expectLen = expect.length;
+
 		output = s.letterCombinations(digits);
-		outputSize = output.size();
-		assert (expectLen == outputSize) : "1:wrong";
-
-		String s1 = Arrays.asList(expect).stream().collect(Collectors.joining(","));
-
-		String s2 = output.stream().collect(Collectors.joining(","));
-		assert (s1.equals(s2)) : "1:wrong";
-
-		System.out.println("Finish");
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

@@ -24,8 +24,7 @@ public class SortList implements ISolution<Return1, Input1> {
 		ListNode ln = i.ln;
 
 		ListNode ln1 = sortList(ln);
-		Return1 r = new Return1(ln1);
-		return r;
+		return new Return1(ln1);
 	}
 
 }

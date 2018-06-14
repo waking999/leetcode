@@ -1,6 +1,6 @@
 package leetcode.success.linkedlist;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 
 public class AddTwoNumbers {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -46,8 +46,7 @@ public class AddTwoNumbers {
 				}
 			}
 			if (stepIn > 0) {
-				ListNode node = new ListNode(stepIn);
-				tmpL.next = node;
+				tmpL.next = new ListNode(stepIn);
 			}
 
 		} else {
@@ -63,8 +62,7 @@ public class AddTwoNumbers {
 				l1 = l1.next;
 			}
 			if (stepIn > 0) {
-				ListNode node = new ListNode(stepIn);
-				tmpL.next = node;
+				tmpL.next = new ListNode(stepIn);
 			}
 		}
 

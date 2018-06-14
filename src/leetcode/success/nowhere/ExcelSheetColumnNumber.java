@@ -17,7 +17,7 @@ public class ExcelSheetColumnNumber {
 			if(c<'A'||c>'Z'){
 				return -1;
 			}
-			sum=sum*26+(int)(c-'A')+1;			
+			sum=sum*26+ c-'A' +1;
 		}
 		
 		

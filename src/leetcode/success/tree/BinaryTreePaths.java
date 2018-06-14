@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Stack;
 import java.util.stream.Collectors;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 
 public class BinaryTreePaths {
 	public List<String> binaryTreePaths(TreeNode root) {
@@ -36,7 +36,7 @@ public class BinaryTreePaths {
 	}
 	
 	private String generatePath(List<Integer> list){
-		return list.stream().map(i->i.toString()).collect(Collectors.joining("->"));
+		return list.stream().map(Object::toString).collect(Collectors.joining("->"));
 	}
 
 	public static void main(String[] args) {

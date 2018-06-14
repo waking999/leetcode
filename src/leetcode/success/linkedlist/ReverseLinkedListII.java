@@ -1,6 +1,6 @@
 package leetcode.success.linkedlist;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 import leetcode.success.comm.Util;
 import org.junit.Test;
 
@@ -79,8 +79,7 @@ public class ReverseLinkedListII {
 
         p = ret;
         while (!s.isEmpty()) {
-            ListNode t = new ListNode(s.pop());
-            p.next = t;
+            p.next = new ListNode(s.pop());
             p = p.next;
         }
 

@@ -1,6 +1,7 @@
 package leetcode.success.math;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class IslandPerimeter {
 	public int islandPerimeter(int[][] grid) {
@@ -123,23 +124,25 @@ public class IslandPerimeter {
 		return 4 * oneCount - conCount;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		IslandPerimeter s = new IslandPerimeter();
 
 		int[][] grid;
 		int expect;
 		int output;
+		int seq=1;
 
 		grid = new int[][] { { 0, 1, 0, 0 }, { 1, 1, 1, 0 }, { 0, 1, 0, 0 }, { 1, 1, 0, 0 } };
 		expect = 16;
 		output = s.islandPerimeter(grid);
-		Util.verify(expect, output, 1);
+		Util.verify(expect, output, seq++);
 
 
 		grid = new int[][] { {1} };
 		expect = 4;
 		output = s.islandPerimeter(grid);
-		Util.verify(expect, output, 2);
+		Util.verify(expect, output, seq++);
 	}
 
 }

@@ -2,16 +2,16 @@ package other;
 
 import java.util.Scanner;
 
-/******************************************************************************
- *  Compilation:  javac Accumulator.java
- *  Execution:    java Accumulator < input.txt
- *  Dependencies: StdOut.java StdIn.java
- *
- *  Mutable data type that calculates the mean, sample standard
- *  deviation, and sample variance of a stream of real numbers
- *  use a stable, one-pass algorithm.
- *
- ******************************************************************************/
+/*****************************************************************************
+ Compilation:  javac Accumulator.java
+ Execution:    java Accumulator < input.txt
+ Dependencies: StdOut.java StdIn.java
+
+ Mutable data type that calculates the mean, sample standard
+ deviation, and sample variance of a stream of real numbers
+ use a stable, one-pass algorithm.
+
+ */
 
 
 /**

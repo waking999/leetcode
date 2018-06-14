@@ -2,8 +2,9 @@ package leetcode.attempt;
 
 import java.util.List;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class RemoveDuplicatesfromSortedListII {
 	public ListNode deleteDuplicates(ListNode head) {
@@ -69,7 +70,9 @@ public class RemoveDuplicatesfromSortedListII {
 		}
 	}
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		RemoveDuplicatesfromSortedListII s = new RemoveDuplicatesfromSortedListII();
 
 		int[] nums;

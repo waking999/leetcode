@@ -11,7 +11,7 @@ public class MagicDictionary {
 	Map<Integer,List<String>> map;
 	/** Initialize your data structure here. */
     public MagicDictionary() {
-        map=new HashMap<Integer,List<String>>();
+        map= new HashMap<>();
     }
 
 	/** Build a dictionary through a list of words */

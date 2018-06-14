@@ -1,6 +1,6 @@
 package leetcode.success.linkedlist;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 import leetcode.success.comm.Util;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ public class InsertionSortList {
 
         ListNode dummy = new ListNode(0);
         dummy.next = new ListNode(head.val);
-        ;
+
 
 
         ListNode p = head.next;

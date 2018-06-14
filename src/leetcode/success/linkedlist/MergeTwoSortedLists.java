@@ -2,8 +2,9 @@ package leetcode.success.linkedlist;
 
 import java.util.List;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class MergeTwoSortedLists {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -34,7 +35,8 @@ public class MergeTwoSortedLists {
 		return h.next;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		MergeTwoSortedLists s = new MergeTwoSortedLists();
 
 		int[] nums1;

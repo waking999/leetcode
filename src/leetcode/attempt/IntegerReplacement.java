@@ -2,6 +2,7 @@ package leetcode.attempt;
 
 
 import org.junit.Assert;
+import org.junit.Test;
 
 public class IntegerReplacement {
     private int integerReplacement(int n) {
@@ -23,7 +24,9 @@ public class IntegerReplacement {
         return Math.min(branch(n+1,count+1),branch(n-1,count+1));
     }
 
-    public static void main(String[] args){
+
+    @Test
+    public void test1() {
         IntegerReplacement x = new IntegerReplacement();
 
         int n;

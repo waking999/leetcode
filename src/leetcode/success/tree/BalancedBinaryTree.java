@@ -1,7 +1,7 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.BinarySearchTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.BinarySearchTreeNode;
+import common.TreeNode;
 
 public class BalancedBinaryTree {
 	public boolean isBalanced(TreeNode root) {

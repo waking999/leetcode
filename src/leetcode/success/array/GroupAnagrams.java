@@ -10,8 +10,7 @@ public class GroupAnagrams {
         int strsLen = strs.length;
 
         Map<String, List<String>> map = new HashMap<>();
-        for (int i = 0; i < strsLen; i++) {
-            String str = strs[i];
+        for (String str : strs) {
             String key = sort(str);
             if (map.containsKey(key)) {
                 List<String> list = map.get(key);

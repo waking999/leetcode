@@ -29,14 +29,27 @@ public class Util {
 
 	}
 
+
+
 	public static void verifyUnsort(int[][] expect, List<List<Integer>> output, int seq) {
 		int expectLen = expect.length;
 		int outputSize = output.size();
 		assert (expectLen == outputSize) : seq + ":wrong";
 		for (int i = 0; i < expectLen; i++) {
-			String s1 = IntStream.of(expect[i]).map(str -> str).boxed().collect(Collectors.toList()).stream()
+			String s1 = IntStream.of(expect[i]).boxed().collect(Collectors.toList()).stream()
 					.map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 
+			String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+			assert (s1.equals(s2)) : seq + "wrong";
+		}
+	}
+
+	public static void verifyUnsort(List<List<Integer>> expect, List<List<Integer>> output, int seq) {
+		int expectLen = expect.size();
+		int outputSize = output.size();
+		assert (expectLen == outputSize) : seq + ":wrong";
+		for (int i = 0; i < expectLen; i++) {
+			String s1 = expect.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 			String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 			assert (s1.equals(s2)) : seq + "wrong";
 		}
@@ -47,10 +60,10 @@ public class Util {
 		int outputSize = output.length;
 		assert (expectLen == outputSize) : seq + ":wrong";
 		for (int i = 0; i < expectLen; i++) {
-			String s1 = Arrays.stream(expect[i]).map(str -> str).boxed().collect(Collectors.toList()).stream()
+			String s1 = Arrays.stream(expect[i]).boxed().collect(Collectors.toList()).stream()
 					.map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 
-			String s2 = Arrays.stream(output[i]).map(str -> str).boxed().collect(Collectors.toList()).stream()
+			String s2 = Arrays.stream(output[i]).boxed().collect(Collectors.toList()).stream()
 					.map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 			assert (s1.equals(s2)) : seq + ":wrong";
 		}
@@ -62,7 +75,7 @@ public class Util {
 		int expectLen = expect.length;
 		int outputSize = output.size();
 		assert (expectLen == outputSize) : seq + ":wrong";
-		String expectStr = Arrays.asList(expect).stream().collect(Collectors.joining(","));
+		String expectStr = Arrays.stream(expect).collect(Collectors.joining(","));
 		String outputStr = output.stream().collect(Collectors.joining(","));
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
@@ -72,8 +85,8 @@ public class Util {
 		int expectLen = expect.length;
 		int outputSize = output.length;
 		assert (expectLen == outputSize) : seq + ":wrong";
-		String expectStr = Arrays.asList(expect).stream().collect(Collectors.joining(","));
-		String outputStr = Arrays.asList(output).stream().collect(Collectors.joining(","));
+		String expectStr = Arrays.stream(expect).collect(Collectors.joining(","));
+		String outputStr = Arrays.stream(output).collect(Collectors.joining(","));
 		assert (expectStr.equals(outputStr)) : seq + ":wrong";
 	}
 

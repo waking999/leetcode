@@ -14,7 +14,7 @@ public class MinimumIndexSumOfTwoLists {
 		if (list1Len == 0 || list2Len == 0) {
 			return new String[] {};
 		}
-		Map<String, Integer> strIdxSumMap = new HashMap<String, Integer>();
+		Map<String, Integer> strIdxSumMap = new HashMap<>();
 		for (int i = 0; i < list1Len; i++) {
 			strIdxSumMap.put(list1[i], i + 1);
 		}
@@ -38,7 +38,7 @@ public class MinimumIndexSumOfTwoLists {
 			}
 		}
 
-		List<String> result = new ArrayList<String>();
+		List<String> result = new ArrayList<>();
 		String[] resultArray = {};
 
 		for (String s : keySet) {

@@ -1,8 +1,9 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class SubtreeofAnotherTree {
 	public boolean isSubtree(TreeNode s, TreeNode t) {
@@ -27,7 +28,8 @@ public class SubtreeofAnotherTree {
 		}
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		SubtreeofAnotherTree s = new SubtreeofAnotherTree();
 
 		int[] nodes1;

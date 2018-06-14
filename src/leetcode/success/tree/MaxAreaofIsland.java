@@ -30,7 +30,6 @@ public class MaxAreaofIsland {
 			areaSize(grid, rowLen, colLen, x + 1, y, gridVisited, areaSize);
 		}
 
-		return;
 
 	}
 

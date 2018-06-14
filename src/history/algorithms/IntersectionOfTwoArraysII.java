@@ -16,7 +16,7 @@ public class IntersectionOfTwoArraysII implements ISolution<Return, Input> {
 
 		Arrays.sort(nums1);
 		Arrays.sort(nums2);
-		List<Integer> numList = new ArrayList<Integer>();
+		List<Integer> numList = new ArrayList<>();
 		int i = 0;
 		int j = 0;
 		for (; i < nums1Len && j < nums2Len;) {
@@ -36,7 +36,7 @@ public class IntersectionOfTwoArraysII implements ISolution<Return, Input> {
 		int[] nums = new int[numListSize];
 
 		for (int k = 0; k < numListSize; k++) {
-			nums[k] = numList.get(k).intValue();
+			nums[k] = numList.get(k);
 		}
 
 		return nums;
@@ -48,8 +48,7 @@ public class IntersectionOfTwoArraysII implements ISolution<Return, Input> {
 		int[] nums2 = i.getNums2();
 
 		int[] nums = intersect(nums1, nums2);
-		Return r = new Return(nums);
-		return r;
+		return   new Return(nums);
 	}
 
 	@Test

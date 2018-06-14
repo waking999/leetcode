@@ -2,8 +2,8 @@ package leetcode.success.tree;
 
 import java.util.Stack;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 
 public class SumRootToLeafNumbers {
 	int sum;

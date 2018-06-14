@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class MapSum {
 	
@@ -12,8 +13,8 @@ public class MapSum {
 
 	/** Initialize your data structure here. */
 	public MapSum() {
-		map = new HashMap<String, Integer>();
-		preMap = new HashMap<String, Integer>();
+		map = new HashMap<>();
+		preMap = new HashMap<>();
 	}
 
 	public void insert(String key, int val) {
@@ -44,15 +45,12 @@ public class MapSum {
 	}
 
 	public int sum(String prefix) {
-		if(preMap.containsKey(prefix)) {
-			return preMap.get(prefix);
-		}else {
-			return 0;
-		}
+		return preMap.getOrDefault(prefix, 0);
 			
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		MapSum s;
 		int expect;
 		int output;

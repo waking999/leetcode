@@ -28,14 +28,13 @@ public class SingleNumber {
 		if (n == 1) {
 			return nums[0];
 		}
-		Map<Integer,Boolean> map=new HashMap<Integer,Boolean>();
-		for(int i=0;i<n;i++){
-			if(map.containsKey(nums[i])){
+		Map<Integer,Boolean> map= new HashMap<>();
+		for(int i=0;i<n;i++)
+			if (map.containsKey(nums[i])) {
 				map.put(nums[i], true);
-			}else{
+			} else {
 				map.put(nums[i], false);
 			}
-		}
 		
 		Set<Integer> keySet=map.keySet();
 		for(Integer i:keySet){

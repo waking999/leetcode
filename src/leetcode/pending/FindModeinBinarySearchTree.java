@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
 
 public class FindModeinBinarySearchTree {
@@ -14,7 +14,7 @@ public class FindModeinBinarySearchTree {
 		if (root == null) {
 			return new int[]{};
 		}
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> map = new HashMap<>();
 
 		dfs(root, map);
 
@@ -33,9 +33,8 @@ public class FindModeinBinarySearchTree {
 				i++;
 			}
 		}
-		int[] ret = Arrays.copyOfRange(nums, 0, i);
 
-		return ret;
+		return Arrays.copyOfRange(nums, 0, i);
 	}
 
 	private void dfs(TreeNode node, Map<Integer, Integer> map) {

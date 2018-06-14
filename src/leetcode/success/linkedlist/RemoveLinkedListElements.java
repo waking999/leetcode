@@ -2,7 +2,9 @@ package leetcode.success.linkedlist;
 
 import java.util.List;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
+import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class RemoveLinkedListElements {
 	public ListNode removeElements(ListNode head, int val) {
@@ -29,74 +31,57 @@ public class RemoveLinkedListElements {
 		return head;
 	}
 
-	public static void main(String[] args) {
+    @Test
+    public void test1() {
 		RemoveLinkedListElements s = new RemoveLinkedListElements();
 
 		int[] nums;
 		ListNode head;
 		int val;
-		ListNode output;
-		List<Integer> outputList;
+		ListNode outputNode;
+		List<Integer> output;
 		int[] expect;
+		int seq=1;
 
 		nums = new int[] { 1, 2, 6, 3, 4, 5, 6 };
 		head = ListNode.constructListNode(nums);
 		val = 6;
-		output = s.removeElements(head, val);		
+		outputNode = s.removeElements(head, val);
 		expect = new int[] { 1, 2, 3, 4, 5 };
-		
-		outputList=ListNode.unConstructListNode(output);
-		assert(expect.length==outputList.size()):"1:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert(expect[i]==outputList.get(i)):"1:wrong";
-		}
+		output=ListNode.unConstructListNode(outputNode);
+		Util.verifyUnsort(expect,output,seq++);
 
 		nums = new int[] { 1 };
 		head = ListNode.constructListNode(nums);
 		val = 1;
-		output = s.removeElements(head, val);
+		outputNode = s.removeElements(head, val);
 		expect = new int[] {};
-		outputList=ListNode.unConstructListNode(output);
-		assert(expect.length==outputList.size()):"2:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert(expect[i]==outputList.get(i)):"2:wrong";
-		}
+		output=ListNode.unConstructListNode(outputNode);
+        Util.verifyUnsort(expect,output,seq++);
 		
 		nums = new int[] { 1 };
 		head = ListNode.constructListNode(nums);
 		val = 2;
-		output = s.removeElements(head, val);
+		outputNode = s.removeElements(head, val);
 		expect = new int[] { 1 };
-		outputList=ListNode.unConstructListNode(output);
-		assert(expect.length==outputList.size()):"3:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert(expect[i]==outputList.get(i)):"3:wrong";
-		}
+		output=ListNode.unConstructListNode(outputNode);
+        Util.verifyUnsort(expect,output,seq++);
 		
 		nums = new int[] { 1, 1 };
 		head = ListNode.constructListNode(nums);
 		val = 1;
-		output = s.removeElements(head, val);
+		outputNode = s.removeElements(head, val);
 		expect = new int[] {};
-		outputList=ListNode.unConstructListNode(output);
-		assert(expect.length==outputList.size()):"4:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert(expect[i]==outputList.get(i)):"4:wrong";
-		}
+		output=ListNode.unConstructListNode(outputNode);
+        Util.verifyUnsort(expect,output,seq++);
 		
 		nums = new int[] { 1,2,2, 1 };
 		head = ListNode.constructListNode(nums);
 		val = 2;
-		output = s.removeElements(head, val);
+		outputNode = s.removeElements(head, val);
 		expect = new int[] {1,1};
-		outputList=ListNode.unConstructListNode(output);
-		assert(expect.length==outputList.size()):"5:wrong";
-		for(int i=0;i<expect.length;i++){
-			assert(expect[i]==outputList.get(i)):"5:wrong";
-		}
-		
-		
-		System.out.println("Finish");
+		output=ListNode.unConstructListNode(outputNode);
+        Util.verifyUnsort(expect,output,seq++);
 
 	}
 

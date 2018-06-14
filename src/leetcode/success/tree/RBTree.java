@@ -6,7 +6,7 @@ public class RBTree<T extends Comparable<T>> {
 	private static final boolean RED = false;
 	private static final boolean BLACK = true;
 
-	@SuppressWarnings("hiding")
+
 	public class RBTNode<T extends Comparable<T>> {
 		boolean color;
 		T key;
@@ -271,7 +271,8 @@ public class RBTree<T extends Comparable<T>> {
 			gparent = parentOf(parent);
 			if (parent == gparent.left) {
 				RBTNode<T> uncle = gparent.right;
-				if ((uncle != null) && isRed(uncle)) {
+//				if ((uncle != null) && isRed(uncle)) {
+				if (isRed(uncle)) {
 					setBlack(uncle);
 					setBlack(parent);
 					setRed(gparent);
@@ -292,7 +293,7 @@ public class RBTree<T extends Comparable<T>> {
 				rightRotate(gparent);
 			} else {
 				RBTNode<T> uncle = gparent.left;
-				if ((uncle != null) && isRed(uncle)) {
+				if (isRed(uncle)) {
 					setBlack(uncle);
 					setBlack(parent);
 					setRed(gparent);
@@ -349,7 +350,7 @@ public class RBTree<T extends Comparable<T>> {
 	}
 
 	public void insert(T key) {
-		RBTNode<T> node = new RBTNode<T>(key, BLACK, null, null, null);
+		RBTNode<T> node = new RBTNode<>(key, BLACK, null, null, null);
 		if (node != null) {
 			insert(node);
 		}

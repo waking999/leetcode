@@ -1,6 +1,7 @@
 package leetcode.success.array;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -111,7 +112,8 @@ public class Serializeranddeserializer {
 	// correct.
 	// Feel free to write additional tests and test serializer and deserializer
 	// individually.
-	public static void main(String[] args) {
+	@Test
+	public void test1(){
 
 		String param = null;
 		char[] output = null;

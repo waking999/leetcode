@@ -1,7 +1,7 @@
 package history;
 import org.junit.Assert;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 
 public class RemoveDuplicatesFromSortedList {
 	public ListNode deleteDuplicates(ListNode head) {

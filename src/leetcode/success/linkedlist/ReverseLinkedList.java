@@ -3,7 +3,7 @@ package leetcode.success.linkedlist;
 import java.util.List;
 import java.util.Stack;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
 
 public class ReverseLinkedList {
 	public ListNode reverseList(ListNode head) {
@@ -25,8 +25,7 @@ public class ReverseLinkedList {
 		
 		p=ret;
 		while(!s.isEmpty()){
-			ListNode t=new ListNode(s.pop());
-			p.next=t;
+			p.next= new ListNode(s.pop());
 			p=p.next;
 		}
 		

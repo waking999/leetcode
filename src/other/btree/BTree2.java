@@ -100,8 +100,8 @@ public class BTree2<K, V> {
 		private Comparator<K> kComparator;
 
 		private BTreeNode() {
-			entrys = new ArrayList<Entry<K, V>>();
-			children = new ArrayList<BTreeNode<K, V>>();
+			entrys = new ArrayList<>();
+			children = new ArrayList<>();
 			leaf = false;
 		}
 
@@ -172,7 +172,7 @@ public class BTree2<K, V> {
 				result = false;
 				index = low; // index表示元素应该插入的位置
 			}
-			return new SearchResult<V>(result, index, value);
+			return new SearchResult<>(result, index, value);
 		}
 
 		/**
@@ -263,7 +263,7 @@ public class BTree2<K, V> {
 			/*
 			 * 通过新建一个ArrayList来实现插入真的很恶心，先这样吧 要是有类似C中的reallocate就好了。
 			 */
-			List<Entry<K, V>> newEntrys = new ArrayList<Entry<K, V>>();
+			List<Entry<K, V>> newEntrys = new ArrayList<>();
 			int i = 0;
 			// index = 0或者index = keys.size()都没有问题
 			for (; i < index; ++i)
@@ -321,7 +321,7 @@ public class BTree2<K, V> {
 		 *            - 子节点带插入的位置
 		 */
 		public void insertChild(BTreeNode<K, V> child, int index) {
-			List<BTreeNode<K, V>> newChildren = new ArrayList<BTreeNode<K, V>>();
+			List<BTreeNode<K, V>> newChildren = new ArrayList<>();
 			int i = 0;
 			for (; i < index; ++i)
 				newChildren.add(children.get(i));
@@ -350,7 +350,7 @@ public class BTree2<K, V> {
      */
     public BTree2()
     {
-        root = new BTreeNode<K, V>();
+        root = new BTreeNode<>();
         root.setLeaf(true);
     }
 
@@ -369,7 +369,7 @@ public class BTree2<K, V> {
      */
     public BTree2(Comparator<K> kComparator)
     {
-        root = new BTreeNode<K, V>(kComparator);
+        root = new BTreeNode<>(kComparator);
         root.setLeaf(true);
         this.kComparator = kComparator;
     }
@@ -436,7 +436,7 @@ public class BTree2<K, V> {
 	private void splitNode(BTreeNode<K, V> parentNode, BTreeNode<K, V> childNode, int index) {
 		assert childNode.size() == maxKeySize;
 
-		BTreeNode<K, V> siblingNode = new BTreeNode<K, V>(kComparator);
+		BTreeNode<K, V> siblingNode = new BTreeNode<>(kComparator);
 		siblingNode.setLeaf(childNode.isLeaf());
 		// 将满子节点中索引为[t, 2t - 2]的(t - 1)个项插入新的节点中
 		for (int i = 0; i < minKeySize; ++i)
@@ -509,13 +509,13 @@ public class BTree2<K, V> {
 	public boolean insert(K key, V value) {
 		if (root.size() == maxKeySize) // 如果根节点满了，则B树长高
 		{
-			BTreeNode<K, V> newRoot = new BTreeNode<K, V>(kComparator);
+			BTreeNode<K, V> newRoot = new BTreeNode<>(kComparator);
 			newRoot.setLeaf(false);
 			newRoot.addChild(root);
 			splitNode(newRoot, root, 0);
 			root = newRoot;
 		}
-		return insertNotFull(root, new Entry<K, V>(key, value));
+		return insertNotFull(root, new Entry<>(key, value));
 	}
 
 	/**
@@ -567,13 +567,13 @@ public class BTree2<K, V> {
 	public V put(K key, V value) {
 		if (root.size() == maxKeySize) // 如果根节点满了，则B树长高
 		{
-			BTreeNode<K, V> newRoot = new BTreeNode<K, V>(kComparator);
+			BTreeNode<K, V> newRoot = new BTreeNode<>(kComparator);
 			newRoot.setLeaf(false);
 			newRoot.addChild(root);
 			splitNode(newRoot, root, 0);
 			root = newRoot;
 		}
-		return putNotFull(root, new Entry<K, V>(key, value));
+		return putNotFull(root, new Entry<>(key, value));
 	}
 
 	/**
@@ -748,7 +748,7 @@ public class BTree2<K, V> {
 	 * 一个简单的层次遍历B树实现，用于输出B树。
 	 */
 	public void output() {
-		Queue<BTreeNode<K, V>> queue = new LinkedList<BTreeNode<K, V>>();
+		Queue<BTreeNode<K, V>> queue = new LinkedList<>();
 		queue.offer(root);
 		while (!queue.isEmpty()) {
 			BTreeNode<K, V> node = queue.poll();
@@ -764,8 +764,8 @@ public class BTree2<K, V> {
 
 	public static void main(String[] args) {
 		Random random = new Random();
-		BTree2<Integer, Integer> btree = new BTree2<Integer, Integer>(3);
-		List<Integer> save = new ArrayList<Integer>();
+		BTree2<Integer, Integer> btree = new BTree2<>(3);
+		List<Integer> save = new ArrayList<>();
 		for (int i = 0; i < 10; ++i) {
 			int r = random.nextInt(100);
 			save.add(r);

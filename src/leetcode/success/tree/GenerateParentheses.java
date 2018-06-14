@@ -31,7 +31,6 @@ public class GenerateParentheses {
 		}
         if (numOfL == n && numOfR == n) {
 			ret.add(prefix);
-			return;
 		}
 
 	}

@@ -16,10 +16,9 @@ public class ReverseWordsInAStringIII {
 		}
 
 		String[] sArr = s.split(" ");
-		List<String> newsArr = new ArrayList<String>(sArr.length);
- 
-		for (int i = 0; i < sArr.length; i++) {
-			String substr = sArr[i];
+		List<String> newsArr = new ArrayList<>(sArr.length);
+
+		for (String substr : sArr) {
 			String tmp = reverseString(substr);
 			newsArr.add(tmp);
 		}
@@ -43,8 +42,7 @@ public class ReverseWordsInAStringIII {
 			bytes[j] = tmp;
 		}
 
-		String s2 = new String(bytes);
-		return s2;
+		return new String(bytes);
 	}
 
 	public static void main(String[] args) {

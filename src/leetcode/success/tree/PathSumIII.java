@@ -1,7 +1,7 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
 
 public class PathSumIII {

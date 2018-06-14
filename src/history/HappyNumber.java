@@ -7,7 +7,7 @@ import org.junit.Assert;
 public class HappyNumber {
 	public boolean isHappy(int n) {
 
-		Set<Integer> historyNum = new HashSet<Integer>();
+		Set<Integer> historyNum = new HashSet<>();
 
 		while (true) {
 			n = digitPower(n);

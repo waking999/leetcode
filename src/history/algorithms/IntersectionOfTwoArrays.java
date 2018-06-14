@@ -12,17 +12,17 @@ import history.common.ISolution;
 
 public class IntersectionOfTwoArrays implements ISolution<Return, Input> {
 	public int[] intersection(int[] nums1, int[] nums2) {
-		List<Integer> numList = new ArrayList<Integer>();
+		List<Integer> numList = new ArrayList<>();
 		int nums1Len=nums1.length;
 		int nums2Len=nums2.length;
 		
-		Set<Integer> nums1Set=new HashSet<Integer>(nums1Len);
-		for(int i=0;i<nums1Len;i++){
-			nums1Set.add(nums1[i]);
+		Set<Integer> nums1Set= new HashSet<>(nums1Len);
+		for (int aNums1 : nums1) {
+			nums1Set.add(aNums1);
 		}
-		Set<Integer> nums2Set=new HashSet<Integer>(nums2Len);
-		for(int i=0;i<nums2Len;i++){
-			nums2Set.add(nums2[i]);
+		Set<Integer> nums2Set= new HashSet<>(nums2Len);
+		for (int aNums2 : nums2) {
+			nums2Set.add(aNums2);
 		}
 		
 		for(int i:nums2Set){
@@ -35,7 +35,7 @@ public class IntersectionOfTwoArrays implements ISolution<Return, Input> {
 		int[] nums = new int[numListSize]; 
 		
 		for(int i=0;i<numListSize;i++){
-			nums[i]=numList.get(i).intValue();
+			nums[i]= numList.get(i);
 		}
 
 		
@@ -59,8 +59,7 @@ public class IntersectionOfTwoArrays implements ISolution<Return, Input> {
 		int[] nums2 = i.getNums2();
 
 		int[] nums = intersection(nums1, nums2);
-		Return r = new Return(nums);
-		return r;
+		return new Return(nums);
 	}
 }
 
@@ -131,8 +130,8 @@ class Return {
 	public int hashCode() {
 		int result = 2;
 		if (this.nums != null) {
-			for (int i = 0, len = nums.length; i < len; i++) {
-				result = 3 * result + nums[i];
+			for (int num : nums) {
+				result = 3 * result + num;
 			}
 		}
 

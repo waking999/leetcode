@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
-import leetcode.success.comm.NormalBinaryTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.NormalBinaryTreeNode;
+import common.TreeNode;
+import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class PathSumII {
 	public List<List<Integer>> pathSum(TreeNode root, int sum) {
@@ -42,8 +42,7 @@ public class PathSumII {
 	}
 
 	private List<Integer> generatePath(List<Integer> list) {
-		List<Integer> list2 = list.stream().collect(Collectors.toList());
-		return list2;
+		return new ArrayList<>(list);
 	}
 
 	private int sumStack(Stack<Integer> s) {
@@ -56,7 +55,8 @@ public class PathSumII {
 		return sum;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		PathSumII s = new PathSumII();
 
 		int[] nodes;
@@ -65,30 +65,19 @@ public class PathSumII {
 		TreeNode root;
 		int sum;
 		int[][] expect;
-		int expectLen;
+
 		List<List<Integer>> output;
-		int outputSize;
+		int seq=1;
 
 		nodes = new int[] { 5, 4, 8, 11, 13, 4, 7, 2, 5, 1 };
-		parents = new int[] { -1, 0, 0, 1, 2, 2, 3, 3, 5, 5 };
-		children = new int[] { -1, 0, 1, 0, 0, 1, 0, 1, 0, 1 };
+		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1, 2, 2, 3, 3, 5, 5 };
+		children = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 1, 0, 0, 1, 0, 1, 0, 1 };
 		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
 		expect = new int[][] { { 5, 4, 11, 2 }, { 5, 8, 4, 5 } };
-		expectLen = expect.length;
+
 		sum = 22;
 		output = s.pathSum(root, sum);
-		outputSize = output.size();
-		assert (expectLen == outputSize) : "1.wrong";
-		for (int i = 0; i < expectLen; i++) {
-
-			String s1 = IntStream.of(expect[i]).map(str -> str).boxed().collect(Collectors.toList()).stream()
-					.map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-
-			String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-			assert (s1.equals(s2)) : "1:wrong";
-		}
-
-		System.out.println("Finish");
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

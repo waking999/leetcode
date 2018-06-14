@@ -47,7 +47,7 @@ public class ReplaceFileContent {
 
 	}
 
-	@SuppressWarnings("finally")
+
 	private static String replaceFileContent(File file) {
 
 		BufferedInputStream fis = null;
@@ -84,12 +84,6 @@ public class ReplaceFileContent {
 				writer.write(line);
 				writer.newLine();
 			}
-		} catch (FileNotFoundException e) {
-
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-
-			e.printStackTrace();
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -111,7 +105,8 @@ public class ReplaceFileContent {
 
 				e.printStackTrace();
 			}
-			return outFileName;
+
 		}
+		return outFileName;
 	}
 }

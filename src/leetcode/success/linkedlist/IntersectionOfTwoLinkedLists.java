@@ -1,6 +1,10 @@
 package leetcode.success.linkedlist;
 
-import leetcode.success.comm.ListNode;
+import common.ListNode;
+import leetcode.success.comm.Util;
+import org.junit.Test;
+
+import java.util.List;
 
 public class IntersectionOfTwoLinkedLists {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
@@ -50,50 +54,49 @@ public class IntersectionOfTwoLinkedLists {
 		return headA1;
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		IntersectionOfTwoLinkedLists s = new IntersectionOfTwoLinkedLists();
 
 		int[] aNums;
 		int[] bNums;
-		int[] cNums;
-		
+		int[] expect;
 		ListNode a;
 		ListNode b;
-		ListNode c;
-		
-		ListNode output;
+		ListNode outputNode;
+		List<Integer> output;
+		int seq=1;
 		
 		aNums=new int[]{1,2,3};
 		bNums=new int[]{1,2};
-		cNums=new int[]{4,5,6};
+		expect=new int[]{4,5,6};
 		
 		a=ListNode.constructListNode(aNums);
 		b=ListNode.constructListNode(bNums);
-		c=ListNode.constructListNode(cNums);
+		outputNode=s.getIntersectionNode(a, b);
+		output=ListNode.unConstructListNode(outputNode);
+		Util.verifyUnsort(expect, output , seq++);
 		
-		output=s.getIntersectionNode(a, b);
-		assert(output==null):"1:wrong";
-		
-		ListNode a1=a;
-		while(a.next!=null){
-			a=a.next;
-		}
-		ListNode b1=b;
-		while(b.next!=null){
-			b=b.next;
-		}
-		a.next=c;
-		b.next=c;
-		output=s.getIntersectionNode(a1, b1);
-		assert(output==c):"2:wrong";
+//		ListNode a1=a;
+//		while(a.next!=null){
+//			a=a.next;
+//		}
+//		ListNode b1=b;
+//		while(b.next!=null){
+//			b=b.next;
+//		}
+//		a.next=c;
+//		b.next=c;
+//		outputNode=s.getIntersectionNode(a1, b1);
+//		assert(outputNode==c):"2:wrong";
 		
 		
 		a=null;
 		b=null;
-		output=s.getIntersectionNode(a, b);
-		assert(output==null):"3:wrong";
+		outputNode=s.getIntersectionNode(a, b);
+		assert(outputNode==null):"3:wrong";
 		
-		System.out.println("Finish");
+
 	}
 
 }

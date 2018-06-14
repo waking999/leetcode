@@ -1,6 +1,7 @@
 package leetcode.attempt;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class SqrtX {
 	public int mySqrt(int x) {
@@ -26,7 +27,9 @@ public class SqrtX {
 		return l;
 	}
 
-	public static void main(String[] args) {
+
+	@Test
+	public void test1() {
 		SqrtX s = new SqrtX();
 
 		int x;

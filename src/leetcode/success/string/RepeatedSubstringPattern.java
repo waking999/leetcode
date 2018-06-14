@@ -17,7 +17,7 @@ public class RepeatedSubstringPattern {
 				int c=sLen/i;
 				StringBuilder sb=new StringBuilder();
 				for(int j=0;j< c;j++) {
-					sb.append(s.substring(0, i));
+					sb.append(s, 0, i);
 				}
 				if(s.equals(sb.toString())) {
 					return true;

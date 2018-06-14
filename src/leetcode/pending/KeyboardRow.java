@@ -17,7 +17,7 @@ public class KeyboardRow {
 		if(length==0) {
 			return new String[] {};
 		}
-		List<String> results = new ArrayList<String>();
+		List<String> results = new ArrayList<>();
 		char[] row1 = new char[] { 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p' };
 		char[] row2 = new char[] { 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' };
 		char[] row3 = new char[] { 'z', 'x', 'c', 'v', 'b', 'n', 'm' };

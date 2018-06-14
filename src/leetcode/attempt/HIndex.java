@@ -3,6 +3,7 @@ package leetcode.attempt;
 import java.util.Arrays;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class HIndex {
 	public int hIndex(int[] citations) {
@@ -36,17 +37,9 @@ public class HIndex {
 		return 0;
 	}
 
-	// private int getCountLess(int idx, int[] citationCount) {
-	// int count = 0;
-	// for (int i = 0; i < idx; i++) {
-	// if (citationCount[i] > 0) {
-	// count++;
-	// }
-	// }
-	// return count;
-	// }
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		HIndex s = new HIndex();
 
 		int[] citations;

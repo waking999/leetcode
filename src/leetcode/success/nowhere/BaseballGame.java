@@ -17,9 +17,7 @@ public class BaseballGame {
 
 		int sum = 0;
 
-		for (int i = 0; i < opsLen; i++) {
-			String s = ops[i];
-
+		for (String s : ops) {
 			if ("C".equals(s)) {
 				sum -= lastValids.pop();
 			} else if ("D".equals(s)) {

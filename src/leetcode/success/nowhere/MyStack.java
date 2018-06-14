@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class MyStack {
 	Queue<Integer> q1;
@@ -11,8 +12,8 @@ public class MyStack {
 
 	/** Initialize your data structure here. */
 	public MyStack() {
-		q1 = new LinkedList<Integer>();
-		q2 = new LinkedList<Integer>();
+		q1 = new LinkedList<>();
+		q2 = new LinkedList<>();
 	}
 
 	/** Push element x onto stack. */
@@ -64,7 +65,8 @@ public class MyStack {
 		return q1.isEmpty() && q2.isEmpty();
 	}
 
-	public static void main(String[] args) {
+	@Test
+	public void test1() {
 		MyStack obj = new MyStack();
 		int x = 4;
 		obj.push(x);

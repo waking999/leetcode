@@ -1,8 +1,9 @@
 package leetcode.success.tree;
 
-import leetcode.success.comm.BinarySearchTreeNode;
-import leetcode.success.comm.TreeNode;
+import common.BinarySearchTreeNode;
+import common.TreeNode;
 import leetcode.success.comm.Util;
+import org.junit.Test;
 
 public class ConvertBSTToGreaterTree {
 	int sum;
@@ -21,22 +22,25 @@ public class ConvertBSTToGreaterTree {
 		sum=node.val;
 		dfs(node.left);
 	}
-	
-	 
-	public static void main(String[] args) {
+
+
+	@Test
+	public void test1()  {
 		ConvertBSTToGreaterTree s = new ConvertBSTToGreaterTree();
 
 		int[] nodes;
 		TreeNode root;
 		int[] expect;
-		TreeNode output;
+		TreeNode outputNode;
+		int[] output;
+		int seq=1;
 
 		nodes = new int[] { 5, 2, 13 };
 		root = BinarySearchTreeNode.constructTreeNode(nodes);
-		output = s.convertBST(root);
+		outputNode = s.convertBST(root);
 		expect = new int[] { 18, 20, 13 };
-		Integer[] outputArr = TreeNode.unconstructTreeNode(output);
-		Util.verifyUnsort(expect, outputArr, 1);
+		output= TreeNode.unconstructTreeNode(outputNode);
+		Util.verifyUnsort(expect, output, seq++);
 
 	}
 

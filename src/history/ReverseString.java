@@ -19,15 +19,11 @@ public class ReverseString {
 			bytes[i]=bytes[j];
 			bytes[j]=tmp;
 		}
-		
-		String s2=new String(bytes);
-		return s2;
+
+		return new String(bytes);
 	}
 
-	public static void main(String[] args) {
 
-	}
-	
 	@Test
 	public void test1(){
 		ReverseString a=new ReverseString();

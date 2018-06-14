@@ -36,7 +36,7 @@ public class JudgeRouteCircle {
 
 		boolean output = s.judgeCircle(input);
 		assert (expect == output) : "1.Result not right.";
-		;
+
 
 		input = "LL";
 		expect = false;
