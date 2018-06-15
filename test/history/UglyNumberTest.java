@@ -23,7 +23,7 @@ public class UglyNumberTest {
         Assert.assertTrue(!x.isUgly(a));
 
 
-        a=-2147483648;
+        a = -2147483648;
         Assert.assertTrue(!x.isUgly(a));
 
 

@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import leetcode.success.comm.Util;
-
 public class LongestPalindrome {
 	public int longestPalindrome(String s) {
 		if(s==null){
@@ -45,24 +43,6 @@ public class LongestPalindrome {
 	
 	}
 
-	public static void main(String[] args) {
-		LongestPalindrome s = new LongestPalindrome();
 
-		String str;
-		int expect;
-		int output;
-		
-		str="abccccdd";
-		expect=7;
-		output=s.longestPalindrome(str);
-		Util.verify(expect, output, 1);
-		
-		str="ccc";
-		expect=3;
-		output=s.longestPalindrome(str);
-		Util.verify(expect, output, 2);
-		
-		System.out.println("Finish");
-	}
 
 }

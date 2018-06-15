@@ -1,8 +1,9 @@
 package history;
 
 import history.algorithms.IntersectionOfTwoArrays;
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class IntersectionOfTwoArraysTest {
 
@@ -19,7 +20,7 @@ public class IntersectionOfTwoArraysTest {
         nums2 = new int[]{2, 2};
         expect = new int[]{2};
         output = s.intersection(nums1, nums2);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
     }

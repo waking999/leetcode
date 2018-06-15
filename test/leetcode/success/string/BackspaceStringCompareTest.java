@@ -1,7 +1,8 @@
 package leetcode.success.string;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class BackspaceStringCompareTest {
     @Test
@@ -17,28 +18,28 @@ public class BackspaceStringCompareTest {
         T = "ad#c";
         expect = true;
         output = s.backspaceCompare(S, T);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
         S = "ab##";
         T = "c#d#";
         expect = true;
         output = s.backspaceCompare(S, T);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
         S = "a##c";
         T = "#a#c";
         expect = true;
         output = s.backspaceCompare(S, T);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
         S = "a#c";
         T = "b";
         expect = false;
         output = s.backspaceCompare(S, T);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
     }

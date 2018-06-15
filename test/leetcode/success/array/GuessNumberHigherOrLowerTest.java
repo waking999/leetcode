@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class GuessNumberHigherOrLowerTest {
     @Test
@@ -17,19 +18,19 @@ public class GuessNumberHigherOrLowerTest {
         s.real = 6;
         expect = 6;
         output = s.guessNumber(n);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         n = 10;
         s.real = 1;
         expect = 1;
         output = s.guessNumber(n);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         n = 10;
         s.real = 5;
         expect = 5;
         output = s.guessNumber(n);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
     }
 }

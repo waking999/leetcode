@@ -1,7 +1,8 @@
 package history;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class RemoveElementTest {
     @Test
@@ -9,9 +10,9 @@ public class RemoveElementTest {
         RemoveElement a = new RemoveElement();
         int[] nums = {3, 2, 2, 3};
         int val = 3;
-        int actual = a.removeElement(nums, val);
-        int expected = 2;
-        Assert.assertEquals(expected, actual);
+        int output = a.removeElement(nums, val);
+        int expect = 2;
+        verify(expect, output, 1);
 
     }
 }

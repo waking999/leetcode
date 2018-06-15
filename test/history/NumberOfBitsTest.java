@@ -1,7 +1,7 @@
 package history;
 
 
-import org.junit.Assert;
+import common.Util;
 import org.junit.jupiter.api.Test;
 
 
@@ -9,24 +9,26 @@ public class NumberOfBitsTest {
 
     @Test
     public void test1() {
-        NumberOfBits x = new NumberOfBits();
+        NumberOfBits s = new NumberOfBits();
 
-        int a;
-        int e;
+        int n;
+        int expect;
+        int output;
+        int seq = 1;
 
-        a = 11;
-        e = 3;
-        Assert.assertEquals(e, x.hammingWeight(a));
+        n = 11;
+        expect = 3;
+        output = s.hammingWeight(n);
+        Util.verify(expect, output, seq++);
 
-        a = 255;
-        e = 8;
-        Assert.assertEquals(e, x.hammingWeight(a));
+        n = 255;
+        expect = 8;
+        output = s.hammingWeight(n);
+        Util.verify(expect, output, seq++);
 
-        a = Integer.MIN_VALUE;
-        e = 1;
-        Assert.assertEquals(e, x.hammingWeight(a));
-
-        System.out.println("done");
-
+        n = Integer.MIN_VALUE;
+        expect = 1;
+        output = s.hammingWeight(n);
+        Util.verify(expect, output, seq++);
     }
 }

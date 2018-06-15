@@ -45,7 +45,7 @@ public class MergeTwoSortedListsTest {
         Assert.assertEquals(n11.val, n02.next.val);
         Assert.assertEquals(n12.val, n11.next.val);
         Assert.assertEquals(n03.val, n12.next.val);
-        System.out.println("done");
+
 
     }
 }

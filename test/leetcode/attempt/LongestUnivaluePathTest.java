@@ -2,7 +2,7 @@ package leetcode.attempt;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import leetcode.success.comm.Util;
+import common.Util;
 import org.junit.Test;
 
 public class LongestUnivaluePathTest {

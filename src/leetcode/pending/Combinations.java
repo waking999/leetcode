@@ -1,6 +1,5 @@
 package leetcode.pending;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -38,25 +37,6 @@ public class Combinations {
 
     }
 
-    @Test
-    public void test1() {
-        Combinations s = new Combinations();
 
-        int n;
-        int k;
-        int[][] expect;
-
-        List<List<Integer>> output;
-        int seq = 1;
-
-        n = 4;
-        k = 2;
-        expect = new int[][]{{1, 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4}, {3, 4}};
-
-        output = s.combine(n, k);
-        Util.verifyUnsort(expect, output, seq++);
-
-
-    }
 
 }

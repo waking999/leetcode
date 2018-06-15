@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class SearchA2DMatrixTest {
     @Test
@@ -18,7 +19,7 @@ public class SearchA2DMatrixTest {
         target = 3;
         expect = true;
         output = s.searchMatrix(matrix, target);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
     }
 }

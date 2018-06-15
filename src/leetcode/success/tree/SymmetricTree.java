@@ -24,44 +24,6 @@ public class SymmetricTree {
 		}
 	}
 
-	@Test
-	public void test1(){
-		SymmetricTree s = new SymmetricTree();
 
-		int[] nodes;
-		int[] parents;
-		int[] children;
-		TreeNode root;
-		boolean expect;
-		boolean output;
-
-		nodes = new int[] { 1, 2, 2, 3, 4, 4, 3 };
-		parents = new int[] { -1, 0, 0, 1, 1, 2, 2 };
-		children = new int[] { -1, 0, 1, 0, 1, 0, 1 };
-		expect = true;
-		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
-		output = s.isSymmetric(root);
-		assert (expect == output) : "1.wrong";
-
-		nodes = new int[] { 1, 2, 2, -1, 3, -1, 3 };
-		parents = new int[] { -1, 0, 0, 1, 1, 2, 2 };
-		children = new int[] { -1, 0, 1, 0, 1, 0, 1 };
-		expect = false;
-		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
-		output = s.isSymmetric(root);
-		assert (expect == output) : "2.wrong";
-		
-		nodes = new int[] { 1, 2, 3 };
-		parents = new int[] { -1, 0, 0 };
-		children = new int[] { -1, 0, 1 };
-		expect = false;
-		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
-		output = s.isSymmetric(root);
-		assert (expect == output) : "3.wrong";
-		
-
-		System.out.println("Finish");
-
-	}
 
 }

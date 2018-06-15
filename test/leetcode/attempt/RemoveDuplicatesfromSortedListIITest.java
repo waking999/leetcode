@@ -1,10 +1,12 @@
 package leetcode.attempt;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
+import common.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.*;
 
 public class RemoveDuplicatesfromSortedListIITest {
     @Test
@@ -22,55 +24,55 @@ public class RemoveDuplicatesfromSortedListIITest {
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{1, 2, 5};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 2, 2, 3, 3, 4, 4, 5};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{1, 5};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 1, 1, 2, 3};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{2, 3};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 1};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 2, 2};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{1};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 1, 2};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{2};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 2, 2, 2};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{1};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
 
         nums = new int[]{1, 1, 2, 2};
         head = ListNode.constructListNode(nums);
         head = s.deleteDuplicates(head);
         output = ListNode.unConstructListNode(head);
         expect = new int[]{};
-        Util.verifyUnsort(expect, output, ++seq);
+        verifyUnsort(expect, output, ++seq);
     }
 }

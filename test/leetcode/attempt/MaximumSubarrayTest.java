@@ -1,7 +1,8 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class MaximumSubarrayTest {
     @Test
@@ -16,27 +17,27 @@ public class MaximumSubarrayTest {
         nums = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
         expect = 6;
         output = s.maxSubArray(nums);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{-2, 1};
         expect = 1;
         output = s.maxSubArray(nums);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{1};
         expect = 1;
         output = s.maxSubArray(nums);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{-1};
         expect = -1;
         output = s.maxSubArray(nums);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{-2, -1};
         expect = -1;
         output = s.maxSubArray(nums);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
     }
 }

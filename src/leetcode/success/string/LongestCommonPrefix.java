@@ -1,7 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 public class LongestCommonPrefix {
 	public String longestCommonPrefix(String[] strs) {
 		if (strs.length == 0) {
@@ -34,23 +32,6 @@ public class LongestCommonPrefix {
 		return x.substring(0, pos);
 	}
 
-	public static void main(String[] args) {
-		LongestCommonPrefix s = new LongestCommonPrefix();
 
-		String[] input;
-		String expect;
-		String output;
-		int seq = 0;
-
-		input = new String[] { "geeksforgeeks", "geeks", "geezer" };
-		expect = "gee";
-		output = s.longestCommonPrefix(input);
-		Util.verify(expect, output, seq++);
-
-		input = new String[] { "apple", "ape", "april" };
-		expect = "ap";
-		output = s.longestCommonPrefix(input);
-		Util.verify(expect, output, seq++);
-	}
 
 }

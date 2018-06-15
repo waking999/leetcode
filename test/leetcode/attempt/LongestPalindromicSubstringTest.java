@@ -1,7 +1,8 @@
 package leetcode.attempt;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class LongestPalindromicSubstringTest {
     @Test
@@ -16,12 +17,12 @@ public class LongestPalindromicSubstringTest {
         str = "babad";
         expect = "bab";
         output = s.longestPalindrome(str);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         str = "cbbd";
         expect = "bb";
         output = s.longestPalindrome(str);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
     }

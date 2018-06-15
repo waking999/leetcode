@@ -1,7 +1,8 @@
 package leetcode.attempt;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class ContainsDuplicateIIITest {
     @Test
@@ -21,28 +22,28 @@ public class ContainsDuplicateIIITest {
         t = 0;
         expect = true;
         output = s.containsNearbyAlmostDuplicate(nums, k, t);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{1, 0, 1, 1};
         k = 1;
         t = 2;
         expect = true;
         output = s.containsNearbyAlmostDuplicate(nums, k, t);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{1, 5, 9, 1, 5, 9};
         k = 2;
         t = 3;
         expect = false;
         output = s.containsNearbyAlmostDuplicate(nums, k, t);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nums = new int[]{-2147483648, -2147483647};
         k = 3;
         t = 3;
         expect = true;
         output = s.containsNearbyAlmostDuplicate(nums, k, t);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
     }

@@ -5,7 +5,6 @@ import java.util.List;
 
 import common.BinarySearchTreeNode;
 import common.TreeNode;
-import leetcode.success.comm.Util;
 
 public class MinimumAbsoluteDifferenceInBST {
 	public int getMinimumDifference(TreeNode root) {
@@ -30,21 +29,6 @@ public class MinimumAbsoluteDifferenceInBST {
 		dfs(node.right,list);
 	}
 
-	public static void main(String[] args) {
-		MinimumAbsoluteDifferenceInBST s = new MinimumAbsoluteDifferenceInBST();
-		
-		int[] nodes;
-		TreeNode root;
-		int expect;
-		int output;
-		
-		nodes=new int[] {1,3,2};
-		root=BinarySearchTreeNode.constructTreeNode(nodes);
-		expect=1;
-		output=s.getMinimumDifference(root);
-		Util.verify(expect, output, 1);
-		
-		System.out.println("Finish");
-	}
+
 
 }

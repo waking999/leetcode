@@ -1,7 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 public class ShiftString {
 	public String leftRotate(String str,int m) {
 		char[] chars=str.toCharArray();
@@ -24,7 +22,7 @@ public class ShiftString {
 		chars[charsLen-1]=t; 
 	}
 	
-	private String leftRotate1(String str, int m) {
+	  String leftRotate1(String str, int m) {
 		char[] chars=str.toCharArray();
 		int charsLen=chars.length;
 		m=m%charsLen;
@@ -42,25 +40,6 @@ public class ShiftString {
 		}
 	}
 	
-	public static void main(String[] args) {
-		ShiftString s=new ShiftString();
 
-		String str;
-		int m;
-		String expect;
-		String output;
-		
-		str="abcdef";
-		m=2;
-		expect="cdefab";
-		output=s.leftRotate(str, m);
-		Util.verify(expect, output, 1);
-		
-		str="abcdef";
-		m=2;
-		expect="cdefab";
-		output=s.leftRotate1(str, m);
-		Util.verify(expect, output, 2);
-	}
 
 }

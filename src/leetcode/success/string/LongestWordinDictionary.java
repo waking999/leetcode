@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import leetcode.success.comm.Util;
-
 public class LongestWordinDictionary {
 
 	 
@@ -41,29 +39,5 @@ public class LongestWordinDictionary {
 		
 	}
 
-	public static void main(String[] args) {
-		LongestWordinDictionary s = new LongestWordinDictionary();
-
-		String[] words;
-		String expect;
-		String output;
-		int seq = 0;
-
-		words = new String[] { "w", "wo", "wor", "worl", "world" };
-		expect = "world";
-		output = s.longestWord(words);
-		Util.verify(expect, output, seq++);
-
-		words = new String[] { "a", "banana", "app", "appl", "ap", "apply", "apple" };
-		expect = "apple";
-		output = s.longestWord(words);
-		Util.verify(expect, output, seq++);
-
-		words = new String[] { "m", "mo", "moc", "moch", "mocha", "l", "la", "lat", "latt", "latte", "c", "ca", "cat" };
-		expect = "latte";
-		output = s.longestWord(words);
-		Util.verify(expect, output, seq++);
-
-	}
 
 }

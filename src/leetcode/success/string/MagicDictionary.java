@@ -5,10 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import leetcode.success.comm.Util;
-
 public class MagicDictionary {
-	Map<Integer,List<String>> map;
+	private Map<Integer,List<String>> map;
 	/** Initialize your data structure here. */
     public MagicDictionary() {
         map= new HashMap<>();
@@ -66,28 +64,6 @@ public class MagicDictionary {
 		return false;
 	}
 
-	public static void main(String[] args) {
-		MagicDictionary s = new MagicDictionary();
 
-		String[] dict;
-		boolean expect;
-		boolean output;
-
-		dict = new String[] { "hello", "leetcode" };
-		s.buildDict(dict);
-		expect = false;
-		output = s.search("hello");
-		Util.verify(expect, output, 1);
-		expect = true;
-		output = s.search("hhllo");
-		Util.verify(expect, output, 1);
-		expect = false;
-		output = s.search("hell");
-		Util.verify(expect, output, 1);
-		expect = false;
-		output = s.search("leetcoded");
-		Util.verify(expect, output, 1);
-
-	}
 
 }

@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class SearchforARangeITest {
     @Test
@@ -19,13 +20,13 @@ public class SearchforARangeITest {
         target = 8;
         expect = new int[]{3, 4};
         output = s.searchRange(nums, target);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         nums = new int[]{5, 7, 7, 8, 8, 10};
         target = 6;
         expect = new int[]{-1, -1};
         output = s.searchRange(nums, target);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
     }
 }

@@ -5,8 +5,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import leetcode.success.comm.Util;
-
 public class KeyboardRow {
 	public String[] findWords(String[] words) {
 		
@@ -62,18 +60,6 @@ public class KeyboardRow {
 		return ret;
 	}
 
-	public static void main(String[] args) {
-		KeyboardRow s = new KeyboardRow();
 
-		String[] words;
-		String[] expect;
-		String[] output;
-
-		words = new String[] { "Hello", "Alaska", "Dad", "Peace" };
-		expect = new String[] { "Alaska", "Dad" };
-		output = s.findWords(words);
-		Util.verifyUnsort(expect, output, 1);
-
-	}
 
 }

@@ -1,7 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 public class StudentAttendanceRecordI {
 	public boolean checkRecord(String s) {
 		if(s==null) {
@@ -36,23 +34,6 @@ public class StudentAttendanceRecordI {
 		return true;
 	}
 
-	public static void main(String[] args) {
-		StudentAttendanceRecordI s = new StudentAttendanceRecordI();
 
-		String str;
-		boolean expect;
-		boolean output;
-
-		str = "PPALLP";
-		expect = true;
-		output = s.checkRecord(str);
-		Util.verify(expect, output, 1);
-
-		str = "PPALLL";
-		expect = false;
-		output = s.checkRecord(str);
-		Util.verify(expect, output, 2);
-
-	}
 
 }

@@ -1,11 +1,12 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class PascalsTriangleTest {
 
@@ -33,7 +34,7 @@ public class PascalsTriangleTest {
         rowList = Arrays.asList(row);
         expect.add(rowList);
         List<List<Integer>> output = s.generate(numRows);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
     }
 

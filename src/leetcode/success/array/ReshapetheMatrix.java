@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class ReshapetheMatrix {
 	public int[][] matrixReshape(int[][] nums, int r, int c) {
 		if(nums==null) {

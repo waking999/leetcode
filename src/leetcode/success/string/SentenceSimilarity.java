@@ -1,60 +1,12 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 public class SentenceSimilarity {
-    public static void main(String[] args) {
-        SentenceSimilarity s = new SentenceSimilarity();
-        String[] words1;
-        String[] words2;
-        String[][] pairs;
-        boolean expect;
-        boolean output;
-        int seq = 0;
 
-        words1 = new String[]{"great", "acting", "skills"};
-        words2 = new String[]{"fine", "drama", "talent"};
-        pairs = new String[][]{{"great", "fine"}, {"acting", "drama"}, {"skills", "talent"}};
-        expect = true;
-        output = s.areSentencesSimilar(words1, words2, pairs);
-        Util.verify(expect, output, seq++);
-
-        words1 = new String[]{"great"};
-        words2 = new String[]{"great"};
-        pairs = new String[][]{};
-        expect = true;
-        output = s.areSentencesSimilar(words1, words2, pairs);
-        Util.verify(expect, output, seq++);
-
-        words1 = new String[]{"great"};
-        words2 = new String[]{"doubleplus", "good"};
-        pairs = new String[][]{};
-        expect = false;
-        output = s.areSentencesSimilar(words1, words2, pairs);
-        Util.verify(expect, output, seq++);
-
-        words1 = new String[]{"great"};
-        words2 = new String[]{"good"};
-        pairs = new String[][]{{"great", "fine"}, {"fine", "good"}};
-        expect = false;
-        output = s.areSentencesSimilar(words1, words2, pairs);
-        Util.verify(expect, output, seq++);
-
-
-        words1 = new String[]{"great", "acting", "skills"};
-        words2 = new String[]{"fine", "painting", "talent"};
-        pairs = new String[][]{{"great", "fine"}, {"drama", "acting"}, {"skills", "talent"}};
-        expect = false;
-        output = s.areSentencesSimilar(words1, words2, pairs);
-        Util.verify(expect, output, seq++);
-
-
-    }
 
     public boolean areSentencesSimilar(String[] words1, String[] words2, String[][] pairs) {
         if ((words1 == null) && (words2 == null)) {

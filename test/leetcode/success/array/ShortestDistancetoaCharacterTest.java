@@ -2,7 +2,7 @@ package leetcode.success.array;
 
 import org.junit.Test;
 
-import static leetcode.success.comm.Util.verifyUnsort;
+import static common.Util.verifyUnsort;
 
 public class ShortestDistancetoaCharacterTest {
     @Test

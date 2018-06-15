@@ -1,17 +1,19 @@
 package history;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class AddDigitTest {
     @Test
     public void test1() {
-        AddDigit s=new AddDigit();
+        AddDigit s = new AddDigit();
+        int seq = 1;
 
         int n = 38;
-        int actual = s.addDigits(n);
+        int output = s.addDigits(n);
         int expected = 2;
-        Assert.assertEquals(expected, actual);
+        verify(expected, output, seq++);
 
     }
 }

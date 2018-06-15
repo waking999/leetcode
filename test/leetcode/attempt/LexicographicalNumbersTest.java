@@ -1,6 +1,6 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
+import common.Util;
 import org.junit.Test;
 
 import java.util.List;
@@ -16,7 +16,7 @@ public class LexicographicalNumbersTest {
         int seq = 1;
 
         n = 13;
-        expect = new int[] { 1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9 };
+        expect = new int[]{1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9};
         output = s.lexicalOrder(n);
         Util.verifyUnsort(expect, output, seq++);
 

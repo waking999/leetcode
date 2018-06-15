@@ -1,7 +1,9 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
+import common.Util;
 import org.junit.Test;
+
+import static common.Util.*;
 
 public class PredicttheWinnerTest {
     @Test
@@ -15,13 +17,13 @@ public class PredicttheWinnerTest {
         nums = new int[]{1, 5, 2};
         expect = false;
         output = s.PredictTheWinner(nums);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
 
         nums = new int[]{1, 5, 233, 7};
         expect = true;
         output = s.PredictTheWinner(nums);
-        Util.verify(expect, output, 2);
+        verify(expect, output, 2);
 
 
     }

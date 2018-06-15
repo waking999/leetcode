@@ -1,7 +1,5 @@
 package leetcode.success.math;
 
-import leetcode.success.comm.Util;
-
 public class LargestPalindromeProduct {
 	public int largestPalindrome(int n) {
 		if (n < 1 || n > 8) {
@@ -36,29 +34,5 @@ public class LargestPalindromeProduct {
 
  
 
-	public static void main(String[] args) {
-		LargestPalindromeProduct s = new LargestPalindromeProduct();
-
-		int n;
-		int expect;
-		int output;
-
-		n = 2;
-		expect = 987;
-		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 1);
-		
-		
-		n = 1;
-		expect = 9;
-		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 2);
-		
-		n = 5;
-		expect = 677;
-		output=s.largestPalindrome(n);
-		Util.verify(expect, output, 1);
-
-	}
 
 }

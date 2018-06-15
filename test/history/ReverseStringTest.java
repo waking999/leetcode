@@ -1,25 +1,28 @@
 package history;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class ReverseStringTest {
     @Test
-    public void test1(){
-        ReverseString a=new ReverseString();
+    public void test1() {
+        ReverseString a = new ReverseString();
 
-        String s="hello";
-        String expected="olleh";
-        String actual=a.reverseString(s);
-        Assert.assertEquals(expected, actual);
-    }
-    @Test
-    public void test2(){
-        ReverseString a=new ReverseString();
+        String s;
+        String expect;
+        String output;
+        int seq = 1;
 
-        String s="helo";
-        String expected="oleh";
-        String actual=a.reverseString(s);
-        Assert.assertEquals(expected, actual);
+        s = "hello";
+        expect = "olleh";
+        output = a.reverseString(s);
+        verify(expect, output, seq++);
+
+
+        s = "helo";
+        expect = "oleh";
+        output = a.reverseString(s);
+        verify(expect, output, seq++);
     }
 }

@@ -5,7 +5,6 @@ import java.util.Set;
 
 import common.BinarySearchTreeNode;
 import common.TreeNode;
-import leetcode.success.comm.Util;
 
 public class TwoSumIVInputIsABST {
 	boolean ret;
@@ -37,31 +36,6 @@ public class TwoSumIVInputIsABST {
 		dfs(node.right,list, k);		
 	}
 
-	public static void main(String[] args) {
-		TwoSumIVInputIsABST s = new TwoSumIVInputIsABST();
-		
-		int[] nodes;
-		TreeNode root;
-		int k;
-		boolean expect;
-		boolean output;
-		 
-		nodes=new int[] {5,3,6,2,4,7};
-		root=BinarySearchTreeNode.constructTreeNode(nodes);
-		k=9;
-		expect=true;
-		output=s.findTarget(root, k);
-		Util.verify(expect, output, 1);
-		
-		
-		nodes=new int[] {5,3,6,2,4,7};
-		root=BinarySearchTreeNode.constructTreeNode(nodes);
-		k=28;
-		expect=false;
-		output=s.findTarget(root, k);
-		Util.verify(expect, output, 2);
-		
-		System.out.println("Finish");
-	}
+
 
 }

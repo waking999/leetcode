@@ -1,30 +1,28 @@
 package history;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class MoveZeroesTest {
     @Test
     public void test1() {
         MoveZeroes a = new MoveZeroes();
+        int[] nums;
+        int[] expect;
+        int seq = 1;
 
-        int[] nums = {0, 1, 0, 3, 12};
-        int[] expecteds = {1, 3, 12, 0, 0};
-
+        nums = new int[]{0, 1, 0, 3, 12};
+        expect = new int[]{1, 3, 12, 0, 0};
         a.moveZeroes(nums);
-        Assert.assertArrayEquals(expecteds, nums);
+        verifyUnsort(expect, nums, seq++);
 
-    }
 
-    @Test
-    public void test2() {
-        MoveZeroes a = new MoveZeroes();
-
-        int[] nums = {0, 0, 1};
-        int[] expecteds = {1, 0, 0};
-
+        nums = new int[]{0, 0, 1};
+        expect = new int[]{1, 0, 0};
         a.moveZeroes(nums);
-        Assert.assertArrayEquals(expecteds, nums);
+        verifyUnsort(expect, nums, seq++);
+
 
     }
 }

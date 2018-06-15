@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class LexicographicalNumbers {
 	public List<Integer> lexicalOrder(int n) {
 		String[] arr=new String[n+1];

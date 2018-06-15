@@ -2,8 +2,6 @@ package leetcode.success.math;
 
 import java.util.Arrays;
 
-import leetcode.success.comm.Util;
-
 public class CountPrimes {
 	public int countPrimes(int n) {
 		if (n <= 2) {
@@ -27,28 +25,6 @@ public class CountPrimes {
 
 	}
 
-	public static void main(String[] args) {
-		CountPrimes s = new CountPrimes();
 
-		int n;
-		int expect;
-		int output;
-		
-		n=4;
-		expect=2;
-		output=s.countPrimes(n);
-		Util.verify(expect, output, 1);
-		
-		n=2;
-		expect=0;
-		output=s.countPrimes(n);
-		Util.verify(expect, output, 1);
-		
-		n=3;
-		expect=1;
-		output=s.countPrimes(n);
-		Util.verify(expect, output, 1);
-
-	}
 
 }

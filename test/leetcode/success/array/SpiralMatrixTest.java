@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static leetcode.success.comm.Util.verifyUnsort;
+import static common.Util.verifyUnsort;
 
 public class SpiralMatrixTest {
     @Test

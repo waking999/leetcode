@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 

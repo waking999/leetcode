@@ -2,6 +2,9 @@ package leetcode.success.array;
 
 import org.junit.Test;
 
+import static common.Util.verify;
+import static common.Util.verifyUnsort;
+
 public class RemoveDuplicatesFromSortedArrayIITest {
     @Test
     public void test1() {
@@ -11,18 +14,16 @@ public class RemoveDuplicatesFromSortedArrayIITest {
         int[] expectNums;
         int expect;
         int output;
+        int seq = 1;
 
         nums = new int[]{1, 1, 1, 2, 2, 3};
         expectNums = new int[]{1, 1, 2, 2, 3};
         expect = 5;
-
         output = s.removeDuplicates(nums);
-        assert (output == expect) : "1.wrong";
-        for (int i = 0; i < output; i++) {
-            assert (nums[i] == expectNums[i]) : "1.wrong";
-        }
+        verify(expect, output, seq++);
+        verifyUnsort(expectNums, nums, seq++);
 
-        System.out.println("Finish");
+
     }
 
 }

@@ -2,10 +2,11 @@ package leetcode.success.tree;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import common.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class BinaryTreeLevelOrderTraversalIITest {
 
@@ -28,8 +29,7 @@ public class BinaryTreeLevelOrderTraversalIITest {
 
         output = s.levelOrderBottom(root);
 
-        Util.verifyUnsort(expect, output, 1);
+        verifyUnsort(expect, output, 1);
 
-        System.out.println("Finish");
     }
 }

@@ -2,8 +2,6 @@ package leetcode.success.tree;
 
 import java.util.Arrays;
 
-import leetcode.success.comm.Util;
-
 public class MaxAreaofIsland {
 	private void areaSize(int[][] grid, int rowLen, int colLen, int x, int y, boolean[][] gridVisited, int[] areaSize) {
 
@@ -58,27 +56,5 @@ public class MaxAreaofIsland {
 		return maxAreaSize;
 	}
 
-	public static void main(String[] args) {
-		MaxAreaofIsland s = new MaxAreaofIsland();
-
-		int[][] grid;
-		int expect;
-		int output;
-		int seq = 0;
-
-		grid = new int[][] { { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 },
-				{ 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0 },
-				{ 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 },
-				{ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 } };
-		expect = 6;
-		output = s.maxAreaOfIsland(grid);
-		Util.verify(expect, output, seq++);
-
-		grid = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0 } };
-		expect = 0;
-		output = s.maxAreaOfIsland(grid);
-		Util.verify(expect, output, seq++);
-
-	}
 
 }

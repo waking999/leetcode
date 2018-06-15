@@ -2,9 +2,6 @@ package leetcode.success.array;
 
 import java.util.Arrays;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class RelativeRanks {
 	public String[] findRelativeRanks(int[] nums) {
 		if(nums==null) {

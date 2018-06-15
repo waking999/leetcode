@@ -2,10 +2,11 @@ package leetcode.success.linkedlist;
 
 import common.ListNode;
 import common.TreeNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class LinkedListCycleIITest {
     @Test
@@ -27,7 +28,7 @@ public class LinkedListCycleIITest {
         expect = new int[]{};
         outputNode = s.detectCycle(head);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{4, 5, 6, 7};
@@ -36,7 +37,7 @@ public class LinkedListCycleIITest {
         expect = new int[]{4, 5, 6, 7};
         outputNode = s.detectCycle(head);
         output = ListNode.unConstructListNode(outputNode, true);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         nums = new int[]{4, 5, 6, 7};
         childIdx = new int[]{1, 2, 3, 2};
@@ -44,7 +45,7 @@ public class LinkedListCycleIITest {
         expect = new int[]{6, 7};
         outputNode = s.detectCycle(head);
         output = ListNode.unConstructListNode(outputNode, true);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{3, 2, 0, -4};
@@ -53,7 +54,7 @@ public class LinkedListCycleIITest {
         expect = new int[]{2, 0, -4};
         outputNode = s.detectCycle(head);
         output = ListNode.unConstructListNode(outputNode, true);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
     }
 }

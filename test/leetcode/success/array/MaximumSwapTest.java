@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class MaximumSwapTest {
     @Test
@@ -15,27 +16,27 @@ public class MaximumSwapTest {
         num = 2736;
         expect = 7236;
         output = s.maximumSwap(num);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
         num = 9973;
         expect = 9973;
         output = s.maximumSwap(num);
-        Util.verify(expect, output, 2);
+        verify(expect, output, 2);
 
         num = -7236;
         expect = -2736;
         output = s.maximumSwap(num);
-        Util.verify(expect, output, 3);
+        verify(expect, output, 3);
 
         num = 98368;
         expect = 98863;
         output = s.maximumSwap(num);
-        Util.verify(expect, output, 4);
+        verify(expect, output, 4);
 
 
         num = 87367;
         expect = 87763;
         output = s.maximumSwap(num);
-        Util.verify(expect, output, 5);
+        verify(expect, output, 5);
     }
 }

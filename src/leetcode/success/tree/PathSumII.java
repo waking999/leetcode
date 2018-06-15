@@ -7,7 +7,6 @@ import java.util.Stack;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 public class PathSumII {
@@ -55,30 +54,6 @@ public class PathSumII {
 		return sum;
 	}
 
-	@Test
-	public void test1() {
-		PathSumII s = new PathSumII();
 
-		int[] nodes;
-		int[] parents;
-		int[] children;
-		TreeNode root;
-		int sum;
-		int[][] expect;
-
-		List<List<Integer>> output;
-		int seq=1;
-
-		nodes = new int[] { 5, 4, 8, 11, 13, 4, 7, 2, 5, 1 };
-		parents = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 0, 1, 2, 2, 3, 3, 5, 5 };
-		children = new int[] { TreeNode.IMPOSSIBLE_VALUE, 0, 1, 0, 0, 1, 0, 1, 0, 1 };
-		root = NormalBinaryTreeNode.constructTreeNode(nodes, parents, children);
-		expect = new int[][] { { 5, 4, 11, 2 }, { 5, 8, 4, 5 } };
-
-		sum = 22;
-		output = s.pathSum(root, sum);
-		Util.verifyUnsort(expect, output, seq++);
-
-	}
 
 }

@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class LongestContinuousIncreasingSubsequence {
 	public int findLengthOfLCIS(int[] nums) {
 		if(nums==null) {

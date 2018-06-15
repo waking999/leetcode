@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class DistributeCandiesTest {
     @Test
@@ -15,12 +16,12 @@ public class DistributeCandiesTest {
         candies = new int[]{1, 1, 2, 2, 3, 3};
         expect = 3;
         output = s.distributeCandies(candies);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
         candies = new int[]{1, 1, 2, 3};
         expect = 2;
         output = s.distributeCandies(candies);
-        Util.verify(expect, output, 2);
+        verify(expect, output, 2);
 
 
     }

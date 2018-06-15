@@ -1,10 +1,11 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class InsertionSortListTest {
     @Test
@@ -23,14 +24,14 @@ public class InsertionSortListTest {
         head = ListNode.constructListNode(nums);
         outputNode = s.insertionSortList(head);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         nums = new int[]{-1, 5, 3, 4, 0};
         expect = new int[]{-1, 0, 3, 4, 5};
         head = ListNode.constructListNode(nums);
         outputNode = s.insertionSortList(head);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
     }
 }

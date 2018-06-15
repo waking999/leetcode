@@ -2,9 +2,6 @@ package leetcode.success.array;
 
 import java.util.Arrays;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class Heaters {
 	public int findRadius(int[] houses, int[] heaters) {
 		if (houses == null) {

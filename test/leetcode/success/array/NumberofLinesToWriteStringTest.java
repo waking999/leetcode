@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class NumberofLinesToWriteStringTest {
     @Test
@@ -17,14 +18,14 @@ public class NumberofLinesToWriteStringTest {
         S = "abcdefghijklmnopqrstuvwxyz";
         expect = new int[]{3, 60};
         output = s.numberOfLines(widths, S);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         widths = new int[]{4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
         S = "bbbcccdddaaa";
         expect = new int[]{2, 4};
         output = s.numberOfLines(widths, S);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
     }
 }

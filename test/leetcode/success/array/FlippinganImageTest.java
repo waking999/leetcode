@@ -1,6 +1,6 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
+import common.Util;
 import org.junit.Test;
 
 public class FlippinganImageTest {

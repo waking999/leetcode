@@ -1,7 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 public class ReverseStringII {
 	public String reverseStr(String s, int k) {
 		if(s==null) {
@@ -50,20 +48,6 @@ public class ReverseStringII {
 
 	}
 
-	public static void main(String[] args) {
-		ReverseStringII s = new ReverseStringII();
 
-		String str;
-		int k;
-		String expect;
-		String output;
-
-		str = "abcdefg";
-		k = 2;
-		expect = "bacdfeg";
-		output = s.reverseStr(str, k);
-		Util.verify(expect, output, 1);
-
-	}
 
 }

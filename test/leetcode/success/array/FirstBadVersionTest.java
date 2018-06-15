@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class FirstBadVersionTest {
 
@@ -17,7 +18,7 @@ public class FirstBadVersionTest {
         s.badVersions = new boolean[]{false, true, true, true, true};
         expect = 1;
         output = s.firstBadVersion(4);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
     }
 }

@@ -1,10 +1,11 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class PartitionListTest {
 
@@ -26,6 +27,6 @@ public class PartitionListTest {
         expect = new int[]{1, 2, 2, 4, 3, 5};
         outputNode = s.partition(head, x);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
     }
 }

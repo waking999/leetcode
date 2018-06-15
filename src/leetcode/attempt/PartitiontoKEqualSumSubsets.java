@@ -1,8 +1,5 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class PartitiontoKEqualSumSubsets {
 	public boolean canPartitionKSubsets(int[] nums, int k) {
 		if(nums==null) {

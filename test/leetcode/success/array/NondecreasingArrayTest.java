@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class NondecreasingArrayTest {
     @Test
@@ -12,20 +13,20 @@ public class NondecreasingArrayTest {
         boolean expect;
         boolean output;
 
-        nums = new int[] { 4, 2, 3 };
+        nums = new int[]{4, 2, 3};
         expect = true;
         output = s.checkPossibility(nums);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
-        nums = new int[] { 4, 2, 1 };
+        nums = new int[]{4, 2, 1};
         expect = false;
         output = s.checkPossibility(nums);
-        Util.verify(expect, output, 2);
+        verify(expect, output, 2);
 
-        nums = new int[] { 3, 4, 2, 3 };
+        nums = new int[]{3, 4, 2, 3};
         expect = false;
         output = s.checkPossibility(nums);
-        Util.verify(expect, output, 3);
+        verify(expect, output, 3);
 
 
     }

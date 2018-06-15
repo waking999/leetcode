@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class MaxConsecutiveOnesTest {
     @Test
@@ -12,10 +13,10 @@ public class MaxConsecutiveOnesTest {
         int expect;
         int output;
 
-        nums = new int[] { 1, 1, 0, 1, 1, 1 };
+        nums = new int[]{1, 1, 0, 1, 1, 1};
         expect = 3;
         output = s.findMaxConsecutiveOnes(nums);
-        Util.verify(expect,output,1);
+        verify(expect, output, 1);
     }
 
 }

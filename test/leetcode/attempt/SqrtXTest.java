@@ -2,7 +2,8 @@ package leetcode.attempt;
 
 import org.junit.Test;
 
-import static leetcode.success.comm.Util.verify;
+import static common.Util.verify;
+
 
 public class SqrtXTest {
     @Test

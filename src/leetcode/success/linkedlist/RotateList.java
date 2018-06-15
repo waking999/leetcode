@@ -1,10 +1,6 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
-import java.util.List;
 
 public class RotateList {
     public ListNode rotateRight(ListNode head, int k) {

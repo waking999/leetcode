@@ -1,7 +1,5 @@
 package leetcode.pending;
 
-import leetcode.success.comm.Util;
-
 public class RangeAdditionII {
 	public int maxCount(int m, int n, int[][] ops) {
 		if (ops == null) {
@@ -23,30 +21,6 @@ public class RangeAdditionII {
 		return m * n;
 	}
 
-	public static void main(String[] args) {
-		RangeAdditionII s = new RangeAdditionII();
 
-		int m;
-		int n;
-		int[][] ops;
-		int expect;
-		int output;
-
-		m = 3;
-		n = 3;
-		ops = new int[][] { { 2, 2 }, { 3, 3 } };
-		expect = 4;
-		output = s.maxCount(m, n, ops);
-		Util.verify(expect, output, 1);
-		
-
-		m = 3;
-		n = 3;
-		ops = new int[][] {  };
-		expect = 9;
-		output = s.maxCount(m, n, ops);
-		Util.verify(expect, output, 1);
-
-	}
 
 }

@@ -1,8 +1,9 @@
 package leetcode.success.tree;
 
 import common.BinarySearchTreeNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class MinimumDistanceBetweenBSTNodesTest {
     @Test
@@ -19,13 +20,13 @@ public class MinimumDistanceBetweenBSTNodesTest {
         root = BinarySearchTreeNode.constructTreeNode(nodes);
         expect = 1;
         output = s.minDiffInBST(root);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         nodes = new int[]{90, 69, 49, 89, 52};
         root = BinarySearchTreeNode.constructTreeNode(nodes);
         expect = 1;
         output = s.minDiffInBST(root);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
     }

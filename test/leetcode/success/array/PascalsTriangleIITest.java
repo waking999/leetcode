@@ -2,70 +2,43 @@ package leetcode.success.array;
 
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class PascalsTriangleIITest {
     @Test
     public void test1() {
         PascalsTriangleII s = new PascalsTriangleII();
 
+        int seq = 1;
+
         int rowIndex = 0;
-        Integer[] row = new Integer[]{1};
-        List<Integer> expect = Arrays.asList(row);
+        int[] expect = new int[]{1};
         List<Integer> output = s.getRow(rowIndex);
-        int outputLen = output.size();
-        int expectLen = expect.size();
-        assert (outputLen == expectLen) : "0.wrong";
-        for (int i = 0; i < expectLen; i++) {
-            assert (output.get(i).equals(expect.get(i))) : "0.wrong";
-        }
+        verifyUnsort(expect, output, seq++);
+
 
         rowIndex = 1;
-        row = new Integer[]{1, 1};
-        expect = Arrays.asList(row);
+        expect = new int[]{1, 1};
+
         output = s.getRow(rowIndex);
-        outputLen = output.size();
-        expectLen = expect.size();
-        assert (outputLen == expectLen) : "1.wrong";
-        for (int i = 0; i < expectLen; i++) {
-            assert (output.get(i).equals(expect.get(i))) : "1.wrong";
-        }
+        verifyUnsort(expect, output, seq++);
 
         rowIndex = 2;
-        row = new Integer[]{1, 2, 1};
-        expect = Arrays.asList(row);
+        expect = new int[]{1, 2, 1};
         output = s.getRow(rowIndex);
-        outputLen = output.size();
-        expectLen = expect.size();
-        assert (outputLen == expectLen) : "2.wrong";
-        for (int i = 0; i < expectLen; i++) {
-            assert (output.get(i).equals(expect.get(i))) : "2.wrong";
-        }
+        verifyUnsort(expect, output, seq++);
 
         rowIndex = 3;
-        row = new Integer[]{1, 3, 3, 1};
-        expect = Arrays.asList(row);
+        expect = new int[]{1, 3, 3, 1};
         output = s.getRow(rowIndex);
-        outputLen = output.size();
-        expectLen = expect.size();
-        assert (outputLen == expectLen) : "3.wrong";
-        for (int i = 0; i < expectLen; i++) {
-            assert (output.get(i).equals(expect.get(i))) : "3.wrong";
-        }
+        verifyUnsort(expect, output, seq++);
 
         rowIndex = 4;
-        row = new Integer[]{1, 4, 6, 4, 1};
-        expect = Arrays.asList(row);
+        expect = new int[]{1, 4, 6, 4, 1};
         output = s.getRow(rowIndex);
-        outputLen = output.size();
-        expectLen = expect.size();
-        assert (outputLen == expectLen) : "4.wrong";
-        for (int i = 0; i < expectLen; i++) {
-            assert (output.get(i).equals(expect.get(i))) : "4.wrong";
-        }
-
-        System.out.println("Finish");
+        verifyUnsort(expect, output, seq++);
 
     }
 }

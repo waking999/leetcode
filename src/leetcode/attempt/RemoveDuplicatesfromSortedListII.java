@@ -1,10 +1,6 @@
 package leetcode.attempt;
 
-import java.util.List;
-
 import common.ListNode;
-import leetcode.success.comm.Util;
-import org.junit.Test;
 
 public class RemoveDuplicatesfromSortedListII {
 	public ListNode deleteDuplicates(ListNode head) {

@@ -1,7 +1,8 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class PartitiontoKEqualSumSubsetsTest {
 
@@ -20,7 +21,7 @@ public class PartitiontoKEqualSumSubsetsTest {
         k = 4;
         expect = true;
         output = s.canPartitionKSubsets(nums, k);
-        Util.verify(expect, output, ++seq);
+        verify(expect, output, ++seq);
 
     }
 }

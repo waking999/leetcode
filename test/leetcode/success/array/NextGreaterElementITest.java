@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifySort;
 
 public class NextGreaterElementITest {
     @Test
@@ -17,12 +18,12 @@ public class NextGreaterElementITest {
         nums2 = new int[]{1, 3, 4, 2};
         expect = new int[]{-1, 3, -1};
         output = s.nextGreaterElement(nums1, nums2);
-        Util.verifySort(expect, output, 1);
+        verifySort(expect, output, 1);
 
         nums1 = new int[]{2, 4};
         nums2 = new int[]{1, 2, 3, 4};
         expect = new int[]{3, -1};
         output = s.nextGreaterElement(nums1, nums2);
-        Util.verifySort(expect, output, 2);
+        verifySort(expect, output, 2);
     }
 }

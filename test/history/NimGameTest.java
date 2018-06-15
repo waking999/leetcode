@@ -1,50 +1,40 @@
 package history;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class NimGameTest {
     @Test
     public void test1() {
-        NimGame s=new NimGame();
+        NimGame s = new NimGame();
+        int n;
+        boolean ouptut;
+        boolean expect;
+        int seq = 1;
 
-        int n = 4;
-        boolean actual = s.canWinNim(n);
-        boolean expected = false;
-        Assert.assertEquals(expected, actual);
+        n = 4;
+        ouptut = s.canWinNim(n);
+        expect = false;
+        verify(expect, ouptut, seq++);
 
-    }
 
-    @Test
-    public void test2() {
-        NimGame s=new NimGame();
+        n = 1;
+        ouptut = s.canWinNim(n);
+        expect = true;
+        verify(expect, ouptut, seq++);
 
-        int n = 1;
-        boolean actual = s.canWinNim(n);
-        boolean expected = true;
-        Assert.assertEquals(expected, actual);
 
-    }
+        n = 16;
+        ouptut = s.canWinNim(n);
+        expect = false;
+        verify(expect, ouptut, seq++);
 
-    @Test
-    public void test3() {
-        NimGame s=new NimGame();
 
-        int n = 16;
-        boolean actual = s.canWinNim(n);
-        boolean expected = false;
-        Assert.assertEquals(expected, actual);
-
-    }
-
-    @Test
-    public void test4() {
-        NimGame s=new NimGame();
-
-        int n = 17;
-        boolean actual = s.canWinNim(n);
-        boolean expected = true;
-        Assert.assertEquals(expected, actual);
+        n = 17;
+        ouptut = s.canWinNim(n);
+        expect = true;
+        verify(expect, ouptut, seq++);
 
     }
 }

@@ -2,8 +2,6 @@ package leetcode.success.math;
 
 import java.util.Stack;
 
-import leetcode.success.comm.Util;
-
 public class Smallestnumberksuchthattheproductofdigitsofkisequalton {
 	public int productk(int n) {
 		if(n>=0&&n<=9) {
@@ -30,22 +28,6 @@ public class Smallestnumberksuchthattheproductofdigitsofkisequalton {
 		
 		 
 	}
-	public static void main(String[] args) {
-		Smallestnumberksuchthattheproductofdigitsofkisequalton s=new Smallestnumberksuchthattheproductofdigitsofkisequalton();
 
-		int n;
-		int expect;
-		int output;
-		
-		n=100;
-		expect=455;
-		output=s.productk(n);
-		Util.verify(expect, output, 1);
-		
-		n=26;
-		expect=-1;
-		output=s.productk(n);
-		Util.verify(expect, output, 2);
-	}
 
 }

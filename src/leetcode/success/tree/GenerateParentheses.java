@@ -3,8 +3,6 @@ package leetcode.success.tree;
 import java.util.ArrayList;
 import java.util.List;
 
-import leetcode.success.comm.Util;
-
 public class GenerateParentheses {
 	public List<String> generateParenthesis(int n) {
 		List<String> ret = new ArrayList<>();
@@ -35,22 +33,6 @@ public class GenerateParentheses {
 
 	}
 
-	public static void main(String[] args) {
-		GenerateParentheses s = new GenerateParentheses();
 
-		int n;
-		String[] expect;
-		List<String> output;
-
-		n = 3;
-		expect = new String[] { "((()))", "(()())", "(())()", "()(())", "()()()" };
-		output = s.generateParenthesis(n);
-		Util.verifyUnsort(expect, output, 1);
-
-		n = 8;
-		// expect = new String[] { "((()))", "(()())", "(())()", "()(())", "()()()" };
-		output = s.generateParenthesis(n);
-		//Util.verify(expect, output, 2);
-	}
 
 }

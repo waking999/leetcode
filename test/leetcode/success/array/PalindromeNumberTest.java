@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class PalindromeNumberTest {
     @Test
@@ -16,22 +17,22 @@ public class PalindromeNumberTest {
         x = 0;
         expect = true;
         output = s.isPalindrome(x);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         x = -1;
         expect = false;
         output = s.isPalindrome(x);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         x = 121;
         expect = true;
         output = s.isPalindrome(x);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
         x = 122;
         expect = false;
         output = s.isPalindrome(x);
-        Util.verify(expect, output, seq++);
+        verify(expect, output, seq++);
 
 
     }

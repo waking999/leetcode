@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class LongestHarmoniousSubsequenceTest {
     @Test
@@ -15,6 +16,6 @@ public class LongestHarmoniousSubsequenceTest {
         nums = new int[]{1, 3, 2, 2, 5, 2, 3, 7};
         expect = 5;
         output = s.findLHS(nums);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
     }
 }

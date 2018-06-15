@@ -1,8 +1,9 @@
 package leetcode.success.dp;
 
-import common.Util;
 import history.BestTimeToBuyAndSellStock;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class BestTimeToBuyAndSellStockTest {
     @Test
@@ -12,17 +13,17 @@ public class BestTimeToBuyAndSellStockTest {
         int[] arr;
         int expect;
         int output;
-        int seq=1;
+        int seq = 1;
 
-        arr = new int[] { 7, 1, 5, 3, 6, 4 };
+        arr = new int[]{7, 1, 5, 3, 6, 4};
         expect = 5;
         output = x.maxProfit(arr);
-        Util.verify(expect,output,seq++);
+        verify(expect, output, seq++);
 
-        arr = new int[] { 7, 6, 4, 3, 1 };
+        arr = new int[]{7, 6, 4, 3, 1};
         expect = 0;
         output = x.maxProfit(arr);
-        Util.verify(expect,output,seq++);
+        verify(expect, output, seq++);
 
         int n = 10000;
         arr = new int[n];
@@ -31,7 +32,7 @@ public class BestTimeToBuyAndSellStockTest {
         }
         expect = 0;
         output = x.maxProfit(arr);
-        Util.verify(expect,output,seq++);
+        verify(expect, output, seq++);
 
     }
 }

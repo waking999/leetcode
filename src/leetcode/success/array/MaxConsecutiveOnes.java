@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class MaxConsecutiveOnes {
 	public int findMaxConsecutiveOnes(int[] nums) {
 		if(nums==null) {

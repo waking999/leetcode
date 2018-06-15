@@ -1,17 +1,26 @@
 package lintcode.google.level1;
 
-import common.Util;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static common.Util.verifyUnsort;
+
 
 public class MergeIntervalsTest {
+    private static List<Interval> convertArrayToList(int[][] array) {
+        List<Interval> rtn = new ArrayList<>();
+        for (int[] anArray : array) {
+            rtn.add(new Interval(anArray[0], anArray[1]));
+        }
+        return rtn;
+    }
+
     @Test
     public void testInsert() {
-        MergeIntervals s=new MergeIntervals();
+        MergeIntervals s = new MergeIntervals();
 
         int[] seqNum;
         char[] seqLab;
@@ -31,38 +40,29 @@ public class MergeIntervalsTest {
         s.insertOnDiffStartEnd(seqNum, seqLab, currentNum, value, 's');
         expect = new int[]{5};
         output = Arrays.copyOf(seqNum, currentNum + 1);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         currentNum++;
         value = 8;
         s.insertOnDiffStartEnd(seqNum, seqLab, currentNum, value, 'e');
         expect = new int[]{5, 8};
         output = Arrays.copyOf(seqNum, currentNum + 1);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         currentNum++;
         value = 3;
         s.insertOnDiffStartEnd(seqNum, seqLab, currentNum, value, 's');
         expect = new int[]{3, 5, 8};
         output = Arrays.copyOf(seqNum, currentNum + 1);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         currentNum++;
         value = 4;
         s.insertOnDiffStartEnd(seqNum, seqLab, currentNum, value, 'e');
         expect = new int[]{3, 4, 5, 8};
         output = Arrays.copyOf(seqNum, currentNum + 1);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
-    }
-
-
-    private static List<Interval> convertArrayToList(int[][] array) {
-        List<Interval> rtn = new ArrayList<>();
-        for (int[] anArray : array) {
-            rtn.add(new Interval(anArray[0], anArray[1]));
-        }
-        return rtn;
     }
 
     @Test

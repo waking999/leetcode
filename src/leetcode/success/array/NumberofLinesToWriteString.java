@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class NumberofLinesToWriteString {
     public int[] numberOfLines(int[] widths, String S) {
         if((S==null)||(S.length()==0)){

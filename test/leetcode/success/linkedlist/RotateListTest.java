@@ -1,10 +1,11 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
 import org.junit.Test;
 
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class RotateListTest {
 
@@ -28,7 +29,7 @@ public class RotateListTest {
         k = 2;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{0, 1, 2};
@@ -37,7 +38,7 @@ public class RotateListTest {
         k = 4;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{1};
@@ -46,7 +47,7 @@ public class RotateListTest {
         k = 0;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         nums = new int[]{1, 2};
         head = ListNode.constructListNode(nums);
@@ -54,7 +55,7 @@ public class RotateListTest {
         k = 1;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
         nums = new int[]{1, 2};
         head = ListNode.constructListNode(nums);
@@ -62,7 +63,7 @@ public class RotateListTest {
         k = 2;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{1, 2, 3};
@@ -71,15 +72,15 @@ public class RotateListTest {
         k = 2000000000;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
-        nums = new int[]{1,2,3,4,5};
+        nums = new int[]{1, 2, 3, 4, 5};
         head = ListNode.constructListNode(nums);
-        expect = new int[]{5,1,2,3,4};
+        expect = new int[]{5, 1, 2, 3, 4};
         k = 1;
         outputList = s.rotateRight(head, k);
         output = ListNode.unConstructListNode(outputList);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
     }
 }

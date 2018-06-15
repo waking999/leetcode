@@ -47,6 +47,5 @@ public class RemoveDuplicatesFromSortedListTest {
         n01 = x.deleteDuplicates(n01);
         Assert.assertNull(n01);
 
-        System.out.println("done");
     }
 }

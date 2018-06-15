@@ -1,8 +1,5 @@
 package leetcode.attempt;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class PredicttheWinner {
 	
  

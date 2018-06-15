@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class PalindromeNumber {
 	public boolean isPalindrome(int x) {
 		if(x<0){

@@ -1,7 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-
 public class RomanToInteger {
 	public int romanToInt(String s) {
 		if (s == null) {
@@ -52,29 +50,6 @@ public class RomanToInteger {
 		return 0;
 	}
 
-	public static void main(String[] args) {
-		RomanToInteger s = new RomanToInteger();
 
-		String str;
-		int expect;
-		int output;
-		int seq=0;
-		
-		str = "I";
-		expect = 1;
-		output = s.romanToInt(str);
-		Util.verify(expect, output, seq++);
-
-		str = "IX";
-		expect = 9;
-		output = s.romanToInt(str);
-		Util.verify(expect, output, seq++);
-
-		str = "XII";
-		expect = 12;
-		output = s.romanToInt(str);
-		Util.verify(expect, output, seq++);
-
-	}
 
 }

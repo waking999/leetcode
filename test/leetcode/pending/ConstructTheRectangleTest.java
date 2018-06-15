@@ -3,6 +3,8 @@ package leetcode.pending;
 import common.Util;
 import org.junit.Test;
 
+import static common.Util.*;
+
 public class ConstructTheRectangleTest {
     @Test
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class ConstructTheRectangleTest {
         area = 4;
         expect = new int[] { 2, 2 };
         output = s.constructRectangle(area);
-        Util.verifySort(expect, output, 1);
+        verifySort(expect, output, 1);
 
     }
 }

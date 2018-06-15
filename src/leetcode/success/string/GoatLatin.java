@@ -1,8 +1,5 @@
 package leetcode.success.string;
 
-import leetcode.success.comm.Util;
-import org.junit.Test;
-
 public class GoatLatin {
     public String toGoatLatin(String S) {
         /*

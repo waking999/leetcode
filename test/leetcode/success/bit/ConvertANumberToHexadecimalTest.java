@@ -1,7 +1,8 @@
 package leetcode.success.bit;
 
-import common.Util;
 import org.junit.Test;
+
+import static common.Util.verify;
 
 public class ConvertANumberToHexadecimalTest {
     @Test
@@ -15,18 +16,17 @@ public class ConvertANumberToHexadecimalTest {
         num = 26;
         expect = "1a";
         output = s.toHex(num);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
         num = -1;
         expect = "ffffffff";
         output = s.toHex(num);
-        Util.verify(expect, output, 1);
+        verify(expect, output, 1);
 
         num = 0;
         expect = "0";
         output = s.toHex(num);
-        Util.verify(expect, output, 1);
-
+        verify(expect, output, 1);
 
 
     }

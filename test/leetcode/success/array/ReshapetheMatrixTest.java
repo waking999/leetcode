@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class ReshapetheMatrixTest {
     @Test
@@ -19,13 +20,13 @@ public class ReshapetheMatrixTest {
         c = 4;
         expect = new int[][]{{1, 2, 3, 4}};
         output = s.matrixReshape(nums, r, c);
-        Util.verifyUnsort(expect, output, 1);
+        verifyUnsort(expect, output, 1);
 
         nums = new int[][]{{1, 2}, {3, 4}};
         r = 2;
         c = 4;
         expect = new int[][]{{1, 2}, {3, 4}};
         output = s.matrixReshape(nums, r, c);
-        Util.verifyUnsort(expect, output, 2);
+        verifyUnsort(expect, output, 2);
     }
 }

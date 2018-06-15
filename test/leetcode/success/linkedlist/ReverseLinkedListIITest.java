@@ -1,11 +1,11 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
-import leetcode.success.comm.Util;
 import org.junit.jupiter.api.Test;
 
-
 import java.util.List;
+
+import static common.Util.verifyUnsort;
 
 public class ReverseLinkedListIITest {
     @Test
@@ -29,7 +29,7 @@ public class ReverseLinkedListIITest {
         head = ListNode.constructListNode(nums);
         outputNode = s.reverseBetween(head, m, n);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
         nums = new int[]{3, 5};
@@ -39,7 +39,7 @@ public class ReverseLinkedListIITest {
         head = ListNode.constructListNode(nums);
         outputNode = s.reverseBetween(head, m, n);
         output = ListNode.unConstructListNode(outputNode);
-        Util.verifyUnsort(expect, output, seq++);
+        verifyUnsort(expect, output, seq++);
 
 
     }

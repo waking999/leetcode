@@ -1,7 +1,8 @@
 package leetcode.success.array;
 
-import leetcode.success.comm.Util;
 import org.junit.Test;
+
+import static common.Util.verifyUnsort;
 
 public class RotateImageTest {
     @Test
@@ -23,7 +24,7 @@ public class RotateImageTest {
                 {9, 6, 3}
         };
         s.rotate(matrix);
-        Util.verifyUnsort(expect, matrix, seq++);
+        verifyUnsort(expect, matrix, seq++);
 
 
         matrix = new int[][]{
@@ -39,7 +40,7 @@ public class RotateImageTest {
                 {16, 7, 10, 11}
         };
         s.rotate(matrix);
-        Util.verifyUnsort(expect, matrix, seq++);
+        verifyUnsort(expect, matrix, seq++);
 
 
     }
