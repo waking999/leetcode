@@ -2,7 +2,7 @@ package leetcode.pending;
 
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verifySort;
 

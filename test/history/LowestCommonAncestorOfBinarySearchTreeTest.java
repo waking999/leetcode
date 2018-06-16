@@ -1,10 +1,12 @@
 package history;
 
 import common.TreeNode;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class LowestCommonAncestorOfBinarySearchTreeTest {
-    public static void main(String[] args) {
+    @Test
+    public void test1() {
         LowestCommonAncestorOfBinarySearchTree x = new LowestCommonAncestorOfBinarySearchTree();
 
         TreeNode n01 = new TreeNode(6);
@@ -30,16 +32,16 @@ public class LowestCommonAncestorOfBinarySearchTreeTest {
         n05.right = n09;
 
         TreeNode a = x.lowestCommonAncestor(n01, n05, n02);
-        Assert.assertEquals(n02.val, a.val);
+        Assertions.assertEquals(n02.val, a.val);
 
         a = x.lowestCommonAncestor(n01, n02, n03);
-        Assert.assertEquals(n01.val, a.val);
+        Assertions.assertEquals(n01.val, a.val);
 
         a = x.lowestCommonAncestor(n01, n09, n06);
-        Assert.assertEquals(n01.val, a.val);
+        Assertions.assertEquals(n01.val, a.val);
 
         a = x.lowestCommonAncestor(n01, n09, n04);
-        Assert.assertEquals(n02.val, a.val);
+        Assertions.assertEquals(n02.val, a.val);
 
 
     }

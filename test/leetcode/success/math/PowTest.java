@@ -1,7 +1,7 @@
 package leetcode.success.math;
 
 import common.Util;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class PowTest {
     @Test

@@ -1,7 +1,6 @@
 package leetcode.success.other;
 
-import common.Util;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 

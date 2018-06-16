@@ -1,7 +1,7 @@
 package history;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class UglyNumberTest {
     @Test
@@ -11,20 +11,20 @@ public class UglyNumberTest {
         int a;
 
         a = 6;
-        Assert.assertTrue(x.isUgly(a));
+        Assertions.assertTrue(x.isUgly(a));
 
         a = 1;
-        Assert.assertTrue(x.isUgly(a));
+        Assertions.assertTrue(x.isUgly(a));
 
         a = 8;
-        Assert.assertTrue(x.isUgly(a));
+        Assertions.assertTrue(x.isUgly(a));
 
         a = 14;
-        Assert.assertTrue(!x.isUgly(a));
+        Assertions.assertTrue(!x.isUgly(a));
 
 
         a = -2147483648;
-        Assert.assertTrue(!x.isUgly(a));
+        Assertions.assertTrue(!x.isUgly(a));
 
 
     }

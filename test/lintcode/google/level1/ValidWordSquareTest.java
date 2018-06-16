@@ -1,8 +1,8 @@
 package lintcode.google.level1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verify;
 
 public class ValidWordSquareTest {
     @Test
@@ -31,6 +31,15 @@ public class ValidWordSquareTest {
         output = s.validWordSquare(words);
         verify(expect, output, seq++);
 
+        words = new String[]{};
+        expect = true;
+        output = s.validWordSquare(words);
+        verify(expect, output, seq++);
+
+        words = null;
+        expect = true;
+        output = s.validWordSquare(words);
+        verify(expect, output, seq++);
 
     }
 }

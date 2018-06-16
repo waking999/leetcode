@@ -1,7 +1,7 @@
 package leetcode.attempt;
 
 import common.Util;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 

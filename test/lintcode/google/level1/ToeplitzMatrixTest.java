@@ -1,8 +1,8 @@
 package lintcode.google.level1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verify;
 
 public class ToeplitzMatrixTest {
     @Test
@@ -22,6 +22,23 @@ public class ToeplitzMatrixTest {
 
         matrix = new int[][]{{1, 2}, {2, 2}};
         expect = false;
+        output = s.isToeplitzMatrix(matrix);
+        verify(expect, output, seq++);
+
+
+        matrix = null;
+        expect = true;
+        output = s.isToeplitzMatrix(matrix);
+        verify(expect, output, seq++);
+
+
+        matrix = new int[][]{};
+        expect = true;
+        output = s.isToeplitzMatrix(matrix);
+        verify(expect, output, seq++);
+
+        matrix = new int[][]{{1}};
+        expect = true;
         output = s.isToeplitzMatrix(matrix);
         verify(expect, output, seq++);
 

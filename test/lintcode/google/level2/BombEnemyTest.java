@@ -1,8 +1,8 @@
 package lintcode.google.level2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verify;
 
 public class BombEnemyTest {
     @Test
@@ -16,6 +16,22 @@ public class BombEnemyTest {
 
         grid = new char[][]{{'0', 'E', '0', '0'}, {'E', '0', 'W', 'E'}, {'0', 'E', '0', '0'}};
         expect = 3;
+        output = s.maxKilledEnemies(grid);
+        verify(expect, output, seq++);
+
+
+        grid = null;
+        expect = 0;
+        output = s.maxKilledEnemies(grid);
+        verify(expect, output, seq++);
+
+        grid = new char[][]{ };
+        expect = 0;
+        output = s.maxKilledEnemies(grid);
+        verify(expect, output, seq++);
+
+        grid = new char[][]{{ } };
+        expect = 0;
         output = s.maxKilledEnemies(grid);
         verify(expect, output, seq++);
     }

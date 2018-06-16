@@ -1,8 +1,5 @@
 package leetcode.success.array;
 
-import org.junit.Test;
-
-
 import java.util.*;
 
 public class GroupAnagrams {

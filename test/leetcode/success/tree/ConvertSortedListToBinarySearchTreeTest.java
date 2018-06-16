@@ -3,7 +3,7 @@ package leetcode.success.tree;
 import common.ListNode;
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verifyUnsort;
 

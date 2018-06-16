@@ -1,6 +1,6 @@
 package lintcode.google.level2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verify;
 
@@ -22,6 +22,19 @@ public class LongestAbsoluteFilePathTest {
 
 
         input = "dir";
+        expect = 0;
+        output = s.lengthLongestPath(input);
+        verify(expect, output, seq++);
+
+
+        input = "";
+        expect = 0;
+        output = s.lengthLongestPath(input);
+        verify(expect, output, seq++);
+
+
+
+        input = null;
         expect = 0;
         output = s.lengthLongestPath(input);
         verify(expect, output, seq++);

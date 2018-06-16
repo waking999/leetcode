@@ -3,7 +3,7 @@ package leetcode.attempt;
 import common.NormalBinaryTreeNode;
 import common.TreeNode;
 import common.Util;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class LongestUnivaluePathTest {
     @Test

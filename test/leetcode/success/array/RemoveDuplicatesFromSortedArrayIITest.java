@@ -1,6 +1,6 @@
 package leetcode.success.array;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verify;
 import static common.Util.verifyUnsort;

@@ -45,5 +45,33 @@ public class PowTest {
         output = s.myPow(x, n);
         verify(expect, output, seq++);
 
+        x = 11;
+        n = 0;
+        expect = 1;
+        output = s.myPow(x, n);
+        verify(expect, output, seq++);
+
+
+        x = -1;
+        n = 32;
+        expect = 1;
+        output = s.myPow(x, n);
+        verify(expect, output, seq++);
+
+
+        x = -1;
+        n = 33;
+        expect = -1;
+        output = s.myPow(x, n);
+        verify(expect, output, seq++);
+
+
+        x = 0.00001;
+        n = 33;
+        expect = 0;
+        output = s.myPow(x, n);
+        verify(expect, output, seq++);
+
+
     }
 }

@@ -1,9 +1,8 @@
 package leetcode.pending;
 
-import common.Util;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verifySort;
 
 public class ConstructTheRectangleTest {
     @Test
@@ -15,7 +14,7 @@ public class ConstructTheRectangleTest {
         int[] output;
 
         area = 4;
-        expect = new int[] { 2, 2 };
+        expect = new int[]{2, 2};
         output = s.constructRectangle(area);
         verifySort(expect, output, 1);
 

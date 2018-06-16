@@ -2,7 +2,7 @@ package leetcode.success.linkedlist;
 
 import common.ListNode;
 import common.TreeNode;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 

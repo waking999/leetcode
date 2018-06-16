@@ -1,10 +1,10 @@
 package lintcode.google.level1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static common.Util.*;
+import static common.Util.verifyUnsort;
 
 
 public class FlipGameTest {
@@ -27,5 +27,19 @@ public class FlipGameTest {
         expect = new String[]{};
         output = s.generatePossibleNextMoves(str);
         verifyUnsort(expect, output, seq++);
+
+
+        str = null;
+        expect = null;
+        output = s.generatePossibleNextMoves(str);
+        verifyUnsort(expect, output, seq++);
+
+
+        str = "+";
+        expect = new String[]{};
+        output = s.generatePossibleNextMoves(str);
+        verifyUnsort(expect, output, seq++);
+
+
     }
 }

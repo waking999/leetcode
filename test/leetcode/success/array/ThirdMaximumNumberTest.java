@@ -1,6 +1,6 @@
 package leetcode.success.array;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verify;
 
@@ -27,7 +27,6 @@ public class ThirdMaximumNumberTest {
         expect = 1;
         output = s.thirdMax(nums);
         verify(expect, output, 3);
-
 
 
     }

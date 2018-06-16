@@ -1,8 +1,6 @@
 package leetcode.success.tree;
 
-import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import org.junit.Test;
 
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
@@ -16,7 +14,6 @@ public class SameTree {
             return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
         }
     }
-
 
 
 }

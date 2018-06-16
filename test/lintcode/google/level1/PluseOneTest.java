@@ -1,6 +1,6 @@
 package lintcode.google.level1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verifyUnsort;
 
@@ -17,7 +17,7 @@ public class PluseOneTest {
         verifyUnsort(expect, output, seq++);
 
         nums = new int[]{1, 9, 8};
-        expect = new int[]{2, 0, 0};
+        expect = new int[]{1, 9, 9};
         output = s.plusOne(nums);
         verifyUnsort(expect, output, seq++);
 

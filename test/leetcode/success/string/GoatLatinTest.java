@@ -1,7 +1,7 @@
 package leetcode.success.string;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verify;
 

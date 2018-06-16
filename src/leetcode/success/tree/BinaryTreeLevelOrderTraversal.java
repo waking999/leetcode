@@ -1,8 +1,6 @@
 package leetcode.success.tree;
 
-import common.NormalBinaryTreeNode;
 import common.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,9 @@
 package history;
 
 import common.ListNode;
-import org.junit.Assert;
-import org.junit.Test;
+import common.Util;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class RemoveDuplicatesFromSortedListTest {
 
@@ -23,7 +24,8 @@ public class RemoveDuplicatesFromSortedListTest {
         n02.next = n03;
 
         n01 = x.deleteDuplicates(n01);
-        Assert.assertEquals(n03.val, n01.next.val);
+        Util.verify(n03.val, n01.next.val, 1);
+        Assertions.assertEquals(n03.val, n01.next.val);
 
         /*
          * Given 1->1->2->3->3, return 1->2->3.
@@ -40,12 +42,12 @@ public class RemoveDuplicatesFromSortedListTest {
         n04.next = n05;
 
         n01 = x.deleteDuplicates(n01);
-        Assert.assertEquals(n03.val, n01.next.val);
-        Assert.assertNull(n04.next);
+        Assertions.assertEquals(n03.val, n01.next.val);
+        Assertions.assertNull(n04.next);
 
         n01 = null;
         n01 = x.deleteDuplicates(n01);
-        Assert.assertNull(n01);
+        Assertions.assertNull(n01);
 
     }
 }

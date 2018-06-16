@@ -1,12 +1,10 @@
 package leetcode.attempt;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static common.Util.verify;
 
 public class PartitiontoKEqualSumSubsetsTest {
-
-
     @Test
     public void test1() {
         PartitiontoKEqualSumSubsets s = new PartitiontoKEqualSumSubsets();

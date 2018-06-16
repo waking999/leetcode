@@ -1,8 +1,8 @@
 package lintcode.google.level2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verify;
 
 public class BeautifulArrangementTest {
     @Test

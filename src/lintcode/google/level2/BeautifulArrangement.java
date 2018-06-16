@@ -1,8 +1,6 @@
 package lintcode.google.level2;
 
 
-import org.junit.Test;
-
 /**
  * Suppose you have N integers from 1 to N. We define a beautiful arrangement as an array that is constructed by these N numbers successfully if one of the following is true for the ith position (1 <= i <= N) in this array:
  * <p>
@@ -104,7 +102,6 @@ public class BeautifulArrangement {
 //            }
 //        }
 //    }
-
 
 
 }

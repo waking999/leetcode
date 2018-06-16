@@ -1,8 +1,8 @@
 package lintcode.google.level1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static common.Util.*;
+import static common.Util.verify;
 
 public class AddStringsTest {
     @Test
@@ -35,6 +35,25 @@ public class AddStringsTest {
 
         num1 = "999";
         num2 = "1";
+        expect = "1000";
+        output = s.addStrings(num1, num2);
+        verify(expect, output, seq++);
+
+        num1 = null;
+        num2 = "1";
+        expect = "1";
+        output = s.addStrings(num1, num2);
+        verify(expect, output, seq++);
+
+
+        num1 = "1";
+        num2 = null;
+        expect = "1";
+        output = s.addStrings(num1, num2);
+        verify(expect, output, seq++);
+
+        num1 = "1";
+        num2 = "999";
         expect = "1000";
         output = s.addStrings(num1, num2);
         verify(expect, output, seq++);
