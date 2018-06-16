@@ -20,12 +20,12 @@ public class LargestNumber {
 
         List<NumStr> strs = IntStream.of(nums).boxed().map(e -> new NumStr(e.toString())).sorted().collect(Collectors.toList());
 
-        if ("0".equals(strs.get(numsLen - 1).val)) {
+        if ("0".equals(strs.get(numsLen - 1).getVal())) {
             return "0";
         }
         StringBuilder sb = new StringBuilder();
         for (int i = numsLen - 1; i >= 0; i--) {
-            sb.append(strs.get(i).val);
+            sb.append(strs.get(i).getVal());
         }
 
 
@@ -37,12 +37,15 @@ public class LargestNumber {
 
 
 class NumStr implements Comparable<NumStr> {
-    String val;
+    private String val;
 
     NumStr(String val) {
         this.val = val;
     }
 
+    String getVal(){
+        return this.val;
+    }
 
     @Override
     public int compareTo(NumStr o) {

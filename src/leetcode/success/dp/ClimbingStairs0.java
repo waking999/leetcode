@@ -4,7 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ClimbingStairs0 {
-    Map<Integer, Integer> map = new HashMap<>();
+    private Map<Integer, Integer> map;
+
+    public ClimbingStairs0() {
+        map = new HashMap<>();
+    }
 
     public int climbStairs(int n) {
         if (map.containsKey(n)) {

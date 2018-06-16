@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="tidy up &#10;seperate test methods into test classes for part of them">
+    <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/lintcode/google/level2/GenerateParentheses.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/leetcode/pending/BinaryTreePreorderTraversalTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/leetcode/pending/CombinationsTest.java" afterDir="false" />
@@ -381,104 +381,7 @@
     <favorites_list name="leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SymmetricTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/SymmetricTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/MergeTwoSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicatesfromSortedListII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/RemoveDuplicatesfromSortedListII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SameTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/SameTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializeranddeserializerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/SerializeranddeserializerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IslandPerimeter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/math/IslandPerimeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpiralMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/SpiralMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/other/MyStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializeranddeserializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/Serializeranddeserializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -508,8 +411,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/success/tree/PathSumIII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/tree/FloodFill.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/tree/FloodFillTest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/tree/PathSumIIITest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/array/AssignCookiesTest.java" />
@@ -559,6 +460,8 @@
         <option value="$PROJECT_DIR$/src/lintcode/google/level2/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/other/SingleNumber.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/array/SerializeranddeserializerTest.java" />
+        <option value="$PROJECT_DIR$/test/lintcode/google/level2/SerializeandDeserializeBinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/lintcode/google/level2/SerializeandDeserializeBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -597,6 +500,38 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lintcode" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="level2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -604,43 +539,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -717,32 +615,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PowTest.test1">
+  <component name="RunManager" selected="JUnit.SerializeandDeserializeBinaryTreeTest.testserialize">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AddDigitTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="history.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="history" />
-      <option name="MAIN_CLASS_NAME" value="history.AddDigitTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ArrangingCoinsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -836,6 +711,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lintcode.google.level2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lintcode.google.level2" />
+      <option name="MAIN_CLASS_NAME" value="lintcode.google.level2.SerializeandDeserializeBinaryTreeTest" />
+      <option name="METHOD_NAME" value="testserialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -875,19 +773,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddDigitTest.test1" />
       <item itemvalue="JUnit.GenerateParenthesesTest.testgenerateParenthesis" />
       <item itemvalue="JUnit.ArrangingCoinsTest.test1" />
       <item itemvalue="JUnit.PowTest.test1" />
       <item itemvalue="JUnit.PowTest.test1 (1)" />
+      <item itemvalue="JUnit.SerializeandDeserializeBinaryTreeTest.testserialize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SerializeandDeserializeBinaryTreeTest.testserialize" />
         <item itemvalue="JUnit.PowTest.test1" />
         <item itemvalue="JUnit.PowTest.test1 (1)" />
         <item itemvalue="JUnit.GenerateParenthesesTest.testgenerateParenthesis" />
         <item itemvalue="JUnit.ArrangingCoinsTest.test1" />
-        <item itemvalue="JUnit.AddDigitTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +810,7 @@
       <workItem from="1528759627495" duration="19228000" />
       <workItem from="1528846046549" duration="16038000" />
       <workItem from="1528931442650" duration="22377000" />
-      <workItem from="1529019208524" duration="14436000" />
+      <workItem from="1529019208524" duration="16554000" />
     </task>
     <task id="LOCAL-00001" summary="2080611">
       <created>1528691918518</created>
@@ -956,25 +854,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528960913004</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tidy up &#10;seperate test methods into test classes for part of them">
+      <created>1529044304205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1529044304205</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoSumIIITest_test1 - 2018.06.14 at 14h 03m 21s.xml">
-      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSumIIITest_test1 - 2018.06.14 at 14h 03m 28s.xml">
-      <configuration name="TwoSumIIITest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrangingCoinsTest_test1 - 2018.06.15 at 14h 34m 03s.xml">
-      <configuration name="ArrangingCoinsTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenerateParenthesesTest_testgenerateParenthesis - 2018.06.15 at 15h 22m 19s.xml">
-      <configuration name="GenerateParenthesesTest.testgenerateParenthesis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PowTest_test1 - 2018.06.15 at 15h 40m 31s.xml">
-      <configuration name="PowTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PowTest_test1_(1) - 2018.06.15 at 15h 48m 14s.xml">
       <configuration name="PowTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
@@ -990,9 +880,24 @@
     <history-entry file="PowTest_test1 - 2018.06.15 at 15h 55m 30s.xml">
       <configuration name="PowTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SerializeandDeserializeBinaryTreeTest_testserialize - 2018.06.15 at 16h 17m 38s.xml">
+      <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializeandDeserializeBinaryTreeTest_testserialize - 2018.06.15 at 16h 27m 07s.xml">
+      <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializeandDeserializeBinaryTreeTest_testserialize - 2018.06.15 at 16h 27m 50s.xml">
+      <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializeandDeserializeBinaryTreeTest_testserialize - 2018.06.15 at 16h 28m 02s.xml">
+      <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializeandDeserializeBinaryTreeTest_testserialize - 2018.06.15 at 16h 29m 02s.xml">
+      <configuration name="SerializeandDeserializeBinaryTreeTest.testserialize" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163245000" />
+    <option name="totallyTimeSpent" value="165363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +912,7 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5053305" side_tool="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1017,9 +922,9 @@
       <window_info id="Structure" order="1" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49413645" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" visible="true" weight="0.3284974" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.3284974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -1063,7 +968,8 @@
     <MESSAGE value="tidy up &#10;under google directory&#10;1) add question description to each solution class&#10;2) move them to relevent package&#10;3) change some main to test" />
     <MESSAGE value="tidy up &#10;under google directory&#10;1) add question description to each solution class&#10;2) move them to relevent package&#10;3) change some main to test&#10;4) seperate test methods into test classes for part of them (the remaining will be done later)" />
     <MESSAGE value="tidy up &#10;seperate test methods into test classes for part of them" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidy up &#10;seperate test methods into test classes for part of them" />
+    <MESSAGE value="google level 2: serialize treenode in half." />
+    <option name="LAST_COMMIT_MESSAGE" value="google level 2: serialize treenode in half." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,8 +1082,14 @@
           <properties />
           <option name="timeStamp" value="398" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/lintcode/google/level2/SerializeandDeserializeBinaryTreeTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="399" />
+      <option name="time" value="402" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1255,23 +1167,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/leetcode/pending/FindModeinBinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/ValidPalindromeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leetcode/pending/KeyboardRowTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1527,20 +1422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="175" column="85" lean-forward="true" selection-start-line="175" selection-start-column="85" selection-end-line="175" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/common/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leetcode/success/math/PowTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1647,16 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/SerializeranddeserializerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/success/math/IslandPerimeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1675,6 +1546,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/SerializeranddeserializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/common/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+          <folding>
+            <element signature="e#8177#8178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lintcode/google/level2/SerializeandDeserializeBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lintcode/google/level2/SerializeandDeserializeBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>

@@ -188,7 +188,7 @@ public class Util {
 	}
 
 	public static void verify(double expect, double output, int seq) {
-		assert (Math.abs(expect - output) < DIFF ) : seq + ":wrong";
+		assert (Math.abs(expect - output) <= DIFF ) : seq + ":wrong";
 	}
 
 	public static void verify(boolean expect, boolean output, int seq) {

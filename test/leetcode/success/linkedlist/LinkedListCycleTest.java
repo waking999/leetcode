@@ -1,6 +1,7 @@
 package leetcode.success.linkedlist;
 
 import common.ListNode;
+import common.TreeNode;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -32,4 +33,34 @@ public class LinkedListCycleTest {
 
     }
 
+    @Test
+    public void testhasCycle() {
+        LinkedListCycle s=new LinkedListCycle();
+
+        int[] nums;
+        int[] childIdx;
+        ListNode head;
+        boolean expect;
+        boolean output;
+
+        //no cycle
+        nums=new int[]{4,5,6,7};
+        childIdx=new int[]{1,2,3,TreeNode.IMPOSSIBLE_VALUE};
+        head=ListNode.constructListNode(nums,childIdx);
+        expect=false;
+        output=s.hasCycle(head);
+        assert(output==expect):"1:wrong";
+
+
+        //has cycle
+        nums=new int[]{4,5,6,7};
+        childIdx=new int[]{1,2,3,1};
+        head=ListNode.constructListNode(nums,childIdx);
+        expect=true;
+        output=s.hasCycle(head);
+        assert(output==expect):"2:wrong";
+
+        System.out.println("Finish");
+
+    }
 }

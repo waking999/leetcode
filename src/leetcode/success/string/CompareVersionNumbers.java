@@ -33,7 +33,7 @@ public class CompareVersionNumbers {
     }
 
     String removeSuffixZero(String version) {
-        String strPattern = "\\.{1}0+$";
+        String strPattern = "\\.0+$";
 
         String rtn = version.replaceAll(strPattern, "");
         while (!rtn.equals(version)) {

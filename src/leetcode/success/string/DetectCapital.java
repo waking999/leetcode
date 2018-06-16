@@ -1,45 +1,7 @@
 package leetcode.success.string;
 
-import static leetcode.success.comm.Util.verify;
-
 public class DetectCapital {
-    public static void main(String[] args) {
-        DetectCapital s = new DetectCapital();
 
-        String word;
-        boolean expect;
-        boolean output;
-
-        word = "USA";
-        expect = true;
-        output = s.detectCapitalUse(word);
-        verify(expect, output, 1);
-
-        word = "leetcode";
-        expect = true;
-        output = s.detectCapitalUse(word);
-        verify(expect, output, 2);
-
-        word = "Google";
-        expect = true;
-        output = s.detectCapitalUse(word);
-        verify(expect, output, 3);
-
-        word = "FlaG";
-        expect = false;
-        output = s.detectCapitalUse(word);
-        verify(expect, output, 4);
-
-
-        word = "FFFFFFFFFFFFFFFFFFFFf";
-        expect = false;
-        output = s.detectCapitalUse(word);
-        verify(expect, output, 4);
-
-        System.out.println("Finish");
-
-
-    }
 
     public boolean detectCapitalUse(String word) {
         if (word == null) {

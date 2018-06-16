@@ -1,6 +1,6 @@
 package other;
 
-@SuppressWarnings("rawtypes")
+
 public class BTree<Key extends Comparable, Value> {
 	// max children per B-tree node = M-1
 	// (must be even and greater than 2)
