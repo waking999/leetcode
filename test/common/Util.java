@@ -75,7 +75,6 @@ public class Util {
             return;
         }
 
-
         int expectLen = expect.length;
         int outputSize = output.size();
         assert (expectLen == outputSize) : seq + ":wrong";

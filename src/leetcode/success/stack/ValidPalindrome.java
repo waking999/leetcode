@@ -38,36 +38,6 @@ public class ValidPalindrome {
 		return true;
 	}
 
-	public static void main(String[] args) {
-		ValidPalindrome s = new ValidPalindrome();
 
-		String str;
-		boolean expect;
-		boolean output;
-
-		str = "A man, a plan, a canal: Panama";
-		expect = true;
-		output = s.isPalindrome(str);
-		assert (expect == output) : "1:wrong";
-
-		str = "race a car";
-		expect = false;
-		output = s.isPalindrome(str);
-		assert (expect == output) : "2:wrong";
-
-		str = ".,";
-		expect = true;
-		output = s.isPalindrome(str);
-		assert (expect == output) : "3:wrong";
-		
-		
-		str = "0P";
-		expect = false;
-		output = s.isPalindrome(str);
-		assert (expect == output) : "3:wrong";
-
-		System.out.println("Finish");
-
-	}
 
 }
