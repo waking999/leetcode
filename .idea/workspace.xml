@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/attempt/PeakIndexinaMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/BuddyStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/stack/ScoreofParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/google/level1/highfreq/BinaryTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/google/level1/highfreq/ReverseVowelsofaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/google/level1/other/BinaryTreeLongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lintcode/google/level1/other/FirstUniqueCharacterinaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/attempt/PeakIndexinaMountainArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/BuddyStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/stack/ScoreofParenthesesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/stack/ValidPalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lintcode/google/level1/highfreq/BinaryTreePathsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lintcode/google/level1/highfreq/ReverseVowelsofaStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lintcode/google/level1/other/BinaryTreeLongestConsecutiveSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/lintcode/google/level1/other/FirstUniqueCharacterinaStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/linkedlist/ExamRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/success/linkedlist/ExamRoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/success/stack/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/stack/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/common/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,6 +83,9 @@
     <SUITE FILE_PATH="coverage/leetcode$KthSmallestElementinaBST.ic" NAME="KthSmallestElementinaBST Coverage Results" MODIFIED="1528937015307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level2.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest.ic" NAME="ExamRoomTest Coverage Results" MODIFIED="1530251965929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$LongestUnivaluePath.ic" NAME="LongestUnivaluePath Coverage Results" MODIFIED="1528936701584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
@@ -132,6 +119,9 @@
     <SUITE FILE_PATH="coverage/leetcode$BeautifulArrangement_testcountArrangement.ic" NAME="BeautifulArrangement.testcountArrangement Coverage Results" MODIFIED="1528937003451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level2.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest_test4.ic" NAME="ExamRoomTest.test4 Coverage Results" MODIFIED="1530250976050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$RemoveDuplicatesfromSortedListII_test1.ic" NAME="RemoveDuplicatesfromSortedListII.test1 Coverage Results" MODIFIED="1528936798430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
@@ -142,6 +132,9 @@
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$SingleNumberII_testsingleNumber.ic" NAME="SingleNumberII.testsingleNumber Coverage Results" MODIFIED="1528936826722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoom2Test.ic" NAME="ExamRoom2Test Coverage Results" MODIFIED="1530255986391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$DivideTwoIntegers_test1.ic" NAME="DivideTwoIntegers.test1 Coverage Results" MODIFIED="1528936574719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -173,10 +166,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ExamRoomTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java">
+        <entry file="file://$PROJECT_DIR$/test/leetcode/success/linkedlist/ExamRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            <state relative-caret-position="351">
+              <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,11 +177,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamRoom.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.java">
+      <file leaf-file-name="ContainsDuplicateIII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/ContainsDuplicateIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/ExamRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+              <folding>
+                <element signature="e#5185#5186#0" expanded="true" />
+                <element signature="e#5238#5239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -223,9 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/leetcode/success/array/ArrayPartitionITest.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/pending/DiameterofBinaryTreeITest.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/pending/ConstructTheRectangleTest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/pending/BinaryTreePreorderTraversalTest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/SqrtXTest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/PredicttheWinnerTest.java" />
@@ -272,8 +293,11 @@
         <option value="$PROJECT_DIR$/test/leetcode/success/stack/ScoreofParenthesesTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/stack/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/stack/ValidPalindromeTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.kt" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/ExamRoom2Test.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/ExamRoom2.java" />
       </list>
     </option>
   </component>
@@ -301,6 +325,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,8 +502,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -497,16 +521,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode.success.linkedlist" />
       <recent name="leetcode.success.stack" />
       <recent name="leetcode.success.array" />
       <recent name="lintcode.google.level2.required" />
       <recent name="lintcode.google.level1.required" />
-      <recent name="lintcode.google.level2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.attempt" />
       <recent name="leetcode.success.comm" />
       <recent name="leetcode.success.tree" />
-      <recent name="leetcode.attempt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kwang1\workspace\leetcode\lib" />
@@ -524,23 +548,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExamRoomTest.test3">
+  <component name="RunManager" selected="JUnit.ExamRoom2Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ExamRoomTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamRoom2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.attempt.*" />
+          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.attempt" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoomTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoom2Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExamRoom2Test.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.attempt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoom2Test" />
+      <option name="METHOD_NAME" value="test12" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -551,19 +598,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ExamRoomTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamRoom2Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.attempt.*" />
+          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.attempt" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoomTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoom2Test" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -574,19 +621,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ExamRoomTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamRoom2Test.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.attempt.*" />
+          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.attempt" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoomTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.ExamRoom2Test" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -597,20 +644,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScoreofParenthesesTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.success.stack.*" />
+          <option name="PATTERN" value="leetcode.success.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.success.stack" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.stack.ScoreofParenthesesTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="leetcode.success.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.linkedlist.ExamRoomTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -682,19 +729,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ScoreofParenthesesTest.test1" />
-      <item itemvalue="JUnit.ScoreofParenthesesTest.test1 (1)" />
-      <item itemvalue="JUnit.ExamRoomTest.test1" />
-      <item itemvalue="JUnit.ExamRoomTest.test2" />
-      <item itemvalue="JUnit.ExamRoomTest.test3" />
+      <item itemvalue="JUnit.ExamRoomTest" />
+      <item itemvalue="JUnit.ExamRoom2Test.test12" />
+      <item itemvalue="JUnit.ExamRoom2Test" />
+      <item itemvalue="JUnit.ExamRoom2Test.test4" />
+      <item itemvalue="JUnit.ExamRoom2Test.test7" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExamRoomTest.test3" />
-        <item itemvalue="JUnit.ExamRoomTest.test1" />
-        <item itemvalue="JUnit.ExamRoomTest.test2" />
-        <item itemvalue="JUnit.ScoreofParenthesesTest.test1 (1)" />
-        <item itemvalue="JUnit.ScoreofParenthesesTest.test1" />
+        <item itemvalue="JUnit.ExamRoom2Test" />
+        <item itemvalue="JUnit.ExamRoom2Test.test7" />
+        <item itemvalue="JUnit.ExamRoom2Test.test4" />
+        <item itemvalue="JUnit.ExamRoom2Test.test12" />
+        <item itemvalue="JUnit.ExamRoomTest" />
       </list>
     </recent_temporary>
   </component>
@@ -729,7 +776,8 @@
       <workItem from="1529386214328" duration="4005000" />
       <workItem from="1529553621828" duration="1151000" />
       <workItem from="1529630428366" duration="578000" />
-      <workItem from="1530144360996" duration="17720000" />
+      <workItem from="1530144360996" duration="17824000" />
+      <workItem from="1530229129547" duration="10864000" />
     </task>
     <task id="LOCAL-00001" summary="2080611">
       <created>1528691918518</created>
@@ -801,43 +849,50 @@
       <option name="project" value="LOCAL" />
       <updated>1529154814271</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="google high frequency 2;google other;leetcode medium 1;">
+      <created>1530168454976</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530168454976</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExamRoomTest_test1 - 2018.06.28 at 15h 18m 16s.xml">
-      <configuration name="ExamRoomTest.test1" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test12 - 2018.06.29 at 16h 23m 40s.xml">
+      <configuration name="ExamRoom2Test.test12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test1 - 2018.06.28 at 15h 18m 53s.xml">
-      <configuration name="ExamRoomTest.test1" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test12 - 2018.06.29 at 16h 30m 11s.xml">
+      <configuration name="ExamRoom2Test.test12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test1 - 2018.06.28 at 15h 19m 00s.xml">
-      <configuration name="ExamRoomTest.test1" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test12 - 2018.06.29 at 16h 31m 06s.xml">
+      <configuration name="ExamRoom2Test.test12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test2 - 2018.06.28 at 15h 25m 15s.xml">
-      <configuration name="ExamRoomTest.test2" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test - 2018.06.29 at 16h 31m 20s.xml">
+      <configuration name="ExamRoom2Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test1 - 2018.06.28 at 15h 25m 52s.xml">
-      <configuration name="ExamRoomTest.test1" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test4 - 2018.06.29 at 16h 31m 54s.xml">
+      <configuration name="ExamRoom2Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test2 - 2018.06.28 at 15h 31m 49s.xml">
-      <configuration name="ExamRoomTest.test2" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test - 2018.06.29 at 16h 32m 23s.xml">
+      <configuration name="ExamRoom2Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test3 - 2018.06.28 at 15h 31m 49s.xml">
-      <configuration name="ExamRoomTest.test3" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test4 - 2018.06.29 at 16h 36m 00s.xml">
+      <configuration name="ExamRoom2Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test3 - 2018.06.28 at 15h 31m 57s.xml">
-      <configuration name="ExamRoomTest.test3" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test4 - 2018.06.29 at 16h 36m 08s.xml">
+      <configuration name="ExamRoom2Test.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test3 - 2018.06.28 at 15h 34m 00s.xml">
-      <configuration name="ExamRoomTest.test3" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test_test7 - 2018.06.29 at 16h 36m 19s.xml">
+      <configuration name="ExamRoom2Test.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamRoomTest_test3 - 2018.06.28 at 15h 36m 18s.xml">
-      <configuration name="ExamRoomTest.test3" configurationId="JUnit" />
+    <history-entry file="ExamRoom2Test - 2018.06.29 at 16h 36m 28s.xml">
+      <configuration name="ExamRoom2Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202402000" />
+    <option name="totallyTimeSpent" value="213370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +905,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -858,15 +912,16 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51759064" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5207889" side_tool="true" visible="true" weight="0.3187166" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48454157" weight="0.3187166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4792111" visible="true" weight="0.3187166" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.16950959" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49304813" visible="true" weight="0.3139659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49304813" visible="true" weight="0.25373134" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
@@ -874,14 +929,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4824094" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47707888" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" visible="true" weight="0.2521322" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" visible="true" weight="0.2521322" />
       <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49946696" weight="0.32941177" />
     </layout>
   </component>
@@ -912,7 +966,8 @@
     <MESSAGE value="google level 2: serialize treenode in half." />
     <MESSAGE value="1) google level 2 finished&#10;2) change to junit 5" />
     <MESSAGE value="google high frequency 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="google high frequency 1" />
+    <MESSAGE value="google high frequency 2;google other;leetcode medium 1;" />
+    <option name="LAST_COMMIT_MESSAGE" value="google high frequency 2;google other;leetcode medium 1;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,15 +1116,8 @@
           <properties />
           <option name="timeStamp" value="458" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="i==8" language="JAVA" />
-          <url>file://$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="463" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="464" />
+      <option name="time" value="499" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1077,18 +1125,49 @@
         <watch expression="parent" language="JAVA" />
         <watch expression="str.charAt(end)" language="JAVA" />
         <watch expression="str.charAt(start)" language="JAVA" />
+        <watch expression="expect[i]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
-        <expression-string>i==8</expression-string>
+        <expression-string>i==9</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i==9</expression-string>
+        <expression-string>i==26</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==17</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==12</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==6</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==8</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1097,13 +1176,13 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="watch">
       <expression>
-        <expression-string>&quot;229900&quot;.equals(&quot;#&quot;+RGB_STR[i]+RGB_STR[j]+RGB_STR[k])</expression-string>
+        <expression-string>expect[i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="watch">
       <expression>
         <expression-string>str.charAt(start)</expression-string>
         <language-id>JAVA</language-id>
@@ -1149,42 +1228,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>elements[1].lastIndexOf(&quot;\t&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lintcode/google/level1/required/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lintcode/google/level1/required/ToeplitzMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lintcode/google/level2/required/BombEnemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lintcode/google/level2/required/LongestAbsoluteFilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lintcode/google/level2/required/SerializeandDeserializeBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1432,9 +1478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1449,9 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,16 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
@@ -1515,9 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1531,20 +1558,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/ExamRoomTest.java">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/ExamRoom2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/ContainsDuplicateIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/linkedlist/ExamRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/ExamRoom.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/linkedlist/ExamRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="93">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#5185#5186#0" expanded="true" />
+            <element signature="e#5238#5239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/ExamRoom2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="156" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
