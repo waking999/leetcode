@@ -1,7 +1,7 @@
-package leetcode.success.stack;
+package leetcode.pending;
 
 import common.Util;
-import leetcode.success.stack.ShortestSubarraywithSumatLeastK;
+import leetcode.pending.ShortestSubarraywithSumatLeastK;
 import org.junit.jupiter.api.Test;
 
 public class ShortestSubarraywithSumatLeastKTest {
