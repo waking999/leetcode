@@ -44,6 +44,17 @@ public class Util {
         }
     }
 
+    public static void verifyUnsort(String[][] expect, List<List<String>> output, int seq) {
+        int expectLen = expect.length;
+        int outputSize = output.size();
+        assert (expectLen == outputSize) : seq + ":wrong";
+        for (int i = 0; i < expectLen; i++) {
+            String s1 = Arrays.stream(expect[i]).collect(Collectors.toList()).stream().collect(Collectors.joining(","));
+            String s2 = output.get(i).stream().collect(Collectors.joining(","));
+            assert (s1.equals(s2)) : seq + "wrong";
+        }
+    }
+
     public static void verifyUnsort(List<List<Integer>> expect, List<List<Integer>> output, int seq) {
         int expectLen = expect.size();
         int outputSize = output.size();

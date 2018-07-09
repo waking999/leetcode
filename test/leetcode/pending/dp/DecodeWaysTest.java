@@ -1,7 +1,7 @@
-package leetcode.pending;
+package leetcode.pending.dp;
 
 import common.Util;
-import leetcode.pending.DecodeWays;
+import leetcode.pending.dp.DecodeWays;
 import org.junit.jupiter.api.Test;
 
 public class DecodeWaysTest {

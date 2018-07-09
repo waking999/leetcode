@@ -1,4 +1,4 @@
-package leetcode.pending;
+package leetcode.pending.dp;
 
 /**
  * https://leetcode.com/problems/decode-ways/description/
