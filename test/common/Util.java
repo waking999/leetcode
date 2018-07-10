@@ -125,6 +125,25 @@ public class Util {
         assert (expectStr.equals(outputStr)) : seq + ":wrong";
     }
 
+
+    public static void verifyUnsort(Integer[] expect, List<Integer> output, int seq) {
+        int expectLen = expect.length;
+        int outputSize = output.size();
+        assert (expectLen == outputSize) : seq + ":wrong";
+        for (int i = 0; i < expectLen; i++) {
+            if (expect[i] == null && output.get(i) == null) {
+                continue;
+            } else if (expect[i] != null) {
+                assert (expect[i].equals(output.get(i))) : seq + ":wrong";
+            } else  {
+                assert (output.get(i).equals(expect[i])) : seq + ":wrong";
+            }
+
+        }
+
+
+    }
+
     public static void verifyUnsort(double[] expect, List<Double> output, int seq) {
 
         int expectLen = expect.length;
