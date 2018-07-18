@@ -9,7 +9,7 @@ public class MaximumSubarray {
 			maxSoFar += nums[i];
 			maxSum = Math.max(maxSum, maxSoFar);
 			if (maxSoFar < 0)
-				maxSoFar = 0; // empty array is better
+				maxSoFar = 0; // empty digits is better
 		}
 		return maxSum;
 	}
