@@ -116,6 +116,9 @@ public class Util {
     }
 
     public static void verifyUnsort(int[] expect, List<Integer> output, int seq) {
+        if(expect==null&&output==null){
+            return;
+        }
         int expectLen = expect.length;
         int outputSize = output.size();
         assert (expectLen == outputSize) : seq + ":wrong";

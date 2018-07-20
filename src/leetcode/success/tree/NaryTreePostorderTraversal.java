@@ -1,6 +1,6 @@
 package leetcode.success.tree;
 
-import common.Node;
+import common.NaryTree.Node;
 
 import java.util.*;
 

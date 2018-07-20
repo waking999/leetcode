@@ -1,6 +1,6 @@
 package leetcode.success.tree;
 
-import common.Node;
+import common.NaryTree.Node;
 import common.Util;
 import org.junit.jupiter.api.Test;
 
