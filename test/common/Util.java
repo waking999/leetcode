@@ -40,7 +40,7 @@ public class Util {
                     .map(num -> Integer.toString(num)).collect(Collectors.joining(","));
 
             String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-            assert (s1.equals(s2)) : seq + "wrong";
+            assert (s1.equals(s2)) : seq + ":wrong";
         }
     }
 
@@ -51,7 +51,7 @@ public class Util {
         for (int i = 0; i < expectLen; i++) {
             String s1 = Arrays.stream(expect[i]).collect(Collectors.toList()).stream().collect(Collectors.joining(","));
             String s2 = output.get(i).stream().collect(Collectors.joining(","));
-            assert (s1.equals(s2)) : seq + "wrong";
+            assert (s1.equals(s2)) : seq + ":wrong";
         }
     }
 
@@ -62,7 +62,7 @@ public class Util {
         for (int i = 0; i < expectLen; i++) {
             String s1 = expect.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
             String s2 = output.get(i).stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
-            assert (s1.equals(s2)) : seq + "wrong";
+            assert (s1.equals(s2)) : seq + ":wrong";
         }
     }
 
@@ -116,7 +116,7 @@ public class Util {
     }
 
     public static void verifyUnsort(int[] expect, List<Integer> output, int seq) {
-        if(expect==null&&output==null){
+        if (expect == null && output == null) {
             return;
         }
         int expectLen = expect.length;
@@ -138,7 +138,7 @@ public class Util {
                 continue;
             } else if (expect[i] != null) {
                 assert (expect[i].equals(output.get(i))) : seq + ":wrong";
-            } else  {
+            } else {
                 assert (output.get(i).equals(expect[i])) : seq + ":wrong";
             }
 
