@@ -1,7 +1,6 @@
 package leetcode.success.recursion;
 
 import common.Util;
-import leetcode.success.recrusion.WordSearch;
 import org.junit.jupiter.api.Test;
 
 public class WordSearchTest {

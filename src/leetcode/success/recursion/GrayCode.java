@@ -1,4 +1,4 @@
-package leetcode.success.recrusion;
+package leetcode.success.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
