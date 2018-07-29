@@ -2,170 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="828802c0-0ecc-4369-b14b-2b3638860b70" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/pending/dp/TwoKeysKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/ExclusiveTimeofFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/MyCircularDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/PalindromicSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/ReplaceWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/SolvetheEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/success/recursion/ShoppingOffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/pending/dp/TwoKeysKeyboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/ExclusiveTimeofFunctionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/MyCircularDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/PalindromicSubstringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/ReplaceWordsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/SolvetheEquationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/leetcode/success/recursion/ShoppingOffersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/attempt/PermutationinString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/attempt/SingleElementinaSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/FindDuplicateFileinSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/FractionAdditionandSubtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/success/array/MyCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/attempt/SingleElementinaSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/FindDuplicateFileinSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/FractionAdditionandSubtractionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/success/array/MyCircularQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/success/recrusion/GrayCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/recursion/GrayCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/success/recrusion/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/success/recursion/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/leetcode/success/recursion/GrayCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/success/recursion/GrayCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/leetcode/success/recursion/WordSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/leetcode/success/recursion/WordSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/common/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/leetcode$ValidParenthesisString_test1.ic" NAME="ValidParenthesisString.test1 Coverage Results" MODIFIED="1528936856593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$LexicographicalNumbers_test1.ic" NAME="LexicographicalNumbers.test1 Coverage Results" MODIFIED="1528936629134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ContainsDuplicateIII_testcontainsNearbyAlmostDuplicate.ic" NAME="ContainsDuplicateIII.testcontainsNearbyAlmostDuplicate Coverage Results" MODIFIED="1528633047657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$BombEnemy.ic" NAME="BombEnemy Coverage Results" MODIFIED="1528937009328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level2.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$SqrtX_test1.ic" NAME="SqrtX.test1 Coverage Results" MODIFIED="1528936843779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$AddStrings.ic" NAME="AddStrings Coverage Results" MODIFIED="1528937129401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$lintcode_google_level1_in_leetcode.ic" NAME="lintcode.google.level1 in leetcode Coverage Results" MODIFIED="1529135845582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestSubstringWithoutRepeatingCharacters_testlengthOfLongestSubstring.ic" NAME="LongestSubstringWithoutRepeatingCharacters.testlengthOfLongestSubstring Coverage Results" MODIFIED="1528936662101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$HIndex_test1.ic" NAME="HIndex.test1 Coverage Results" MODIFIED="1528936598095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$MaximizeDistancetoClosestPerson.ic" NAME="MaximizeDistancetoClosestPerson Coverage Results" MODIFIED="1528605907296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$SolvetheEquationTest_test1.ic" NAME="SolvetheEquationTest.test1 Coverage Results" MODIFIED="1532580250724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestAbsoluteFilePath.ic" NAME="LongestAbsoluteFilePath Coverage Results" MODIFIED="1528937024264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level2.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$SimilarRGBColor.ic" NAME="SimilarRGBColor Coverage Results" MODIFIED="1528937047378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$MaximumSubarray_test1.ic" NAME="MaximumSubarray.test1 Coverage Results" MODIFIED="1528936732463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$AddStringsTest_test1.ic" NAME="AddStringsTest.test1 Coverage Results" MODIFIED="1529135415335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$KthSmallestElementinaBST.ic" NAME="KthSmallestElementinaBST Coverage Results" MODIFIED="1528937015307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level2.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$PartitiontoKEqualSumSubsets_test1.ic" NAME="PartitiontoKEqualSumSubsets.test1 Coverage Results" MODIFIED="1528936746899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$BeautifulArrangement_testcountArrangement.ic" NAME="BeautifulArrangement.testcountArrangement Coverage Results" MODIFIED="1528937003451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level2.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LexicographicalNumbers_test1.ic" NAME="LexicographicalNumbers.test1 Coverage Results" MODIFIED="1528936629134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$SerializeandDeserializeBinaryTreeTest_testdeserialize.ic" NAME="SerializeandDeserializeBinaryTreeTest.testdeserialize Coverage Results" MODIFIED="1529124560707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level2.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest.ic" NAME="ExamRoomTest Coverage Results" MODIFIED="1530251965929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$lintcode_google_in_leetcode.ic" NAME="lintcode.google in leetcode Coverage Results" MODIFIED="1529135282878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$FlipGame.ic" NAME="FlipGame Coverage Results" MODIFIED="1528937123542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ClimbingStairs_testclimbStairs.ic" NAME="ClimbingStairs.testclimbStairs Coverage Results" MODIFIED="1528633110969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$PaintFence.ic" NAME="PaintFence Coverage Results" MODIFIED="1528937060505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestUnivaluePath.ic" NAME="LongestUnivaluePath Coverage Results" MODIFIED="1528936701584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$PluseOne.ic" NAME="PluseOne Coverage Results" MODIFIED="1528937052769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$IntegerReplacement_test1.ic" NAME="IntegerReplacement.test1 Coverage Results" MODIFIED="1528936613856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestUnivaluePath_test1.ic" NAME="LongestUnivaluePath.test1 Coverage Results" MODIFIED="1528936714436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestPalindromicSubstring_testlongestPalindrome.ic" NAME="LongestPalindromicSubstring.testlongestPalindrome Coverage Results" MODIFIED="1528936644633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ToeplitzMatrix.ic" NAME="ToeplitzMatrix Coverage Results" MODIFIED="1528937043194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$PredicttheWinner_test1.ic" NAME="PredicttheWinner.test1 Coverage Results" MODIFIED="1528936765857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest_test4.ic" NAME="ExamRoomTest.test4 Coverage Results" MODIFIED="1530250976050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$MergeIntervals.ic" NAME="MergeIntervals Coverage Results" MODIFIED="1528937071597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>lintcode.google.level1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ShortestSubarraywithSumatLeastKTest_test1.ic" NAME="ShortestSubarraywithSumatLeastKTest.test1 Coverage Results" MODIFIED="1530583637210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$DivideTwoIntegers_test1.ic" NAME="DivideTwoIntegers.test1 Coverage Results" MODIFIED="1528936574719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$MaximizeDistancetoClosestPerson.ic" NAME="MaximizeDistancetoClosestPerson Coverage Results" MODIFIED="1528605907296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$FlipGameTest_testGeneratePossibleNextMoves.ic" NAME="FlipGameTest.testGeneratePossibleNextMoves Coverage Results" MODIFIED="1529135558268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level1.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ExamRoom2Test.ic" NAME="ExamRoom2Test Coverage Results" MODIFIED="1530255986391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$ClimbingStairs_testclimbStairs.ic" NAME="ClimbingStairs.testclimbStairs Coverage Results" MODIFIED="1528633110969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest.ic" NAME="ExamRoomTest Coverage Results" MODIFIED="1530251965929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$MergeIntervals.ic" NAME="MergeIntervals Coverage Results" MODIFIED="1528937071597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ValidParentheses.ic" NAME="ValidParentheses Coverage Results" MODIFIED="1528937038377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$lintcode_google_level2_in_leetcode.ic" NAME="lintcode.google.level2 in leetcode Coverage Results" MODIFIED="1529136158074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level2.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$RemoveDuplicatesfromSortedListII_test1.ic" NAME="RemoveDuplicatesfromSortedListII.test1 Coverage Results" MODIFIED="1528936798430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$lintcode_google_in_leetcode.ic" NAME="lintcode.google in leetcode Coverage Results" MODIFIED="1529135282878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ValidParenthesisString_test1.ic" NAME="ValidParenthesisString.test1 Coverage Results" MODIFIED="1528936856593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$LongestSubstringWithoutRepeatingCharacters2_testlengthOfLongestSubstring.ic" NAME="LongestSubstringWithoutRepeatingCharacters2.testlengthOfLongestSubstring Coverage Results" MODIFIED="1528936692994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$RotateList.ic" NAME="RotateList Coverage Results" MODIFIED="1528615673741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ValidWordSquare.ic" NAME="ValidWordSquare Coverage Results" MODIFIED="1528937030279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$DivideTwoIntegers_test1.ic" NAME="DivideTwoIntegers.test1 Coverage Results" MODIFIED="1528936574719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$SimilarRGBColor.ic" NAME="SimilarRGBColor Coverage Results" MODIFIED="1528937047378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$BeautifulArrangement_testcountArrangement.ic" NAME="BeautifulArrangement.testcountArrangement Coverage Results" MODIFIED="1528937003451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$AddStringsTest_test1.ic" NAME="AddStringsTest.test1 Coverage Results" MODIFIED="1529135415335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestUnivaluePath_test1.ic" NAME="LongestUnivaluePath.test1 Coverage Results" MODIFIED="1528936714436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestUnivaluePath.ic" NAME="LongestUnivaluePath Coverage Results" MODIFIED="1528936701584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ContainsDuplicateIII_testcontainsNearbyAlmostDuplicate.ic" NAME="ContainsDuplicateIII.testcontainsNearbyAlmostDuplicate Coverage Results" MODIFIED="1528633047657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$PredicttheWinner_test1.ic" NAME="PredicttheWinner.test1 Coverage Results" MODIFIED="1528936765857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ShortestSubarraywithSumatLeastKTest_test1.ic" NAME="ShortestSubarraywithSumatLeastKTest.test1 Coverage Results" MODIFIED="1530583637210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoomTest_test4.ic" NAME="ExamRoomTest.test4 Coverage Results" MODIFIED="1530250976050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$lintcode_google_level1_in_leetcode.ic" NAME="lintcode.google.level1 in leetcode Coverage Results" MODIFIED="1529135845582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$MaximumSubarray_test1.ic" NAME="MaximumSubarray.test1 Coverage Results" MODIFIED="1528936732463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestPalindromicSubstring_testlongestPalindrome.ic" NAME="LongestPalindromicSubstring.testlongestPalindrome Coverage Results" MODIFIED="1528936644633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestAbsoluteFilePath.ic" NAME="LongestAbsoluteFilePath Coverage Results" MODIFIED="1528937024264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$SqrtX_test1.ic" NAME="SqrtX.test1 Coverage Results" MODIFIED="1528936843779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$BombEnemy.ic" NAME="BombEnemy Coverage Results" MODIFIED="1528937009328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$HIndex_test1.ic" NAME="HIndex.test1 Coverage Results" MODIFIED="1528936598095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$PaintFence.ic" NAME="PaintFence Coverage Results" MODIFIED="1528937060505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ToeplitzMatrix.ic" NAME="ToeplitzMatrix Coverage Results" MODIFIED="1528937043194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$SingleNumberII_testsingleNumber.ic" NAME="SingleNumberII.testsingleNumber Coverage Results" MODIFIED="1528936826722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestSubstringWithoutRepeatingCharacters_testlengthOfLongestSubstring.ic" NAME="LongestSubstringWithoutRepeatingCharacters.testlengthOfLongestSubstring Coverage Results" MODIFIED="1528936662101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$SerializeandDeserializeBinaryTreeTest_testdeserialize.ic" NAME="SerializeandDeserializeBinaryTreeTest.testdeserialize Coverage Results" MODIFIED="1529124560707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$PartitiontoKEqualSumSubsets_test1.ic" NAME="PartitiontoKEqualSumSubsets.test1 Coverage Results" MODIFIED="1528936746899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$AddStrings.ic" NAME="AddStrings Coverage Results" MODIFIED="1528937129401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$RotateList_testrotateRight.ic" NAME="RotateList.testrotateRight Coverage Results" MODIFIED="1528615646944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$SingleNumberII_testsingleNumber.ic" NAME="SingleNumberII.testsingleNumber Coverage Results" MODIFIED="1528936826722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.attempt.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$ValidParentheses.ic" NAME="ValidParentheses Coverage Results" MODIFIED="1528937038377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$ValidWordSquare.ic" NAME="ValidWordSquare Coverage Results" MODIFIED="1528937030279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lintcode.google.level1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$ArrayPartitionI_test1.ic" NAME="ArrayPartitionI.test1 Coverage Results" MODIFIED="1528936990365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.success.array.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leetcode$RotateList.ic" NAME="RotateList Coverage Results" MODIFIED="1528615673741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/leetcode$FlipGame.ic" NAME="FlipGame Coverage Results" MODIFIED="1528937123542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ExamRoom2Test.ic" NAME="ExamRoom2Test Coverage Results" MODIFIED="1530255986391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$PluseOne.ic" NAME="PluseOne Coverage Results" MODIFIED="1528937052769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lintcode.google.level1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$LongestSubstringWithoutRepeatingCharacters2_testlengthOfLongestSubstring.ic" NAME="LongestSubstringWithoutRepeatingCharacters2.testlengthOfLongestSubstring Coverage Results" MODIFIED="1528936692994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$RemoveDuplicatesfromSortedListII_test1.ic" NAME="RemoveDuplicatesfromSortedListII.test1 Coverage Results" MODIFIED="1528936798430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.attempt.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$IntegerReplacement_test1.ic" NAME="IntegerReplacement.test1 Coverage Results" MODIFIED="1528936613856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.attempt.*</FILTER>
     </SUITE>
   </component>
@@ -219,27 +211,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/success/recursion/ShoppingOffers.java">
+      <file leaf-file-name="PermutationinString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/PermutationinString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleElementinaSortedArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/SingleElementinaSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleElementinaSortedArrayTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/SingleElementinaSortedArrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2446#2455#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/leetcode/success/recursion/ShoppingOffersTest.java">
+      <file leaf-file-name="PermutationinStringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="480">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5955">
+              <caret line="439" selection-start-line="439" selection-end-line="439" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDuplicateFileinSystemTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/FindDuplicateFileinSystemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/common/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="175" selection-start-line="175" selection-end-line="175" />
             </state>
           </provider>
         </entry>
@@ -282,19 +330,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/MaximumDepthofNaryTree.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/attempt/MaximumDepthofNaryTreeTest.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/success/tree/MaximumDepthofNaryTreeTest.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/attempt/SearchinaBinarySearchTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/SearchinaBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/tree/SearchinaBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/common/QuadTree/Node.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/attempt/ConstructQuadTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/ConstructQuadTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/success/tree/ConstructQuadTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/attempt/QuadTreeIntersection.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/success/tree/ConstructQuadTreeTest.java" />
-        <option value="$PROJECT_DIR$/test/leetcode/attempt/QuadTreeIntersectionTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/LeafSimilarTrees.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/LeafSimilarTreesTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/success/tree/LeafSimilarTrees.java" />
@@ -303,7 +338,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/success/array/WalkingRobotSimulation.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/SplitLinkedListinPartsTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/SplitLinkedListinParts.java" />
-        <option value="$PROJECT_DIR$/test/common/Util.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/AccountsMerge.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/AccountsMergeTest.java" />
         <option value="$PROJECT_DIR$/test/leetcode/attempt/MaximumLengthofRepeatedSubarrayTest.java" />
@@ -333,6 +367,20 @@
         <option value="$PROJECT_DIR$/test/leetcode/attempt/ShoppingOffersTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/attempt/ShoppingOffers.java" />
         <option value="$PROJECT_DIR$/test/leetcode/success/recursion/ShoppingOffers.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/success/array/MyHashSetTest.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/MyCircularQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/FractionAdditionandSubtractionTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/FractionAdditionandSubtraction.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/array/FractionAdditionandSubtraction.java" />
+        <option value="$PROJECT_DIR$/test/common/Util.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/FindDuplicateFileinSystem.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/FindDuplicateFileinSystemTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/success/array/FindDuplicateFileinSystem.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/PermutationinString.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/attempt/SingleElementinaSortedArray.java" />
+        <option value="$PROJECT_DIR$/test/leetcode/attempt/SingleElementinaSortedArrayTest.java" />
       </list>
     </option>
   </component>
@@ -341,6 +389,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -356,7 +407,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,21 +431,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="attempt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -427,30 +462,12 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="attempt" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="success" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -473,8 +490,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="leetcode.success.recursion" />
       <recent name="leetcode.success.array" />
+      <recent name="leetcode.success.recursion" />
       <recent name="leetcode.attempt" />
       <recent name="leetcode.pending.dp" />
       <recent name="leetcode.success.tree" />
@@ -500,14 +517,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingOffersTest.test1">
+  <component name="RunManager" selected="JUnit.PermutationinStringTest.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExclusiveTimeofFunctionsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicateFileinSystemTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -515,16 +532,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.ExclusiveTimeofFunctionsTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.FindDuplicateFileinSystemTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="MyCircularDequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionAdditionandSubtractionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -532,29 +555,66 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.MyCircularDequeTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromicSubstringsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.success.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.PalindromicSubstringsTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.FractionAdditionandSubtractionTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyCircularQueueTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.success.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.success.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.MyCircularQueueTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PermutationinStringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.attempt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.attempt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.attempt.PermutationinStringTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ShoppingOffersTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -564,60 +624,79 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.success.recursion" />
       <option name="MAIN_CLASS_NAME" value="leetcode.success.recursion.ShoppingOffersTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolvetheEquationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.success.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.success.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.success.array.SolvetheEquationTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyCircularDequeTest" />
-      <item itemvalue="JUnit.PalindromicSubstringsTest.test1" />
-      <item itemvalue="JUnit.SolvetheEquationTest.test1" />
-      <item itemvalue="JUnit.ExclusiveTimeofFunctionsTest.test1" />
       <item itemvalue="JUnit.ShoppingOffersTest.test1" />
+      <item itemvalue="JUnit.MyCircularQueueTest.test1" />
+      <item itemvalue="JUnit.FractionAdditionandSubtractionTest.test1" />
+      <item itemvalue="JUnit.FindDuplicateFileinSystemTest.test1" />
+      <item itemvalue="JUnit.PermutationinStringTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermutationinStringTest.test1" />
+        <item itemvalue="JUnit.FindDuplicateFileinSystemTest.test1" />
+        <item itemvalue="JUnit.FractionAdditionandSubtractionTest.test1" />
+        <item itemvalue="JUnit.MyCircularQueueTest.test1" />
         <item itemvalue="JUnit.ShoppingOffersTest.test1" />
-        <item itemvalue="JUnit.ExclusiveTimeofFunctionsTest.test1" />
-        <item itemvalue="JUnit.SolvetheEquationTest.test1" />
-        <item itemvalue="JUnit.PalindromicSubstringsTest.test1" />
-        <item itemvalue="JUnit.MyCircularDequeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -681,6 +760,10 @@
       <workItem from="1532497765501" duration="3705000" />
       <workItem from="1532559432698" duration="2486000" />
       <workItem from="1532562388578" duration="21714000" />
+      <workItem from="1532656254858" duration="4671000" />
+      <workItem from="1532700903474" duration="7443000" />
+      <workItem from="1532739344401" duration="285000" />
+      <workItem from="1532772028115" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="2080611">
       <created>1528691918518</created>
@@ -840,39 +923,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 16h 59m 22s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="FindDuplicateFileinSystemTest_test1 - 2018.07.28 at 01h 15m 26s.xml">
+      <configuration name="FindDuplicateFileinSystemTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 00m 47s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 40m 19s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 01m 01s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 41m 01s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 02m 02s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 42m 22s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 02m 21s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 43m 18s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 08m 37s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 44m 45s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 10m 54s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 46m 09s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 12m 28s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 48m 28s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 14m 06s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 50m 08s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingOffersTest_test1 - 2018.07.26 at 17h 15m 30s.xml">
-      <configuration name="ShoppingOffersTest.test1" configurationId="JUnit" />
+    <history-entry file="PermutationinStringTest_test1 - 2018.07.28 at 01h 51m 57s.xml">
+      <configuration name="PermutationinStringTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437922000" />
+    <option name="totallyTimeSpent" value="450573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,40 +967,73 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45945945" visible="true" weight="0.19296375" />
-      <window_info id="Structure" order="1" sideWeight="0.5405405" side_tool="true" weight="0.2761194" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
-      <window_info id="Learn" order="6" weight="0.32995737" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32834226" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71055436" visible="true" weight="0.2869379" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59754795" weight="0.31156316" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40245202" side_tool="true" weight="0.31229946" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71055436" weight="0.28589743" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49840087" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45945945" visible="true" weight="0.20386267" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.5405405" side_tool="true" weight="0.2761194" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.59754795" weight="0.31153846" />
+      <window_info id="Favorites" order="5" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4904051" weight="0.32692307" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49946696" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" weight="0.16950959" />
+      <window_info id="Learn" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" visible="true" weight="0.2521322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32834226" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.71055436" visible="true" weight="0.49518716" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" visible="true" weight="0.16950959" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49946696" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.28944564" side_tool="true" weight="0.49518716" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4904051" weight="0.32834226" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" visible="true" weight="0.2521322" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49840087" weight="0.32941177" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49946696" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4904051" weight="0.32762313" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49304813" weight="0.26385927" />
+      <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" weight="0.16950959" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" sideWeight="0.49920255" visible="true" weight="0.2521322" />
-    </layout>
+      <window_info id="Structure" order="1" sideWeight="0.50695187" side_tool="true" weight="0.20095949" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4307036" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1524,11 +1640,106 @@
           <properties />
           <option name="timeStamp" value="1181" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>61</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/leetcode/attempt/MyCircularQueueTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/leetcode/success/array/FractionAdditionandSubtractionTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/leetcode/success/array/FindDuplicateFileinSystemTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="i==1" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/leetcode/attempt/PermutationinString.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
+      <option name="time" value="46" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="s2.contains(sb)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>p&gt;=chsLen</expression-string>
         <language-id>JAVA</language-id>
@@ -1546,11 +1757,6 @@
       </expression>
       <expression>
         <expression-string>seq==1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i==1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1574,13 +1780,13 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="watch">
       <expression>
-        <expression-string>i==30</expression-string>
+        <expression-string>s2.contains(sb)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="watch">
       <expression>
         <expression-string>chs[p]</expression-string>
         <language-id>JAVA</language-id>
@@ -1626,114 +1832,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>m.groups</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/NormalBinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="120" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/NaryTree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="244" column="13" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/NaryTreePreorderTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/NaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/NaryTreePostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="67" column="7" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="67" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/NaryTreePostorderTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/NaryTreeLevelOrderTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/NaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/MaximumDepthofNaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/MaximumDepthofNaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/tree/SearchinaBinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/success/tree/SearchinaBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/QuadTree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1828,9 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1903,16 +2001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/MyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/ReplaceWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -1933,16 +2021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/common/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
-          <folding>
-            <element signature="e#10196#10197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/MyCircularDequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1957,12 +2035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="142" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="e#3709#3710#0" expanded="true" />
-            <element signature="e#3748#3749#0" expanded="true" />
-            <element signature="e#3840#3841#0" expanded="true" />
-            <element signature="e#3889#3890#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1994,9 +2066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2024,13 +2093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leetcode/success/recursion/ShoppingOffersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -2045,9 +2107,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/MyHashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/MyHashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11640">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/MyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="77" column="5" selection-start-line="43" selection-start-column="3" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2446#2455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/MyCircularQueueTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/MyCircularQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/FractionAdditionandSubtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/FractionAdditionandSubtractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5955">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/common/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/success/array/FindDuplicateFileinSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/success/array/FindDuplicateFileinSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/PermutationinStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/PermutationinString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/attempt/SingleElementinaSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/leetcode/attempt/SingleElementinaSortedArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
