@@ -61,9 +61,6 @@ public class SerializeandDeserializeBST {
 
         String[] nodeStrs = data.split(SEP);
 
-        if (nodeStrs == null) {
-            return null;
-        }
         int nodesLen = nodeStrs.length;
         if (nodesLen == 0) {
             return null;
