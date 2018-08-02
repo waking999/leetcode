@@ -1,4 +1,4 @@
-package leetcode.attempt;
+package leetcode.success.array;
 
 import common.Util;
 import org.junit.jupiter.api.Test;

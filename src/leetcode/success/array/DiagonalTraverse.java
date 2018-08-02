@@ -1,4 +1,4 @@
-package leetcode.attempt;
+package leetcode.success.array;
 
 /**
  * https://leetcode.com/problems/diagonal-traverse/description/
