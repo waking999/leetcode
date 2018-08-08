@@ -146,6 +146,17 @@ public class Util {
         String outputStr = output.stream().sorted().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
         Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
     }
+    public static void verifySort(Integer[] expect, List<Integer> output, int seq) {
+
+        int expectLen = expect.length;
+        int outputSize = output.size();
+        Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
+
+        String expectStr = Arrays.stream(expect).sorted().collect(Collectors.toList()).stream()
+                .map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+        String outputStr = output.stream().sorted().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+        Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
+    }
 
     public static void verifyUnsort(int[] expect, List<Integer> output, int seq) {
         if (expect == null && output == null) {
