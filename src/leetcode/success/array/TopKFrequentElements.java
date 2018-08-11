@@ -1,4 +1,4 @@
-package leetcode.attempt;
+package leetcode.success.array;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -54,6 +54,9 @@ public class TopKFrequentElements {
     }
 
     private void mergeSort(int[] vals, int[] freqs, int l, int r) {
+        if(l>=r){
+            return;
+        }
         int m = l + (r - l) / 2;
         mergeSort(vals, freqs, l, m);
         mergeSort(vals, freqs, m + 1, r);
@@ -73,10 +76,10 @@ public class TopKFrequentElements {
 
         for (int i = 0; i < n1; ++i) {
             valsL[i] = vals[l + i];
-            freqsL[i] = freqsR[l + i];
+            freqsL[i] = freqs[l + i];
         }
         for (int j = 0; j < n2; ++j) {
-            valsR[j] = valsR[m + 1 + j];
+            valsR[j] = vals[m + 1 + j];
             freqsR[j] = freqs[m + 1 + j];
         }
 
@@ -85,7 +88,7 @@ public class TopKFrequentElements {
         // Initial index of merged subarry array
         int k = l;
         while (i < n1 && j < n2) {
-            if (freqsL[i] <= freqsR[j]) {
+            if (freqsL[i] >= freqsR[j]) {
                 freqs[k] = freqsL[i];
                 vals[k] = valsL[i];
                 i++;
