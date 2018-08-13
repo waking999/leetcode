@@ -76,8 +76,8 @@ public class Util {
         Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
 
         for (int i = 0; i < expectLen; i++) {
-            String expectStr = Arrays.stream(expect[i]).collect(Collectors.toList()).stream().collect(Collectors.joining(","));
-            String outputStr = output.get(i).stream().collect(Collectors.joining(","));
+            String expectStr = String.join(",", expect[i]);
+            String outputStr = String.join(",", output.get(i));
             Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
         }
     }
@@ -115,12 +115,13 @@ public class Util {
             return;
         }
 
+        assert expect != null;
         int expectLen = expect.length;
         int outputSize = output.size();
         Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
 
-        String expectStr = Arrays.stream(expect).collect(Collectors.joining(","));
-        String outputStr = output.stream().collect(Collectors.joining(","));
+        String expectStr = String.join(",", expect);
+        String outputStr = String.join(",", output);
         Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
     }
 
@@ -130,8 +131,8 @@ public class Util {
         int outputSize = output.length;
         Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
 
-        String expectStr = Arrays.stream(expect).collect(Collectors.joining(","));
-        String outputStr = Arrays.stream(output).collect(Collectors.joining(","));
+        String expectStr = String.join(",", expect);
+        String outputStr = String.join(",", output);
         Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
     }
 
@@ -152,9 +153,19 @@ public class Util {
         int outputSize = output.size();
         Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
 
-        String expectStr = Arrays.stream(expect).sorted().collect(Collectors.toList()).stream()
-                .map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+        String expectStr = Arrays.stream(expect).sorted().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
         String outputStr = output.stream().sorted().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+        Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
+    }
+
+    public static void verifySort(String[] expect, String[] output, int seq) {
+
+        int expectLen = expect.length;
+        int outputSize = output.length;
+        Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
+
+        String expectStr = Arrays.stream(expect).sorted().collect(Collectors.joining(","));
+        String outputStr = Arrays.stream(output).sorted().collect(Collectors.joining(","));
         Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
     }
 
@@ -162,12 +173,12 @@ public class Util {
         if (expect == null && output == null) {
             return;
         }
+        assert expect != null;
         int expectLen = expect.length;
         int outputSize = output.size();
         Assertions.assertEquals(expectLen, outputSize, seq + ":wrong");
 
-        String expectStr = Arrays.stream(expect).boxed().collect(Collectors.toList()).stream()
-                .map(num -> Integer.toString(num)).collect(Collectors.joining(","));
+        String expectStr = Arrays.stream(expect).boxed().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
         String outputStr = output.stream().map(num -> Integer.toString(num)).collect(Collectors.joining(","));
         Assertions.assertEquals(expectStr, outputStr, seq + ":wrong");
     }
